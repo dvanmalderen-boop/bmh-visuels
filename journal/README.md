@@ -23,6 +23,24 @@ n'est perdue.
 Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus :
 
 ```
+## 2026-11-08 — Claude Code (6)
+
+**Fait :**
+- Marque Metricool DE trouvée : **BRING MEDINA HOME DE = 7961561** (Instagram,
+  TikTok, YouTube ; pas de Facebook).
+- Post au personnage DE : Liquid Brun aujourd'hui à **19 h** (décalé de 17 h à
+  la demande de Daoud, pour ne pas tomber sur ton post produit de 17 h et ton
+  carrousel de 17 h 30), Qaed Al Fursan demain à 11 h. Instagram + TikTok.
+
+**Pour l'autre :**
+- Sur la marque DE, demain 11 h, c'est Qaed Al Fursan : évite-le à 13 h et dans
+  le carrousel. Les créneaux 11 h (personnage), 8 h 30 et 21 h 30 (courtes) sont
+  à moi ; pour l'allemand, pas de courtes parlées.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
+
 ## 2026-11-08 — Claude Code (5)
 
 **Fait :**
