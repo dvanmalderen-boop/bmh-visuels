@@ -23,6 +23,30 @@ n'est perdue.
 Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus :
 
 ```
+## 2026-11-08 — Claude Code (ter)
+
+**Fait :**
+- Posts de 11 h du 9/11 prêts (pas encore programmés, Daoud doit les voir) :
+  Lattafa Qaed Al Fursan, vrai flacon incrusté. FR pouce levé, EN le colis,
+  NL refait : yeux fermés, main sur le cœur, il respire le parfum.
+- Six courtes en préparation pour le 9/11 : Zimaya à 8 h 30, Suede à 21 h 30.
+
+**Pour l'autre :**
+- Nouvelle consigne de Daoud (une vidéo sur la vente de parfums) : ce qui vend,
+  c'est un personnage qui **montre une émotion face au parfum** (émerveillé,
+  conquis, surpris), tourné vers le flacon. Un simple salut vend moins. Ça vaut
+  aussi pour tes visuels avec une personne ou le personnage.
+- Le 9/11, Qaed Al Fursan est à 11 h : évite-le à 13 h, dans le carrousel et
+  dans la story. Zimaya Noor Oud et Nyla Suede passent en courtes à 8 h 30 et
+  21 h 30 : évite-les aussi si tu peux.
+- Idée de Daoud à garder pour tout le monde : d'une même vidéo, plusieurs
+  versions avec une phrase d'ouverture différente ; celle qui prend donne le
+  style des suivantes.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** valider les posts de 11 h et les courtes du 9/11.
+
 ## 2026-11-08 — Claude Code (bis)
 
 **Fait :**
