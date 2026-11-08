@@ -23,6 +23,72 @@ n'est perdue.
 Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus :
 
 ```
+## 2026-11-08 — Claude (session cloud), 19 h 10
+
+**Fait.**
+- La boutique Shopify est traduite en allemand jusqu'au bout. Les 279 fiches,
+  les 6 politiques, les 17 collections, les 2 pages et les 54 textes de thème
+  étaient déjà faits. Ce soir : les snippets, qui étaient la vraie cause de ce
+  que Daoud voyait encore en français.
+- Thème de travail : `Horizon — quatre langues (DE)`,
+  `gid://shopify/OnlineStoreTheme/197730533702`. **NON PUBLIÉ. Daoud publie,
+  jamais nous.** Le thème en ligne (197000429894) n'a pas été touché.
+- Branches `when 'de'` ajoutées : bmhport, bmhconfiance, bmhtete, bmhlotsbouton,
+  bmhprojet, bmhvoisines, bmhport, bmhentete, bmhfamille, bmhlotsscript,
+  bmhautresfamilles, bmhautresunivers, bmhunivers, bmhtrio, bmhlots, bmhmarques.
+- Deux fichiers de données créés : `bmhfichesde.liquid` (27 maisons) et
+  `bmhscenesde.liquid` (11 scènes). Mêmes handles, même ordre que le français.
+- **bmhmarques a dû être découpé.** Il faisait 15 771 caractères et l'allemand
+  l'aurait porté à ~17 100, au-dessus du plafond de 16 384 de l'API theme :
+  il serait devenu non modifiable pour toujours. Les seize textes des quatre
+  langues sont maintenant dans `snippets/bmhmarquesmots.liquid`, capturés et
+  coupés sur `~`. bmhmarques est redescendu à 12 993.
+- Trois snippets n'avaient besoin de rien, et c'est vérifié, pas supposé :
+  `bmhavis` ne produit plus que du commentaire, `bmhgalerie` n'est que du CSS,
+  `bmhlotscarte` n'a aucun texte en dur (la famille vient de
+  `collections[handle].title`, la maison de `x.vendor`, le prix de `money`).
+  Ses comparaisons sur 'Homme'/'Femme'/'Unisexe' sont des étiquettes : Shopify
+  ne traduit jamais une étiquette, les traduire casserait le secours.
+
+**Pour l'autre.**
+- `bmhmarquesmots.liquid` est désormais la SEULE source des textes de la page
+  des marques. L'ordre des seize champs est le contrat, documenté dans son
+  en-tête. Un champ déplacé affiche le chapo à la place du titre.
+- Ajouter une maison au groupe « ailleurs » = l'ajouter dans `ailleurs` de
+  bmhmarques ET dans les QUATRE listes de villes de bmhmarquesmots, à la même
+  place. Huit partout.
+- Les en-têtes de `bmhfichesfr/en/nl` et `bmhscenesfr/en/nl` disent encore
+  « les deux jumeaux » / « les TROIS fichiers ». Ils sont quatre maintenant.
+  À corriger quand tu passeras dessus.
+- Le site vitrine : les liens Boutique portent maintenant la langue de la page
+  (`/en`, `/nl`, `/de`, le français reste nu). Commit `0d75595` dans bmhsite,
+  déploiement FTP lancé par Daoud. Les 13 autres langues ne sont pas touchées,
+  la boutique n'existe pas dans ces langues.
+- Facebook est abandonné sur les trois marques. La Page n'était pas rattachée
+  après la reconnexion Metricool, aucune donnée de portée depuis un mois, et
+  Daoud relaie lui-même sur son Facebook personnel (45 000 abonnés). Ne plus
+  mettre `facebook` dans les providers. Instagram, TikTok, Threads, X, YouTube.
+
+**Bloqué sur.**
+- Je ne peux pas voir le rendu : le robots.txt bloque WebFetch sur l'URL de
+  prévisualisation, et le shell de cette session n'atteint pas
+  shop.bringmedinahome.com (code 000, testé ce soir, pas recopié d'une note).
+  Le contrat des seize champs est vérifié par construction — 15 séparateurs et
+  8 villes dans chacune des quatre langues — mais le rendu, non.
+
+**Daoud doit.**
+- Ouvrir la prévisualisation et regarder :
+  `https://shop.bringmedinahome.com/de?preview_theme_id=197730533702`
+  et la page des marques, et une fiche produit.
+  Les mots à chercher : « Die siebenundzwanzig Häuser », « Von anderswo »,
+  « Was dieses Set enthält », « Die 2 Flakons hinzufügen », « UNSERE WAHL »,
+  « Versandkostenfrei », « Das Trio ».
+- Publier le thème lui-même s'il est content. Nous ne publions jamais.
+- Deux mots sur lesquels il doit trancher : **Adschman** pour Ajman (cohérent
+  avec Schardscha pour Sharjah) et **Sie behalten** pour « vous gardez »
+  (l'allemand idiomatique dirait « Sie sparen », mais le français, l'anglais
+  et le néerlandais disent tous « garder », c'est un choix éditorial à lui).
+
 ## 2026-11-08 — Claude Code (6)
 
 **Fait :**
