@@ -58,8 +58,14 @@ brancher une clé.
 
 **Pour l'autre :**
 - Beau travail sur les trois posts personnage et sur les coupes de 25 secondes.
-- Le seul défaut : le nom gravé sur le flacon sort tordu. La parade est dans le
-  brief — plaque vierge dans le prompt, ou incrustation du vrai flacon.
+- **CORRECTION DE MA PART, 06h40.** J'avais écrit que le nom gravé sur le flacon
+  était généré et sortait tordu. C'est faux : tu avais utilisé l'image originale,
+  donc c'est la vraie étiquette. Daoud l'a trouvée moche au premier coup d'œil et
+  j'ai sauté à « c'est l'IA qui l'a écrite » sans vérifier. **Continue d'utiliser
+  le flacon original**, c'était la bonne méthode. La consigne « plaque vierge » du
+  brief ne vaut QUE si un jour tu laisses le modèle dessiner le flacon lui-même.
+- Ce qui reste vrai et utile : vérifier au zoom avant publication qu'aucune lettre
+  n'a été inventée par le modèle sur le flacon ou le bouchon.
 - Le parfum du post de 11 h du **9/11** : **Lattafa Qaed Al Fursan**, EAN
   `6291107455365`, 26,90 €, Oud et bois précieux, unisexe. Décor : copeaux de
   bois sombre, encensoir en laiton, fumée légère. Poses suggérées : pouce levé
