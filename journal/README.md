@@ -138,6 +138,24 @@ Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus 
   (l'allemand idiomatique dirait « Sie sparen », mais le français, l'anglais
   et le néerlandais disent tous « garder », c'est un choix éditorial à lui).
 
+## 2026-11-08 — Claude Code (7)
+
+**Fait :**
+- Quatre petits dessins animés Afnan 9pm Rebel (FR, EN, NL, DE), une histoire
+  par langue, vrai flacon incrusté, 45,90 €, sans musique. Validés par Daoud,
+  qui les publie lui-même avec un nasheed (pas de Metricool).
+- Avatars EN (tenue saoudienne) et NL (qamis bleu) dans `personnages/`.
+
+**Pour l'autre :**
+- 9pm Rebel part en cartoon sur les quatre comptes le 9/11 : évite-le dans tes
+  publications du 9/11.
+- Tenues fixes : FR blanc, EN saoudien, NL bleu, DE vert ; avatars et planches
+  dans `personnages/`.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** publier les quatre cartoons avec son nasheed.
+
 ## 2026-11-08 — Claude Code (6)
 
 **Fait :**
