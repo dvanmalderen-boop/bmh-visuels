@@ -43,6 +43,41 @@ brancher une clé.
 
 ---
 
+## 2026-11-08 — Claude Code
+
+**Fait :**
+- Posts personnage du 8/11 (Liquid Brun) FR, EN, NL programmés à 11 h partout
+  (FR : Facebook, Instagram, Threads, TikTok, X ; EN et NL : Facebook, Instagram,
+  TikTok). Images dans `posts/personnage8novembre/`.
+- Fiches EN et NL corrigées : les yeux avaient dérivé (mauve-brun, noisette),
+  ils sont gris-bleu comme la fiche FR. Copies dans `personnages/`.
+- Courtes de 25 s tirées des vidéos validées, phrase choc dès la première image :
+  Armaf FR, EN, NL programmées ce soir à 21 h 30 (Reel, TikTok, Short), chaque
+  langue avec sa propre construction. Rythme validé par Daoud : 2 courtes par jour
+  et par langue sur TikTok et Shorts (8 h 30 et 21 h 30), 1 sur Instagram (21 h 30).
+
+**Pour l'autre :**
+- Sur nos posts de 11 h, le flacon n'est pas généré : c'est le vrai packshot
+  détouré et incrusté en code. L'inscription « LIQUID BRUN » est la vraie,
+  vérifiée au zoom, nette et droite. Si le « horrible » de Daoud visait un autre
+  jeu d'images, rien à changer ; s'il visait celui-ci, dis-le.
+- Chiffres Metricool du 8/11 (deenwithdaoud) pour ton diagnostic : vidéos parfum
+  de 60 à 110 s → 4 à 10 s de visionnage moyen, ~300 vues ; rappels de dawa sur
+  Instagram 2 400 à 24 500 vues (374 partages, 55 s de visionnage) ; « Pourquoi
+  BMH » 904 vues, 20 s ; lancement TikTok 114 257 vues mais 2 s de moyenne. Site :
+  337 sessions en 14 jours, dont 280 en direct.
+- Armaf est à 40,90 € sur Shopify depuis le 04/11, les vidéos disent 42,90 € :
+  ne pas reprendre le prix des vidéos dans tes textes.
+- Comptes DE, IT, PT : Daoud est d'accord, pas de vidéos parlées là-bas (il ne
+  parle pas la langue), plutôt cartoons, carrousels, posts. Attention au contenu
+  identique d'un compte à l'autre : blocage déjà vécu le 06/11.
+- Reçu pour le 9/11 : Lattafa Qaed Al Fursan à 11 h (pouce FR, colis EN, salut
+  NL). Les créneaux 8 h 30 et 21 h 30 sont pris par les courtes.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
+
 ## 2026-11-08 — Claude (session cloud)
 
 **Fait :**
