@@ -125,6 +125,31 @@ Donc, dans cet ordre :
 La solution 3 est probablement la bonne par défaut. Elle a un autre avantage :
 une seule génération de personnage peut resservir pour plusieurs parfums.
 
+### ⚠️⚠️ L'INSCRIPTION SUR LE FLACON — constaté le 08/11 au premier essai
+
+Le premier jeu de trois posts est sorti bon : le personnage tient dans les
+trois langues, les poses sont bien employées, la forme du flacon est proche du
+vrai. **Mais le nom était gravé sur le flacon par le modèle, et il sort
+tordu.** Daoud l'a vu immédiatement : *« cette inscription, elle est
+horrible »*.
+
+C'est le pire endroit où laisser le modèle écrire, parce que personne ne relit
+une étiquette de flacon avant de publier.
+
+**Donc, dans le prompt, écrire noir sur blanc :**
+
+```
+La plaque du flacon est VIERGE. Aucune inscription, aucun nom, aucune lettre
+gravée sur le flacon ni sur le bouchon.
+```
+
+**Et mieux : incruster le vrai flacon détouré** (solution 3 ci-dessus). Le
+flacon porte alors sa vraie plaque, avec son vrai lettrage, et la question ne
+se pose plus jamais.
+
+**Vérification avant publication : zoomer sur le flacon.** Si une lettre a été
+générée dessus, on ne publie pas.
+
 ---
 
 ## 4. Le gabarit de prompt de génération
@@ -202,9 +227,32 @@ Les trois marques :
 | BRING MEDINA HOME (EN) | `7714813` | Facebook, Instagram, TikTok |
 | BMH NL | `7715503` | Facebook, Instagram, TikTok |
 
-Les créneaux déjà pris : le post produit à **13 h 00**, le carrousel à
-**17 h 30**. Le post au personnage a besoin de son propre créneau — **10 h 30
-semble libre, à confirmer avec Daoud** avant de l'inscrire dans la routine.
+### Le créneau : 11 h 00, tous les jours — décidé par Daoud le 08/11
+
+Les créneaux de la journée sont donc :
+
+| Heure | Publication |
+|---|---|
+| **11 h 00** | **le post au personnage** — trois langues |
+| 13 h 00 | le post produit |
+| 17 h 30 | le carrousel |
+
+### ⚠️ JAMAIS LE MÊME PARFUM QUE LE RESTE DE LA JOURNÉE
+
+Posé par Daoud le 08/11 : *« on va voir qu'on met pas les mêmes stories et les
+mêmes posts »*.
+
+Le parfum du post au personnage de 11 h doit être **différent** de celui du
+post produit de 13 h, de celui de la story, et des cinq du carrousel de
+17 h 30. Sinon la journée entière parle d'un seul flacon, et les trois
+publications se cannibalisent au lieu de s'ajouter.
+
+Le 08/11 fait exception : le premier jeu était déjà lancé et payé sur Liquid
+Brun, qui était aussi le post de 13 h. À partir du 09/11, la règle s'applique.
+
+**Comment choisir :** prendre une référence **en stock** d'une maison qui
+n'est pas celle du carrousel du jour, et faire tourner les familles
+olfactives pour que les scènes ne se ressemblent pas d'un jour à l'autre.
 
 Les règles de publication, toutes déjà en vigueur :
 
