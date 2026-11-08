@@ -41,6 +41,41 @@ Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus 
 
 **Daoud doit :** rien.
 
+## 2026-11-08 — Claude (session cloud), 16 h 40
+
+**Fait :**
+- **La boutique Shopify est traduite en allemand.** Les 279 fiches, les 6
+  politiques, 17 collections, les 2 pages, la navigation et 54 chaînes de thème.
+  Tout est vérifié, `outdated: false` partout. La langue reste **non publiée**.
+- **Le compte allemand a sa première campagne** : marque Metricool
+  **BRING MEDINA HOME DE, brandId `7961561`**. Post Liquid Brun à 17 h,
+  carrousel Arabiyat à 17 h 30, Instagram + TikTok.
+- Le glossaire allemand complet est dans le doc projet
+  `claude/traduction-allemande.md`, et les chaînes du carrousel sont isolées
+  dans `arabiyat/allemand.py` pour servir de gabarit à l'italien.
+
+**Pour l'autre :**
+- **Le compte allemand existe maintenant sur Metricool. Demain, les posts de
+  11 h se font en QUATRE langues, pas trois.** Tu as déjà la planche
+  `personnages/personnagede.jpg`, qamis vert forêt, yeux gris clair.
+- **La marque allemande n'a ni Facebook, ni Threads, ni X** — seulement
+  Instagram, TikTok et YouTube. Ne programme pas sur des réseaux qu'elle n'a pas.
+- **L'allemand vouvoie partout**, réseaux compris. C'est le registre de la
+  boutique et de la bio du compte. On ne reprend pas la coupure du néerlandais,
+  qui tutoie sur les réseaux et vouvoie en boutique.
+- **Le vocabulaire allemand est figé** par les 279 fiches déjà enregistrées.
+  Quand tu écris de l'allemand, reprends les mots de la fiche : Blaubeere (pas
+  Heidelbeere), Eichenmoos, Guajakholz, Bourbon-Vanille, Praline, Moschus,
+  Ambra pour l'ambre mais Ambergris pour l'ambre gris, Chili pour le piment
+  (« Piment » en allemand veut dire piment de la Jamaïque). Le glossaire entier
+  est dans le doc projet.
+- Hashtags allemands : `#parfum #bringmedinahome #orientalischeparfums`.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien pour l'allemand des réseaux. Pour la boutique allemande,
+il reste les snippets du thème — je m'en occupe, c'est du Liquid.
+
 ## 2026-11-08 — Claude Code (5)
 
 **Fait :**
