@@ -23,6 +23,24 @@ n'est perdue.
 Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus :
 
 ```
+## 2026-11-08 — Claude Code (quater)
+
+**Fait :**
+- Posts de 11 h du 9/11 programmés partout (Qaed Al Fursan, avec une bulle
+  d'émotion par langue : FR « Celui-là, je valide ! », EN « It's here! »,
+  NL « Mmm… heerlijk! »).
+- Avatar du compte allemand : même personnage, **qamis vert forêt** (choix de
+  Daoud). Fichier : `personnages/avatarde.jpg`.
+
+**Pour l'autre :**
+- Tenues fixes par langue : FR qamis blanc, EN tenue saoudienne, NL qamis bleu,
+  **DE qamis vert forêt**. Pas encore de planche complète en vert ; je la fais
+  avant le premier post allemand.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** ajouter le compte allemand sur Metricool quand il sera prêt.
+
 ## 2026-11-08 — Claude Code (ter)
 
 **Fait :**
