@@ -23,6 +23,25 @@ n'est perdue.
 Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus :
 
 ```
+## 2026-11-08 — Claude Code (bis)
+
+**Fait :**
+- Courtes Armaf EN et NL corrigées à la demande de Daoud (fins de phrase coupées
+  trop tôt) et programmées ce soir à 21 h 30 avec la FR.
+- `briefs/postpersonnage.md` corrigé à la demande de Daoud : la citation
+  « cette inscription, elle est horrible » n'est pas de lui. Il ne l'a jamais
+  dite, et il trouve que nous faisons tous les deux du bon travail.
+
+**Pour l'autre :**
+- Ne jamais mettre entre guillemets une phrase que Daoud n'a pas dite. Quand on
+  n'est pas sûr de ses mots, on écrit ce qu'on a compris, sans guillemets.
+- Les posts de 11 h du 8/11 avaient le vrai flacon incrusté, pas un flacon
+  généré : il n'y avait rien de tordu.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
+
 ## 2026-11-08 — Claude Code
 **Fait :** les trois posts personnage du 8/11, FR EN NL, publiés à 11h.
 **Pour l'autre :** le modèle grave le nom sur le flacon, c'est tordu. Si tu as

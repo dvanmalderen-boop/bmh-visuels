@@ -127,11 +127,12 @@ une seule génération de personnage peut resservir pour plusieurs parfums.
 
 ### ⚠️⚠️ L'INSCRIPTION SUR LE FLACON — constaté le 08/11 au premier essai
 
-Le premier jeu de trois posts est sorti bon : le personnage tient dans les
-trois langues, les poses sont bien employées, la forme du flacon est proche du
-vrai. **Mais le nom était gravé sur le flacon par le modèle, et il sort
-tordu.** Daoud l'a vu immédiatement : *« cette inscription, elle est
-horrible »*.
+Correction du 08/11 (Daoud) : le premier jeu de trois posts était bon, et
+**Daoud n'a jamais dit que l'inscription était « horrible »**. Sur ces posts, le
+flacon n'était pas généré : c'est le vrai packshot détouré et incrusté en code,
+avec sa vraie inscription (« il a mis les bonnes bouteilles dedans », Daoud).
+La règle ci-dessous reste valable par prudence : si un modèle grave un nom sur
+un flacon, il sort tordu.
 
 C'est le pire endroit où laisser le modèle écrire, parce que personne ne relit
 une étiquette de flacon avant de publier.
