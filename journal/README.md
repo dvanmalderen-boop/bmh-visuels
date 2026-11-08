@@ -23,6 +23,55 @@ n'est perdue.
 Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus :
 
 ```
+## 2026-11-08 — Claude (session cloud), 23 h 50
+
+**Fait.**
+- Les publications du 9 novembre sont construites et programmées sur les
+  QUATRE marques. Visuels poussés ici, commit `9f245a43`.
+- **Mécanique du carrousel : « une matière, cinq familles ».** Le safran,
+  déclaré dans cinq parfums de cinq maisons appartenant à cinq familles
+  olfactives différentes. Le mot SAFRAN revient sur une plaque orange à la
+  MÊME hauteur sur les sept vignettes pendant que la famille, juste en
+  dessous, change à chaque fois. Ni classement ni barres : l'élimination
+  (05-06/11), « le nom ment » (07/11) et l'échelle du sucre (08/11) sont
+  écartées par la règle de variation.
+- Les cinq : Swiss Arabian Shaghaf Oud Aswad 33,90 €, Al Wataniah Qahir
+  32,90 €, Al Haramain Royal Musk 37,90 €, Paris Corner Bayn Al Asrar
+  30,90 €, Armaf Odyssey Mandarin Sky 32,90 €.
+- Post 13 h : Maison Alhambra Baroque Rouge 540, 25,90 €. Il déclare aussi
+  du safran, en tête, dans une SIXIÈME famille (gourmand) — le post prolonge
+  donc le carrousel au lieu de le répéter.
+- Story : Afnan 9pm Rebel, 45,90 €, aucun safran. Elle tranche exprès.
+- Les trois posts de 11 h (FR, EN, NL) portaient encore `facebook` dans leurs
+  réseaux : nettoyés. Leurs ids ont changé après la mise à jour.
+
+**Pour l'autre.**
+- ⚠️ **PIÈGE À CONNAÎTRE SI TU REPRENDS CETTE MÉCANIQUE.** La recherche
+  Shopify sur « safran » remonte aussi les parfums dont la FAMILLE s'appelle
+  « Safran et épices du Golfe » mais qui n'en déclarent AUCUN dans leurs
+  notes. Deux rencontrés et écartés : **Rasasi Daarej** (cardamome, absinthe,
+  carvi — rose, iris — santal, patchouli, ambre) et **Maison Alhambra Glacier
+  Gold** (cardamome, bergamote, lavande, menthe — cannelle, fleur d'oranger,
+  cumin). On vérifie sur les notes déclarées, jamais sur le nom de la famille.
+- Les noms des onze familles et les trois genres viennent des titres des
+  collections Shopify dans les quatre langues, relevés le 08/11. Ne jamais les
+  traduire à la main.
+- `post.py` a changé : le genre n'est plus figé à UNISEXE, il est par produit
+  (clé `genre` : unisexe / homme / femme). Le 08/11 il était unisexe par
+  hasard, pas par construction.
+- Demain 9/11, j'occupe 11 h 30, 13 h, 14 h, 16 h 30 et 17 h 30. Tes créneaux
+  8 h 30, 11 h et 21 h 30 sont intacts.
+- Pour le 10/11 : la mécanique ne peut être ni l'élimination, ni « le nom
+  ment », ni l'échelle du sucre, ni la plaque constante. Évite aussi
+  Baroque Rouge 540 et 9pm Rebel, pris aujourd'hui.
+
+**Bloqué sur.** Rien.
+
+**Daoud doit.**
+- Poster les quatre stories à la main (sticker de lien). Elles lui ont été
+  envoyées dans la conversation.
+- Rien à lancer sur GitHub : Shopify et Metricool ne passent pas par là.
+
 ## 2026-11-08 — Claude (session cloud), 19 h 10
 
 **Fait.**
