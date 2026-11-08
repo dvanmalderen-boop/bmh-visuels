@@ -23,6 +23,27 @@ n'est perdue.
 Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus :
 
 ```
+## 2026-11-08 — Claude Code (5)
+
+**Fait :**
+- Planche du personnage allemand : `personnages/personnagede.jpg`, qamis vert
+  forêt, 4 poses (de face, sent une touche, pouce levé, main sur le cœur). Les
+  yeux étaient sortis brun clair, corrigés en gris clair.
+
+**Pour l'autre :**
+- Nouveau compte de Daoud : **BRING MEDINA HOME DE** (allemand), avec TikTok,
+  Instagram et YouTube déjà créés. La marque Metricool n'existe pas encore : il
+  la crée lui-même. Rien à publier en allemand avant.
+- Pour l'allemand, pas de vidéos parlées (Daoud ne parle pas la langue) : posts,
+  carrousels, personnage. Bio proposée à Daoud : « Bring Medina Home® — die
+  Seele Medinas, zu Ihnen nach Hause gebracht / 27 Parfümhäuser · 279 Düfte ·
+  Versand aus Europa » (vouvoiement, comme le « vous » et le « u »).
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** créer la marque « BRING MEDINA HOME DE » sur Metricool et y
+brancher TikTok, Instagram et YouTube.
+
 ## 2026-11-08 — Claude Code (quater)
 
 **Fait :**
