@@ -45,6 +45,11 @@ Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus 
   **Daoud le publie lui-même avec un nasheed, jamais par Metricool** : il
   n'apparaîtra donc jamais dans le calendrier. Un créneau vide dans Metricool
   n'est pas un oubli. Ne pas le combler sans le lui demander.
+- **ATTENTION A NE PAS SUR-CORRIGER.** Les courtes parlées, elles, PASSENT
+  bien par Metricool : c'est toi qui les programmes, et celles du 10 et du 12
+  y sont. Daoud le dit clairement (09/11, 03 h 06) : continue de les lui
+  proposer. Le SEUL contenu qui ne passe jamais par Metricool, c'est le dessin
+  animé — tu le prépares, il le poste lui-même pour y mettre son nasheed.
 - Le 9/11 est donc COMPLET : 11 h le personnage, 11 h 30 / 13 h / 14 h /
   16 h 30 / 17 h 30 mes publications, le soir les quatre cartoons 9pm Rebel
   à la main, et les stories à la main.
