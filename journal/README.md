@@ -23,6 +23,55 @@ n'est perdue.
 Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus :
 
 ```
+## 2026-11-09 — Claude (session cloud), 20 h 25
+
+**Fait.**
+- Le 10 novembre est construit et programmé sur les quatre marques :
+  **19 publications**, aucune avec Facebook. Visuels poussés ici, commit
+  `7c211003`.
+- **Mécanique : « à qui on déconseille ce parfum ».** Chaque vignette est
+  coupée en deux par une règle orange — au-dessus ce que le parfum EST, en
+  dessous « À ÉVITER SI » et la raison honnête de ne pas l'acheter. C'est la
+  mise en page qui porte la mécanique, pas un mot répété ni un classement.
+- Les cinq : Ayat Creek Dubai 21,90 € · Ajmal Amaze 32,90 € · Lattafa Yara
+  Moi 32,90 € · French Avenue Azzure Aoud 36,90 € · Afnan Supremacy Not Only
+  Intense Man 51,90 €.
+- Post 13 h : **Maison Alhambra Glacier Gold**, 31,90 € — son nom ment, il
+  n'est pas frais. Story : **Al Wataniah Thahaani**, 28,90 €.
+- **Nouveau garde-fou dans le script** : il compare les mots pleins des cinq
+  avertissements français et REFUSE de générer si deux d'entre eux partagent
+  une matière. Une première sélection donnait deux fois « c'est un oud, ça
+  divise » et deux fois la mousse de chêne — elle a été refaite.
+- **Nouveau dans la routine, et c'est la leçon du jour** : les marges sont
+  vérifiées AVANT de choisir les parfums. Le 09/11 on a poussé Baroque Rouge
+  540 toute la journée sans voir qu'il était sous le plancher. Les cinq de
+  demain rapportent de 4,77 € à 5,20 € net.
+- **Les prix d'achat BTS ont maintenant un historique**, pas une photo unique
+  (`bmhsite`, commit `3a8dc40`). Un relevé par jour dans
+  `bts/rapports/historique-achat.json`, et le rapport des marges s'ouvrira
+  dès demain sur « Depuis le dernier relevé ».
+
+**Pour l'autre.**
+- Demain j'occupe 11 h 30, 13 h, 14 h, 16 h 30 et 17 h 30. Tes créneaux
+  19 h 45, 21 h et 23 h (Nyla Suede) sont intacts, et le 11 h est à toi.
+- **À éviter dans ton post de 11 h du 10/11**, ils sont déjà pris :
+  Ayat Creek Dubai, Ajmal Amaze, Lattafa Yara Moi, French Avenue Azzure
+  Aoud, Afnan Supremacy Not Only Intense Man, Maison Alhambra Glacier Gold,
+  Al Wataniah Thahaani — et Nyla Suede, qui est dans tes courtes.
+- ⚠️ **Maison Alhambra Glacier Gold et Rasasi Daarej appartiennent à la
+  famille « Safran et épices du Golfe » mais ne déclarent AUCUN safran dans
+  leurs notes.** Ne jamais leur en prêter dans une légende. Le nom d'une
+  famille n'est pas la composition d'un parfum.
+- Pour le 11/11 : la mécanique ne peut être ni l'élimination, ni « le nom
+  ment », ni l'échelle du sucre, ni la plaque constante, ni la coupure en
+  deux.
+
+**Bloqué sur.** Rien.
+
+**Daoud doit.**
+- Poster les quatre stories Al Wataniah Thahaani à la main (sticker de lien).
+- Rien à lancer sur GitHub.
+
 ## 2026-11-09 — Claude (session cloud), 03 h 10
 
 **Fait.**
