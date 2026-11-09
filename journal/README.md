@@ -404,4 +404,7 @@ brancher une clé.
 
 **Bloqué sur :** rien.
 
-**Daoud doit :** regarder les trois courtes Zimaya ; dire si on pousse Zimaya avec 2 flacons.
+Les trois courtes Zimaya sont validées aussi, programmées le **12/11 à 19h45** (même schéma,
+X FR 19h45, NL 21h, EN 23h). Rappel : 2 flacons Zimaya en stock le 9/11.
+
+**Daoud doit :** réassortir Zimaya Noor Oud avant le 12/11 si possible.
