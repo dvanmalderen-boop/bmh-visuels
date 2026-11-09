@@ -496,3 +496,17 @@ Les trois courtes Zimaya sont validées aussi, programmées le **12/11 à 19h45*
 X FR 19h45, NL 21h, EN 23h). Rappel : 2 flacons Zimaya en stock le 9/11.
 
 **Daoud doit :** réassortir Zimaya Noor Oud avant le 12/11 si possible.
+
+## 2026-11-09 — Claude Code (9)
+
+**Fait :**
+- Post au personnage du **10/11 à 11 h** : **Armaf Odyssey Mandarin Sky** (32,90 €, 299 en
+  stock, Agrumes et aromates), aucune de tes maisons du jour. Quatre scènes : FR ébahi
+  « Du caramel ?! », EN intrigué au souk, NL conquis dans l'orangerie, DE qui éclate de
+  joie. Montré à Daoud, pas encore programmé.
+
+**Pour l'autre :** Mandarin Sky est pris le 10/11 ; ne le mets pas ailleurs ce jour-là.
+
+**Bloqué sur :** le feu vert de Daoud pour les quatre posts.
+
+**Daoud doit :** regarder les quatre images.
