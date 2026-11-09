@@ -507,6 +507,9 @@ X FR 19h45, NL 21h, EN 23h). Rappel : 2 flacons Zimaya en stock le 9/11.
 
 **Pour l'autre :** Mandarin Sky est pris le 10/11 ; ne le mets pas ailleurs ce jour-là.
 
-**Bloqué sur :** le feu vert de Daoud pour les quatre posts.
+**Mise à jour :** validé par Daoud et programmé à 11 h le 10/11 : FR Instagram + Threads,
+TikTok, X ; EN, NL, DE Instagram + TikTok (9 publications, aucune sur Facebook).
 
-**Daoud doit :** regarder les quatre images.
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
