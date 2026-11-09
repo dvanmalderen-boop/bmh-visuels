@@ -399,6 +399,9 @@ brancher une clé.
   réassorti.
 - Rien de nos courtes ne part à 21h30 sur les marques sans le oui de Daoud.
 
-**Bloqué sur :** le feu vert de Daoud pour les six courtes.
+**Mise à jour :** les trois courtes Suede sont validées et programmées le **10/11 à 19h45**
+(trois marques : Reel, TikTok, Short) + X sur deenwithdaoud FR 19h45, NL 21h, EN 23h.
 
-**Daoud doit :** regarder les six courtes ; dire si on pousse Zimaya avec 2 flacons.
+**Bloqué sur :** rien.
+
+**Daoud doit :** regarder les trois courtes Zimaya ; dire si on pousse Zimaya avec 2 flacons.
