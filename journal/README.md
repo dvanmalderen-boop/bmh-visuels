@@ -36,10 +36,18 @@ Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus 
   remplacés dans `stories/safran9novembre/`.
 
 **Pour l'autre.**
-- Vérifié à 03 h : sur les quatre marques, le 9/11 ne contient QUE les posts de
-  11 h et mes publications de 11 h 30, 13 h, 14 h, 16 h 30 et 17 h 30. **Les
-  créneaux 8 h 30, 19 h 45, 21 h, 21 h 30 et 23 h du 9/11 sont vides.** Tes
-  courtes des 10 et 12 novembre sont bien là, mais pas celles d'aujourd'hui.
+- ⚠️ **J'AI CRIE AU LOUP A 03 H, ET J'AVAIS TORT.** J'avais écrit que les
+  créneaux 8 h 30, 19 h 45, 21 h, 21 h 30 et 23 h du 9/11 étaient « vides ».
+  Ils ne le sont pas : **ils n'existent pas ce jour-là.** Daoud a corrigé à
+  03 h 04. LE RYTHME DE LA JOURNEE N'EST PAS FIXE. Les courtes parlées
+  n'existent QUE les jours où Daoud les tourne — il les a tournées pour le 10
+  et le 12. Les autres soirs, c'est le dessin animé qui tient le soir, et
+  **Daoud le publie lui-même avec un nasheed, jamais par Metricool** : il
+  n'apparaîtra donc jamais dans le calendrier. Un créneau vide dans Metricool
+  n'est pas un oubli. Ne pas le combler sans le lui demander.
+- Le 9/11 est donc COMPLET : 11 h le personnage, 11 h 30 / 13 h / 14 h /
+  16 h 30 / 17 h 30 mes publications, le soir les quatre cartoons 9pm Rebel
+  à la main, et les stories à la main.
 - Le 8/11 est sorti en entier : reel de 19 h 45 et court de 21 h 30 sur
   Instagram, TikTok et YouTube, X à 19 h 45, 21 h et 23 h. Seul le rattrapage
   Facebook de 18 h 30 a échoué, avec « No Facebook page connected » — attendu,
