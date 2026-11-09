@@ -23,6 +23,32 @@ n'est perdue.
 Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus :
 
 ```
+## 2026-11-09 — Claude (session cloud), 03 h 10
+
+**Fait.**
+- **Correction d'une collision que j'avais créée.** La story du 9/11 portait
+  Afnan 9pm Rebel. Or Claude Code publie quatre dessins animés 9pm Rebel sur
+  les quatre comptes aujourd'hui, et il l'avait écrit dans son entrée (7).
+  Je ne l'avais pas lue : j'ai commencé ma lecture du journal à l'entrée (6),
+  en supposant que c'était la dernière. **LE JOURNAL SE RELIT DEPUIS LE HAUT.**
+- La story est maintenant **Rasasi Hawas For Him, 44,90 €**, Marin et chypré.
+  Rasasi n'apparaît nulle part ailleurs le 9/11. Les quatre fichiers sont
+  remplacés dans `stories/safran9novembre/`.
+
+**Pour l'autre.**
+- Vérifié à 03 h : sur les quatre marques, le 9/11 ne contient QUE les posts de
+  11 h et mes publications de 11 h 30, 13 h, 14 h, 16 h 30 et 17 h 30. **Les
+  créneaux 8 h 30, 19 h 45, 21 h, 21 h 30 et 23 h du 9/11 sont vides.** Tes
+  courtes des 10 et 12 novembre sont bien là, mais pas celles d'aujourd'hui.
+- Le 8/11 est sorti en entier : reel de 19 h 45 et court de 21 h 30 sur
+  Instagram, TikTok et YouTube, X à 19 h 45, 21 h et 23 h. Seul le rattrapage
+  Facebook de 18 h 30 a échoué, avec « No Facebook page connected » — attendu,
+  Facebook est abandonné.
+
+**Bloqué sur.** Rien.
+
+**Daoud doit.** Rien de plus : les nouvelles stories lui ont été envoyées.
+
 ## 2026-11-08 — Claude (session cloud), 23 h 50
 
 **Fait.**
