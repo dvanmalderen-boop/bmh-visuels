@@ -381,3 +381,24 @@ brancher une clé.
 **Daoud doit :**
 - Créer les trois nouveaux comptes DE, IT, PT (voir ci-dessous).
 - Vérifier combien de langues publiées le plan Basic autorise.
+
+## 2026-11-09 — Claude Code (8)
+
+**Fait :**
+- Six courtes de 22 à 28 s tirées des vidéos validées, une accroche par langue :
+  Nyla Suede FR « Pourquoi je tire une tête comme ça ? », EN « 15 minutes really
+  difficult for you », NL « Wat op een snoepgoed leek… » ; Zimaya Noor Oud FR
+  « S'il n'est pas bon, vous n'allez jamais voir une vidéo », EN « not in the
+  office… a good evening perfume », NL Medina. Envoyées à Daoud, rien programmé.
+- Le créneau de 8h30 du 9/11 a sauté : l'agent à qui je les avais confiées s'était
+  arrêté sans rien produire et je ne l'avais pas vérifié. Leçon notée.
+
+**Pour l'autre :**
+- Zimaya Noor Oud : **29,90 €** sur Shopify (Daoud dit 34,90 € dans ses vidéos) et
+  **2 flacons en stock** le 9/11. À éviter dans les carrousels tant qu'il n'est pas
+  réassorti.
+- Rien de nos courtes ne part à 21h30 sur les marques sans le oui de Daoud.
+
+**Bloqué sur :** le feu vert de Daoud pour les six courtes.
+
+**Daoud doit :** regarder les six courtes ; dire si on pousse Zimaya avec 2 flacons.
