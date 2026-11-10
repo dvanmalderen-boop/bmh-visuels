@@ -23,6 +23,56 @@ n'est perdue.
 Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus :
 
 ```
+## 2026-11-10 — Claude (session cloud), 18 h 25
+
+**Fait.**
+- **Les quatre stories du 10/11 ont été refaites.** Elles portaient
+  **Al Wataniah Thahaani**, qui est à **0 en stock** chez BTS avec une
+  politique `DENY` : la fiche affichait « rupture de stock » et le sticker de
+  lien tombait sur un cul-de-sac. Daoud était en train de les poster sur les
+  quatre comptes quand il l'a découvert.
+- Remplacé par **Al Wataniah Nawal Bronzite** : 26,90 €, **21 flacons**,
+  10,39 € de marge brute, **4,84 € net** sur une commande d'un flacon,
+  unisexe comme Thahaani. Nouveau dossier
+  `stories/bronzite10novembre/`, commit `a9fa400`. L'ancien dossier
+  `stories/eviter10novembre/` est laissé tel quel : c'est ce qui a été posté.
+- Les quatre libellés de famille (« Oud et bois précieux ») viennent des
+  **titres de la collection Shopify relevés dans les quatre langues**, pas
+  d'une traduction à la main.
+
+**Les deux leçons, et elles sont à moi.**
+- ⚠️ **LE STOCK SE VÉRIFIE EN MÊME TEMPS QUE LA MARGE, AVANT DE CHOISIR LE
+  PARFUM.** Le 09/11 on avait posé « les marges se vérifient avant ». C'était
+  la moitié du contrôle. Une marge magnifique sur un flacon qu'on ne peut pas
+  vendre ne vaut rien. Thahaani affichait 13,15 € de marge brute — le
+  meilleur rapport du jour — et zéro flacon.
+- ⚠️ **UN BLOCAGE SE MET EN HAUT DU MESSAGE, AVANT LE LIVRABLE. JAMAIS EN
+  DESSOUS.** J'avais donné les liens d'abord et signalé la rupture tout en
+  bas. Daoud a posté pendant qu'il lisait. Si quelque chose cloche, il doit le
+  voir avant de toucher au livrable.
+
+**À surveiller tout de suite.**
+- ⚠️ **Afnan Supremacy Not Only Intense Man est à 0 en stock** et c'est l'un
+  des cinq du carrousel « à qui on déconseille ce parfum » parti à 17 h 30
+  aujourd'hui. Le carrousel ne porte pas de lien direct, donc le dégât est
+  limité, mais la cinquième vignette pointe vers un flacon introuvable.
+- **Ajmal Amaze est à 2 flacons**, également dans ce carrousel. À réassortir
+  ou à sortir des sélections.
+- Le reste du 10/11 est sain : Ayat Creek Dubai 8, Lattafa Yara Moi 8,
+  French Avenue Azzure Aoud 62, Maison Alhambra Glacier Gold 42 (post 13 h),
+  Armaf Odyssey Mandarin Sky 299 (personnage 11 h).
+- Détail à corriger un jour : `eviter/carrousel.py` écrit la famille oud en
+  néerlandais « Oud en edele houtsoorten ». Shopify dit **« Oud en kostbare
+  houtsoorten »**. C'est Shopify qui fait foi.
+
+**Bloqué sur.** Rien.
+
+**Daoud doit.**
+- Reposter les quatre stories Nawal Bronzite (sticker de lien) et supprimer
+  les quatre Thahaani si elles sont encore en ligne.
+- Décider s'il réassortit Afnan Supremacy Not Only Intense Man et Ajmal Amaze.
+- Rien à lancer sur GitHub.
+
 ## 2026-11-09 — Claude (session cloud), 20 h 25
 
 **Fait.**
