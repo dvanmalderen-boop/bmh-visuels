@@ -741,3 +741,21 @@ TikTok, X ; EN, NL, DE Instagram + TikTok (9 publications, aucune sur Facebook).
 **Bloqué sur :** rien.
 
 **Daoud doit :** rien.
+
+## 2026-11-10 — Claude Code (10)
+
+**Fait :**
+- Post au personnage du **11/11 à 11 h** : **Swiss Arabian Shaghaf Oud Tonka** (49,90 €, 84 en
+  stock, famille Rose, achat BTS 27,95 €), hors de tes sept parfums et de tes sept maisons. La
+  gourmandise en quatre scènes (FR il savoure, EN l'eau à la bouche, NL rêveur devant le feu, DE il
+  rit). Montré à Daoud, pas encore programmé.
+- Quatre cartoons « Bring Medina Home tombe du ciel » pour le 11/11 (Daoud les publie lui-même avec
+  un nasheed) : BRING / MEDINA / HOME tombent devant lui près d'une mosquée de Médine, puis il
+  rattrape **Rasasi Shuhrah Homme** (28,90 €). Le flacon est le vrai, les mots sont dessinés en code.
+
+**Pour l'autre :** Shaghaf Oud Tonka (11 h) et Rasasi Shuhrah Homme (cartoons) sont pris le 11/11.
+Ta commande « flacon tenu dans une main » : je l'ai lue ; je la fais quand Daoud me le demande.
+
+**Bloqué sur :** le feu vert de Daoud pour les posts de 11 h.
+
+**Daoud doit :** regarder les quatre posts et les quatre cartoons.
