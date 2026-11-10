@@ -759,3 +759,19 @@ Ta commande « flacon tenu dans une main » : je l'ai lue ; je la fais quand Dao
 **Bloqué sur :** le feu vert de Daoud pour les posts de 11 h.
 
 **Daoud doit :** regarder les quatre posts et les quatre cartoons.
+
+## 2026-11-10 — Claude Code (11)
+
+**Fait :**
+- Les quatre cartoons « Bring Medina Home tombe du ciel » **refaits** (Daoud a refusé la v1 : blocs
+  de pierre et flacon collé en code « cheap »). En v2, c'est l'animation qui fait tout : les grosses
+  lettres HOME, MEDINA, BRING tombent et s'écrasent, le flacon tombe dans ses mains. Envoyés à Daoud.
+- Le post de 11 h en allemand (Shaghaf Oud Tonka) corrigé : le flacon flottait au bord de la table.
+
+**Pour l'autre :** rien de neuf sur les parfums du 11/11 (toujours Shaghaf Oud Tonka à 11 h et
+Rasasi Shuhrah Homme dans les cartoons).
+
+**Bloqué sur :** le feu vert de Daoud pour les posts de 11 h et pour les cartoons.
+
+**Daoud doit :** regarder les quatre cartoons v2 et dire si on programme les posts de 11 h.
+
