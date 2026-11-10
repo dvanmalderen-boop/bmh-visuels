@@ -23,6 +23,88 @@ n'est perdue.
 Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus :
 
 ```
+## 2026-11-10 — Claude (session cloud), 18 h 50
+
+**Fait.** Daoud a demandé une recherche : est-ce que « le flacon tenu dans une
+main » est le format qui marche le mieux pour un post parfum ? Deux agents,
+l'un sur le marché, l'autre sur nos propres chiffres Metricool. Les deux
+convergent, et nos chiffres sont plus durs que le marché.
+
+**CE QUI MARCHE CHEZ NOUS — Instagram FR, ère parfum, 30/10 au 09/11.**
+Interactions rapportées à la portée :
+
+| Format | n | Vues/post | Likes/post | Interactions/portée |
+|---|---|---|---|---|
+| Reel parlé (19h45/21h30) | 15 | 445 | 16,7 | **6,31 %** |
+| Carrousel (17h30) | 11 | 403 | 3,7 | 3,06 % |
+| Mono-produit (13h) | 11 | 230 | 1,6 | **1,12 %** |
+| Personnage (11h) | 2 | 150 | 0 | 0 % |
+
+⚠️ **5,6× d'écart entre le reel parlé et le post mono-produit.** Le format qui
+gagne, c'est la PRÉSENCE HUMAINE, pas la belle scène. Meilleur contenu parfum
+hors lancement : le Reel « Pourquoi Bring Medina Home » du 06/11 — 1 027 vues,
+83 likes, 19 commentaires, 10 enregistrements, 4 partages. Fort en FR et en EN.
+
+**CE QUE DIT LE MARCHÉ.**
+- Personne n'a jamais mesuré « flacon en main » contre « nature morte » sur un
+  post parfum. La preuve directe n'existe pas. Ne jamais l'affirmer.
+- Ce qui EST mesuré (*Journal of Retailing* 2023, 11 expériences) : une main qui
+  **soulève** le produit **sans appui visible** augmente la confiance dans la
+  perception du volume réel, donc l'intention d'achat. **Les autres positions de
+  main et les images sans main ne produisent pas l'effet.** Le flacon doit être
+  soulevé, pas posé dans une paume ni calé.
+- Contenu créateur > contenu marque : +36 % en médiane sur TikTok, **aucune
+  différence en médiane sur Instagram**. L'avantage UGC n'est pas universel.
+- Parfum : +537 % de posts en un an, −67,8 % d'engagement. **Le volume ne paie
+  plus — c'est le FORMAT qui doit changer, jamais la cadence.**
+- L'expérience vécue bat la description olfactive. Nos fiches annoncent la
+  famille et les notes : registre juste mais saturé.
+
+**CORRECTION DE CE QUE J'AVAIS ÉCRIT PLUS TÔT.** J'avais dit que le carrousel
+battait le mono-produit en me fondant sur un benchmark de marché. **Nos chiffres
+ne le confirment pas.** L'avantage en « vues » est un artefact : une vue de
+carrousel compte chaque diapositive. En portée réelle, le carrousel ne gagne que
+20 jours sur 33, et en néerlandais c'est l'inverse. Pile ou face, pas une
+tendance.
+
+**DEUX SIGNAUX À SURVEILLER.**
+- ⚠️ **TikTok FR perd des abonnés depuis le passage au parfum** : −27 entre le
+  28/10 et le 09/11, négatif 9 jours sur 13. Vues du compte 7 000–10 000/j en
+  novembre contre 7 000–15 000/j mi-octobre. 13 jours, échantillon court, et on
+  compare du rappel spirituel à du commercial — mais le signe est là.
+- ⚠️ **Nos deux plus gros créneaux tombent dans le creux d'audience.** L'audience
+  Instagram est en ligne à **10h–12h** (5 500–6 700) et à **18h** (4 200–5 100).
+  **13h et 15h–17h sont le creux** (3 300–4 500). Nos posts de 13h et 17h30
+  sortent quand il y a le moins de monde. Attention : heure et format sont
+  parfaitement confondus chez nous, chaque créneau n'ayant qu'un seul type de
+  contenu. On ne peut pas départager les deux sans un test.
+
+**⚠️ CE QU'ON NE PEUT PAS CONCLURE.**
+- Rien sur le post personnage : 2 publications par langue. Échantillon, pas
+  verdict. Le laisser tourner avant de juger.
+- Rien sur les stories : aucune donnée, aucune story programmée dans Metricool.
+- Rien sur X : métriques non peuplées — **ce n'est PAS un vrai zéro**, ne jamais
+  lire ces zéros comme une contre-performance.
+- Rien sur la marque DE : 1 abonné Instagram, compte lancé le 08/11.
+- Le lancement TikTok à 114 313 vues du 29/10 est un ÉVÉNEMENT, pas une recette
+  de format reproductible.
+- Les moyennes Instagram sont tirées vers le bas par le double post volontaire
+  (deux IDs à une minute d'écart) : c'est voulu, ce n'est pas une erreur, mais
+  il faut en tenir compte en lisant les chiffres.
+
+**Bloqué sur.** Les trois décisions ci-dessous appartiennent à Daoud, rien n'est
+changé tant qu'il n'a pas répondu.
+
+**Daoud doit.**
+- Trancher : main réelle (flacons qu'il possède déjà, zéro coût, zéro question
+  d'authenticité) ou main générée en IA. Recommandation : commencer par le réel.
+  L'effet de la main est démontré **sans visage**.
+- Trancher : est-ce qu'on teste le déplacement du créneau de 13h vers 11h ou 18h.
+  Un seul changement à la fois.
+- Le post de 13h ne disparaît pas — **on ne baisse jamais le volume.** Il change
+  de forme : flacon soulevé dans une main nue, sans appui.
+- Rien à lancer sur GitHub.
+
 ## 2026-11-10 — Claude (session cloud), 18 h 25
 
 **Fait.**
