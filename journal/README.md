@@ -23,6 +23,102 @@ n'est perdue.
 Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus :
 
 ```
+## 2026-11-10 — Claude (session cloud), 19 h 05
+
+**Fait. La campagne du 11/11 est construite, vérifiée et programmée : 19 publications.**
+
+**Mécanique neuve : L'HEURE À LAQUELLE ON LE PORTE.** L'heure est posée sur une
+ligne du temps — deux traits qui traversent la vignette, l'heure au milieu. On
+lit le carrousel comme on lit une journée, de 07:00 à 23:00. Ce n'est ni un
+classement ni une coupure : c'est une progression. Les cinq mécaniques
+interdites sont respectées.
+
+**Les cinq heures sortent des fiches françaises elles-mêmes**, relevées sur
+Shopify le 10/11. Aucune n'est inventée :
+
+| Heure | Parfum | Prix | Stock | Net | Famille |
+|---|---|---|---|---|---|
+| 07:00 | Gulf Orchid Sweet Heaven Extreme | 35,90 € | 45 | 5,02 € | Tabac et café |
+| 09:00 | Al Haramain Detour Rouge | 28,90 € | 23 | 5,44 € | Agrumes et aromates |
+| 13:00 | Arabiyat Prestige Nyla Vani-elle | 33,90 € | 85 | 5,21 € | Fruits rouges |
+| 19:00 | French Avenue Liquid Brun | 44,90 € | 29 | 5,33 € | Gourmand |
+| 23:00 | Lattafa Maahir Black | 38,90 € | 26 | 5,09 € | Encens et résines |
+
+- **Post** : **Maison Alhambra Infini Elixir**, 32,90 €, 32 flacons, **7,87 € net**
+  — le meilleur du jour. **Story** : **Paris Corner Khair Felicity**, 28,90 €,
+  **239 flacons** — c'est elle qui porte le sticker de lien, donc elle va sur la
+  référence la mieux approvisionnée.
+- **Sept maisons différentes, sept familles différentes.** Le garde-fou du
+  script le vérifie, plus la stricte croissance des heures.
+- **STOCK ET MARGES VÉRIFIÉS ENSEMBLE AVANT DE CHOISIR**, et pas l'un sans
+  l'autre. C'est la leçon du jour, elle a coûté quatre stories.
+
+**⚠️ TEST D'HORAIRE — UN SEUL CHANGEMENT, ET C'EST VOULU.**
+Le post passe de **13 h à 10 h**. Rien d'autre ne bouge : carrousel toujours à
+17h30, X toujours à 11h30 / 14h / 16h30. Raison : l'audience Instagram est en
+ligne à 10h–12h (5 500–6 700) et à 18h (4 200–5 100), alors que **13h et 15h–17h
+sont le creux** (3 300–4 500). Validé par Daoud le 10/11.
+**Si on change autre chose en même temps, le test ne veut plus rien dire.**
+
+**⚠️⚠️ LE POST AU PERSONNAGE NE SE TOUCHE PAS. DÉCISION DE DAOUD, 10/11.**
+Le personnage est **en cours de développement** et il est **beaucoup trop tôt
+pour le juger sur des chiffres**. Ses mots : il faut laisser le temps aux gens
+de le connaître, de s'y habituer et de s'y reconnaître, image après image,
+cartoon après cartoon. Il a trouvé les trois nasheeds qui vont avec l'histoire
+sur TikTok, Instagram et YouTube, et il garde les mêmes.
+**C'est ce que BMH a de personnel et d'unique — personne ne fait ça comme ça.**
+Donc : on ne réduit pas, on ne déplace pas, on ne remet pas en cause le créneau
+de 11 h sur la foi de deux publications à zéro like. Le chiffre de 0 % que j'ai
+écrit à 18h50 est un échantillon, pas un verdict, et il ne sert à rien d'autre
+qu'à être patient.
+
+**📸 COMMANDE POUR CLAUDE CODE : LES SCÈNES « FLACON TENU DANS UNE MAIN ».**
+Daoud a tranché le 10/11 : **on les fait en IA**, il n'a pas les flacons chez
+lui et il ne veut pas se compliquer la vie. Moi je ne peux pas les générer
+depuis la session cloud — fal.ai est hors de l'allowlist réseau. **C'est donc
+pour toi, et Daoud le sait.** Le cahier des charges vient de la recherche du
+10/11, et chaque point est mesuré, pas une impression :
+
+1. **La main SOULÈVE le flacon, sans appui visible.** Pas posé dans une paume
+   ouverte, pas calé contre un objet, pas simplement effleuré. C'est la SEULE
+   condition que l'étude isole comme déterminante (*Journal of Retailing* 2023,
+   onze expériences) : une main qui soutient le produit en l'air augmente la
+   confiance dans la perception du volume réel, donc l'intention d'achat. **Les
+   autres positions de main ne produisent pas l'effet, et une image sans main
+   non plus.**
+2. **Main nue.** Pas de gant, pas de manche qui couvre.
+3. **Le visage n'est pas nécessaire** — l'effet est démontré sans lui.
+4. **Le flacon doit être le VRAI flacon.** Méthode habituelle : on part de la
+   photo du flacon original, on ne laisse pas le modèle le dessiner, et on
+   vérifie au zoom qu'aucune lettre n'a été inventée sur le flacon ou le bouchon.
+5. **9:16 vertical** pour TikTok et les Reels. Le carrousel Instagram échappe à
+   cette règle.
+6. **Déclaration inchangée** : `isAiGenerated: true` sur Instagram,
+   `commercialContentOwnBrand: true` sur TikTok. On ne cache rien.
+
+Ce que la recherche ne tranche PAS, et il faut le savoir : **personne n'a mesuré
+si une main générée en IA produit le même effet qu'une vraie.** L'étude porte
+sur l'image, pas sur son origine. On essaie, on mesure, on verra.
+
+**Bloqué sur.** Rien.
+
+**Daoud doit.**
+- Poster à la main les quatre stories **Paris Corner Khair Felicity** avec le
+  sticker de lien.
+- Rien à lancer sur GitHub.
+
+**Pour Claude Code.**
+- **Parfums pris le 11/11, à ne pas reprendre dans le post de 11 h ni dans le
+  cartoon** : Gulf Orchid Sweet Heaven Extreme, Al Haramain Detour Rouge,
+  Arabiyat Prestige Nyla Vani-elle, French Avenue Liquid Brun, Lattafa Maahir
+  Black, Maison Alhambra Infini Elixir, Paris Corner Khair Felicity.
+- **Toujours en rupture** : Afnan Supremacy Not Only Intense Man (0),
+  Al Wataniah Thahaani (0). **Ajmal Amaze n'a que 2 flacons.**
+- **Zimaya Noor Oud : 2 flacons le 9/11**, et les courtes partent le 12/11.
+- Pour le 12/11, la mécanique ne peut être ni l'élimination, ni « le nom ment »,
+  ni l'échelle du sucre, ni la plaque constante, ni la coupure en deux, ni la
+  ligne du temps horaire.
+
 ## 2026-11-10 — Claude (session cloud), 18 h 50
 
 **Fait.** Daoud a demandé une recherche : est-ce que « le flacon tenu dans une
