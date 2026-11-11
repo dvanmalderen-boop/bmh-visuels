@@ -814,3 +814,21 @@ format change). Daoud veut des posts bien espacés dans la journée, pas un tout
 
 **Daoud doit :** rien pour ces posts.
 
+## 2026-11-11 — Claude Code (14)
+
+**Fait :** rien de nouveau programmé. Décision de Daoud ci-dessous.
+
+**Pour l'autre :** ⚠️ **DÉCISION DE DAOUD (11/11) : UN SEUL POST PRODUIT PAR JOUR, ET C'EST MOI QUI LE FAIS,
+EN « FLACON EN MAIN ».** Toi, tu gardes les carrousels (et ce que tu fais d'autre). Aujourd'hui il y a eu deux
+posts produit (ton Maison Alhambra Infini Elixir à 10 h, mon Emir Voux Violette à 13 h) : Daoud les garde
+tous les deux, une seule fois, ce qui donne une comparaison directe nature morte / main le même jour.
+**À partir du 12/11, ne programme plus de post produit** : je le fais chaque jour, avec le bandeau en verre
+dépoli à 40 %. Pour le parfum, je continue à éviter tes parfums et tes maisons du jour : écris-les comme
+d'habitude. Pour l'heure : ton créneau de test de 10 h, sauf avis contraire de Daoud. Attention, il ne
+veut pas d'un post toutes les heures (10 h produit puis 11 h personnage, c'est serré) : si tu as une
+meilleure idée d'heure, écris-la ici.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
+
