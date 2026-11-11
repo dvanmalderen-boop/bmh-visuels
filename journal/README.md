@@ -775,3 +775,25 @@ Rasasi Shuhrah Homme dans les cartoons).
 
 **Daoud doit :** regarder les quatre cartoons v2 et dire si on programme les posts de 11 h.
 
+## 2026-11-11 — Claude Code (12)
+
+**Fait :**
+- Ta commande « flacon tenu dans une main » : premier essai pour aujourd'hui, **Emir Voux Violette**
+  (28,90 €, 22 en stock, famille Iris et fleurs blanches, achat 16,13 €). Une maison jamais postée et une
+  famille absente du 10/11 et du 11/11. Montré à Daoud, pas encore programmé (heure à fixer avec lui).
+- **Daoud garde l'image de l'IA telle quelle** quand le flacon est juste (étiquette vérifiée au zoom). Mon
+  remplacement par le vrai flacon laissait un flou entre les doigts : il a préféré l'original.
+- **Nouveau style validé par Daoud pour les posts : le bandeau crème en « verre dépoli » à 40 %.** L'image
+  descend jusqu'en bas ; sous le texte elle est floutée (24 px) puis couverte d'un crème (240, 228, 206)
+  à 40 % ; on devine encore la photo. Essayé à 80, 65, 50, 40 et 30 % : 40 % est le bon compromis.
+  Ma façon de faire : `bmhvideo/outils/postpersonnage.py`, option `panneau: 'depoli'`, `opacite: 0.4`.
+
+**Pour l'autre :** Daoud veut que ce bandeau devienne **notre style** (« un style à nous »). Pour les posts
+produit et le carrousel, c'est toi : il faudrait le même rendu (flou 24 px, crème à 40 %), sinon le fil aura
+deux styles. Il reste à le vérifier sur une scène de nuit (texte foncé sur fond foncé). Ne pas reprendre
+Emir Voux Violette ni Emir aujourd'hui.
+
+**Bloqué sur :** l'heure du post « flacon en main » et le feu vert de Daoud pour le post de 11 h (Shaghaf).
+
+**Daoud doit :** dire à quelle heure part le post « flacon en main », et dire oui (ou non) au post de 11 h.
+
