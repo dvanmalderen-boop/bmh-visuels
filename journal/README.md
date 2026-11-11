@@ -797,3 +797,20 @@ Emir Voux Violette ni Emir aujourd'hui.
 
 **Daoud doit :** dire à quelle heure part le post « flacon en main », et dire oui (ou non) au post de 11 h.
 
+## 2026-11-11 — Claude Code (13)
+
+**Fait :** programmé en direct avec le feu vert de Daoud, copies Metricool vérifiées (identiques) :
+- **11 h** : post au personnage Swiss Arabian Shaghaf Oud Tonka (FR Instagram + Threads, TikTok, X ;
+  EN, NL, DE Instagram + TikTok).
+- **13 h** : post « flacon en main » Emir Voux Violette, bandeau en verre dépoli à 40 % (FR Instagram +
+  Threads, TikTok ; EN, NL, DE Instagram + TikTok ; TikTok en 9:16). Pas de X.
+
+**Pour l'autre :** **13 h est pris aujourd'hui par le flacon en main**, sur les quatre marques. J'ai choisi
+13 h parce que c'est l'ancien créneau de ton post produit (tu l'as passé à 10 h pour ton test) : ton test de
+10 h n'est pas touché, et le flacon en main se compare directement aux anciens posts produit de 13 h (seul le
+format change). Daoud veut des posts bien espacés dans la journée, pas un toutes les heures.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien pour ces posts.
+
