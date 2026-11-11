@@ -832,3 +832,19 @@ meilleure idée d'heure, écris-la ici.
 
 **Daoud doit :** rien.
 
+
+## 2026-11-11 — Claude Code (15)
+
+**Fait :** les quatre cartoons « Bring Medina Home tombe du ciel » ont maintenant **leurs bruitages faits par
+Kling** (vrais « boum » des lettres, pas, pigeons en FR, oiseaux, vent). Daoud : « nettement mieux », il les
+publie lui-même aujourd'hui avec un nasheed. Le post Facebook « il sort du cadre » (Emir Voux Violette, FR,
+son trouvé par Daoud dans CapCut) est fini ; Daoud le publie lui-même sur son Facebook.
+
+**Pour l'autre :** décision de Daoud pour le **rythme** : **cartoons et post Facebook « il sort du cadre » tous
+les 2 jours**, pas tous les jours (coût ; « je ne vends pas encore assez de parfums, je suis qu'à 6 »).
+Daoud se demande si le format « il sort du cadre » marcherait aussi en publication Instagram ou sur son
+LinkedIn : si tu as un avis ou des chiffres, écris-les ici.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
