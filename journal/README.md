@@ -20,9 +20,94 @@ n'est perdue.
 
 ## Le format d'une entrée
 
-Les plus récentes **en haut**, juste sous cette ligne. Quatre champs, pas plus :
+Les plus récentes **en haut**, juste sous le trait `---` qui ferme cette
+notice — **pas sous le bloc d'exemple ci-dessous**, sinon l'entrée se
+retrouve enfermée dedans et tout le journal s'affiche comme du code.
+C'est arrivé le 10/11, réparé le 11/11. Quatre champs, pas plus :
 
 ```
+## 2026-11-08 — Claude Code
+**Fait :** les trois posts personnage du 8/11, FR EN NL, publiés à 11h.
+**Pour l'autre :** le modèle grave le nom sur le flacon, c'est tordu. Si tu as
+une parade autre que l'incrustation, écris-la.
+**Bloqué sur :** rien.
+**Daoud doit :** rien.
+```
+
+`Daoud doit` est le seul champ qu'il lit en priorité. On n'y met que des choses
+qu'aucun des deux Claude ne peut faire — créer un compte, payer, décider,
+brancher une clé.
+
+## Ce qui ne va PAS ici
+
+- Les secrets, les clés, les mots de passe. Jamais, même en commentaire.
+- Les règles permanentes : elles vont dans `briefs/` et dans les docs du projet.
+  Le journal, c'est ce qui s'est passé, pas ce qui est vrai pour toujours.
+
+---
+
+## 2026-11-11 — Claude (session cloud), 05 h 15
+
+**Fait. La table de correspondance des noms de marque Shopify ↔ BTS existe :
+`bts/marques.py` dans `bmhsite`.** Daoud l'a validée hier soir.
+
+`getListProducts` filtre sur le **nom** du fabricant, pas sur un identifiant.
+Trois de nos 27 maisons s'écrivent autrement chez BTS :
+
+| Chez nous (Shopify `vendor`) | Chez BTS (`manufacturer_names`) |
+|---|---|
+| Gritti | `GRITTI FRAGANCES` |
+| Gulf Orchid | `BY GULF ORCHID` |
+| Khadlaj | `KHADLAJ PERFUMES` |
+
+Envoyer notre orthographe renvoie **zéro produit, sans erreur et sans
+avertissement**. On croit que la marque n'a rien, alors qu'on a mal épelé.
+`FRAGANCES` est leur faute de frappe ; on l'écrit comme eux, sinon ça ne
+trouve rien.
+
+**Les deux côtés sont relevés le 11/11, pas devinés** : `productVendors` pour
+nos 27 noms, `getListManufacturers` pour leurs 1529 fabricants. 24 tombent
+juste, 3 non. Le relevé est dans `bts/rapports/endpoints.json`, clé
+`correspondance_marques`.
+
+**Ce qui a changé, et rien d'autre :**
+- `marques.py` : la table, les deux sens de conversion, et `verifier()` qui
+  confronte la table à la liste vivante de BTS.
+- `stock.py` : sa copie locale de la table cède la place à l'import.
+  Comportement identique. Deux copies d'une table écrite à la main, c'est une
+  copie qui finira par mentir.
+- `endpoints.py` : ne constate plus le trou, vérifie la table qui le bouche, et
+  teste exprès le filtre serveur sur une des trois exceptions — le vérifier sur
+  `AFNAN`, qui tombe juste tout seul, ne prouverait rien.
+- `introuvables.py` : son nom de marque passe par la table. `ARMAF` et
+  `LATTAFA` marchaient par chance.
+
+**Pourquoi ça compte au-delà du confort : ça débloque `restricted_countries`.**
+Un parfum interdit dans un pays qu'on livre, c'est une commande encaissée puis
+annulée. Le champ est servi par `getListProducts` et pas par `getProductStock`,
+donc il fallait pouvoir télécharger le catalogue marque par marque. C'était
+bloqué par ces trois noms. Ça ne l'est plus. Reste le téléchargement lui-même
+et la règle à appliquer.
+
+**Une table écrite à la main vieillit en silence.** Le jour où BTS renomme un
+fabricant, le filtre se remet à renvoyer zéro et personne ne le voit. D'où
+`verifier()`, et d'où le fait que le rapport des endpoints le crie. Si tu lis
+« ALERTE — la table ne retrouve plus ces marques » dans
+`bts/rapports/endpoints.md`, c'est ça : il faut corriger `marques.py` à la
+main, avec le vrai nom relevé chez eux. **Jamais deviné.**
+
+**Pour l'autre :** si tu touches à un script qui envoie un nom de marque à BTS,
+passe par `chez_eux()`. N'écris pas une deuxième table.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien d'obligatoire. Le cron du stock reprend la nouvelle
+version tout seul au prochain passage (toutes les 3 h). S'il veut la preuve que
+la table tient, il peut relancer à la main l'action **« Tester les endpoints
+BTS (lecture seule) »** sur GitHub : le rapport dira « Les 27 tombent juste ».
+
+---
+
 ## 2026-11-10 — Claude (session cloud), 19 h 05
 
 **Fait. La campagne du 11/11 est construite, vérifiée et programmée : 19 publications.**
@@ -607,25 +692,6 @@ brancher TikTok, Instagram et YouTube.
 
 **Daoud doit :** rien.
 
-## 2026-11-08 — Claude Code
-**Fait :** les trois posts personnage du 8/11, FR EN NL, publiés à 11h.
-**Pour l'autre :** le modèle grave le nom sur le flacon, c'est tordu. Si tu as
-une parade autre que l'incrustation, écris-la.
-**Bloqué sur :** rien.
-**Daoud doit :** rien.
-```
-
-`Daoud doit` est le seul champ qu'il lit en priorité. On n'y met que des choses
-qu'aucun des deux Claude ne peut faire — créer un compte, payer, décider,
-brancher une clé.
-
-## Ce qui ne va PAS ici
-
-- Les secrets, les clés, les mots de passe. Jamais, même en commentaire.
-- Les règles permanentes : elles vont dans `briefs/` et dans les docs du projet.
-  Le journal, c'est ce qui s'est passé, pas ce qui est vrai pour toujours.
-
----
 
 ## 2026-11-08 — Claude Code
 
