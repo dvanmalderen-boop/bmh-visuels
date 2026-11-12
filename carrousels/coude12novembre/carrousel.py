@@ -38,6 +38,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 W, H    = 1080, 1920
 RACINE  = "/home/claude/coude"
 SCENES  = os.path.join(RACINE, "scenes")
+PHOTOS  = os.path.join(RACINE, "photos")   # les images generees par Claude Code
 POLICES = "/home/claude/polices"
 SORTIE  = os.path.join(RACINE, "carrousel")
 
@@ -123,6 +124,15 @@ def lettrage(d, y, texte, police, couleur, espace=6, x=MARGE_G):
 
 # ---------------------------------------------------------------- marque
 
+def couleur_signature(img, x, y, largeur=560, hauteur=60):
+    """Blanc sur un fond sombre, encre sur un fond clair. Sur la couverture
+    le haut est un qamis blanc : une signature blanche y disparaissait."""
+    zone = img.crop((int(x), int(y - hauteur / 2),
+                     int(min(W, x + largeur)), int(y + hauteur / 2)))
+    px = zone.resize((16, 4), Image.LANCZOS).getdata()
+    clarte = sum(0.299 * r + 0.587 * g + 0.114 * b for r, g, b in px) / len(px)
+    return ENCRE if clarte > 150 else BLANC
+
 def poser_signature(img, x, y, couleur, corps=30, espace=7):
     r = int(corps * 0.52)
     taille = r * 2 + 2
@@ -162,6 +172,17 @@ def scene(ean, hauteur, flou=0):
         im = im.filter(ImageFilter.GaussianBlur(flou))
     return im
 
+def photo(nom, hauteur, decalage):
+    """Cadre une image 1080 x 1920 de Claude Code dans la bande du haut.
+    `decalage` est l'ordonnee a laquelle commence la fenetre : c'est ce qui
+    decide si on voit le flacon ou le menton. Reglee a l'oeil, image par
+    image, parce que le sujet n'est pas a la meme hauteur sur chacune."""
+    im = Image.open(os.path.join(PHOTOS, nom)).convert("RGB")
+    if im.size != (W, 1920):
+        im = im.resize((W, int(im.height * W / im.width)), Image.LANCZOS)
+    decalage = max(0, min(decalage, im.height - hauteur))
+    return im.crop((0, decalage, W, decalage + hauteur))
+
 def fondu(img, depart, hauteur, vers=CREME):
     voile = Image.new("RGBA", (W, hauteur), vers + (0,))
     d = ImageDraw.Draw(voile)
@@ -185,7 +206,7 @@ def prix_affiche(v, lg):
 #  endroits : aucune promesse de tenue n'est faite nulle part.
 
 PRODUITS = [
-    dict(ean="6290360591421", titre="Lattafa Yara Moi", ml="100 ML", prix=32.90,
+    dict(ean="6290360591421", photo="coude2.jpg", decalage=470, titre="Lattafa Yara Moi", ml="100 ML", prix=32.90,
          famille={"fr": "Gourmand pralin\u00e9 et sucr\u00e9",
                   "en": "Gourmand, praline and sweet",
                   "nl": "Gourmand, praline en zoet",
@@ -215,7 +236,7 @@ PRODUITS = [
                 "de": "Der Nacken kommt nie unter den Wasserhahn. "
                       "Die Menschen hinter Ihnen riechen ihn."}),
 
-    dict(ean="5055810030094", titre="Al Wataniah Qahir", ml="100 ML", prix=32.90,
+    dict(ean="5055810030094", photo="coude4.jpg", decalage=90, titre="Al Wataniah Qahir", ml="100 ML", prix=32.90,
          famille={"fr": "Tabac et caf\u00e9", "en": "Tobacco and coffee",
                   "nl": "Tabak en koffie",  "de": "Tabak und Kaffee"},
          endroit={"fr": "LE COL DU QAMIS", "en": "THE COLLAR",
@@ -257,7 +278,7 @@ PRODUITS = [
                 "de": "Die Schulter bleibt von Anfang bis Ende trocken. "
                       "Niemand denkt daran."}),
 
-    dict(ean="5060908999146", titre="Ayat Creek Dubai", ml="30 ML", prix=21.90,
+    dict(ean="5060908999146", photo="coude7.jpg", decalage=300, titre="Ayat Creek Dubai", ml="30 ML", prix=21.90,
          famille={"fr": "Encens et r\u00e9sines", "en": "Incense and resins",
                   "nl": "Wierook en harsen",    "de": "Weihrauch und Harze"},
          endroit={"fr": "LE REVERS DE LA VESTE", "en": "THE INSIDE POCKET",
@@ -367,9 +388,10 @@ def garde_fou():
 def diapo_1(lg):
     T = TEXTES[lg]
     img = Image.new("RGB", (W, H), CREME)
-    img.paste(scene("6290360591421", 980, flou=3), (0, 0))
-    fondu(img, 520, 460)
-    poser_signature(img, MARGE_G, HAUT_SUR + 20, BLANC, 30)
+    img.paste(photo("coude1.jpg", 980, 90), (0, 0))
+    fondu(img, 700, 280)
+    poser_signature(img, MARGE_G, HAUT_SUR + 20,
+                    couleur_signature(img, MARGE_G, HAUT_SUR + 20), 30)
     d = ImageDraw.Draw(img)
 
     y = 980
@@ -405,9 +427,14 @@ def diapo_2(lg):
 
 def diapo_produit(p, n, lg):
     img = Image.new("RGB", (W, H), CREME)
-    img.paste(scene(p["ean"], 1000), (0, 0))
-    fondu(img, 560, 440)
-    poser_signature(img, MARGE_G, HAUT_SUR + 20, BLANC, 28)
+    if p.get("photo"):
+        img.paste(photo(p["photo"], 1000, p["decalage"]), (0, 0))
+        fondu(img, 770, 230)
+    else:
+        img.paste(scene(p["ean"], 1000), (0, 0))
+        fondu(img, 560, 440)
+    poser_signature(img, MARGE_G, HAUT_SUR + 20,
+                    couleur_signature(img, MARGE_G, HAUT_SUR + 20), 28)
     d = ImageDraw.Draw(img)
 
     lettrage(d, 1050, "%d / 6   \u00b7   %s" % (n, p["endroit"][lg]),
