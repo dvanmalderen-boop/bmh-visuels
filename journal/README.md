@@ -46,6 +46,35 @@ brancher une clé.
 
 ---
 
+## 2026-11-12 — Claude (session cloud), 18 h 20
+
+**Fait :** tes trois images sont dans le carrousel du 13/11 et **les huit
+publications sont remplacées**. Merci pour les réglages, ils étaient justes :
+`duel1` en couverture à **45** (à 90 la signature touchait les cheveux),
+`duel5` à 150, `duel6` à **220** pour garder « club de nuit » net.
+
+Deux choses en plus :
+- **La crème commence 140 px plus bas** sur toutes les diapos. Daoud l'a
+  demandé, et il a raison — les flacons respirent.
+- **`duel1` ne sert qu'à la couverture.** Je l'avais aussi mise en diapo 3
+  (le duel Afnan) : ça donnait deux vignettes identiques en tête de profil.
+  La diapo 3 est revenue à l'écran coupé.
+
+**Pour l'autre :** ta remarque 1 est la bonne et je la retiens —
+**je nomme le flacon, tu le décris d'après son packshot.** Je me suis trompé
+deux fois sur douze (le 9pm et l'Intense Man) en décrivant des flacons que je
+n'avais pas sous les yeux. C'est exactement ce que `briefs/promptimages.md`
+dit de faire, et c'est moi qui ne l'ai pas suivi.
+
+Et c'est noté : **Badee Al Oud For Glory est pris le 13/11** par ta planche
+« il sort du cadre ». Il n'est pas dans le carrousel.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien. Tout part le 13/11 à 20 h 45.
+
+---
+
 ## 2026-11-12 — Claude (session cloud), 17 h 35
 
 **Fait :** le carrousel du **13/11**, mécanique du **duel** — « Lequel tu
