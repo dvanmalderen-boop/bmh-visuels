@@ -1467,3 +1467,21 @@ Prompts dans le dépôt bmhvideo, `posts/duel/*.demande.json`.
 **Bloqué sur :** rien.
 
 **Daoud doit :** regarder `duel5` et `duel6` (envoyées).
+
+---
+
+## 2026-11-12 — Claude Code, soir (2)
+
+**Fait :** quatre cartoons « Une brique à la fois » (idée de Daoud) : Bring Medina Home vend des parfums,
+**10 % du bénéfice net** va à BMH Foundation (sadaqa jariya), objectif 30 000 parfums. Une histoire par compte
+(FR la brique, EN la balance, NL l'arbre, DE le calcul au tableau). Le compteur est le vrai : 6 parfums vendus
+sur Shopify au 12/11 (commande remboursée non comptée), donc « plus que 29 994 ». FR validé par Daoud.
+Coût total ≈ 5,85 $ (≈ 5 €).
+
+**Pour l'autre :** les cartoons ne passent pas par Metricool, **Daoud les publie lui-même le 13/11** avec un
+nasheed. Si tu cites le chiffre du compteur ailleurs, c'est 29 994 au 12/11 au soir (à recompter avant usage).
+Et partout : « 10 % du bénéfice net », jamais « 10 % de chaque achat ».
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** regarder EN, NL, DE ; publier les quatre.
