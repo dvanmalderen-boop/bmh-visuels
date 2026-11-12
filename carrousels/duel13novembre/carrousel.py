@@ -168,18 +168,18 @@ def poser_signature(img, x, y, couleur, corps=30, espace=7):
 #  parce que la detection automatique attrapait le bois seche, qui est net
 #  lui aussi.
 CENTRE = {
- "6290171002338": 0.69,  # Afnan 9pm
- "6290171002345": 0.63,  # Afnan 9am
- "6291106066890": 0.70,  # Ana Abiyedh
- "6291107454412": 0.79,  # Ana Abiyedh Rouge
- "6291100139668": 0.66,  # Al Haramain L'aventure (cube argent)
- "6291100137565": 0.74,  # Al Haramain Aventure Femme (cube or)
- "6290360378053": 0.68,  # French Avenue Vulcan Feu
- "6290360378060": 0.76,  # French Avenue Vulcan Sable
- "6290362162629": 0.64,  # Gulf Orchid Mango Ice
- "6290362162643": 0.71,  # Gulf Orchid Creme Caramel
- "6085010044712": 0.71,  # Armaf Club de Nuit Intense Man
- "6294015164152": 0.73,  # Armaf Club de Nuit Iconic
+ "6290171002338": 0.707,  # Afnan 9pm
+ "6290171002345": 0.626,  # Afnan 9am
+ "6291106066890": 0.688,  # Ana Abiyedh
+ "6291107454412": 0.677,  # Ana Abiyedh Rouge
+ "6291100139668": 0.668,  # Al Haramain L'aventure (cube argent)
+ "6291100137565": 0.616,  # Al Haramain Aventure Femme (cube or)
+ "6290360378053": 0.677,  # French Avenue Vulcan Feu
+ "6290360378060": 0.668,  # French Avenue Vulcan Sable
+ "6290362162629": 0.640,  # Gulf Orchid Mango Ice
+ "6290362162643": 0.710,  # Gulf Orchid Creme Caramel
+ "6085010044712": 0.710,  # Armaf Club de Nuit Intense Man
+ "6294015164152": 0.730,  # Armaf Club de Nuit Iconic
 }
 
 #  A quelle hauteur vit le flacon, en fraction de la hauteur de la scene.
@@ -187,8 +187,8 @@ CENTRE = {
 #  sont des CUBES, plus bas et plus larges : il faut descendre la fenetre,
 #  sinon on leur coupe le pied.
 HAUTEUR = {
- "6291100139668": 0.40,  # Al Haramain L'aventure (cube argent)
- "6291100137565": 0.44,  # Al Haramain Aventure Femme (cube or)
+ "6291100139668": 0.668,  # Al Haramain L'aventure (cube argent)
+ "6291100137565": 0.616,  # Al Haramain Aventure Femme (cube or)
 }
 
 def panneau(ean, largeur, hauteur, cible=0.5):
