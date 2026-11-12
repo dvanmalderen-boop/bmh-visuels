@@ -145,16 +145,53 @@ def poser_signature(img, x, y, couleur, corps=30, espace=7):
 
 # ---------------------------------------------------------------- decors
 
-def panneau(ean, largeur, hauteur, biais=0.5):
-    """Un demi-ecran a partir d'une scene produit. `biais` decide quelle part
-    de la scene on garde : a droite on recadre vers la gauche, pour que le
+#  OU SE TROUVE LE FLACON DANS CHAQUE SCENE, en fraction de la largeur.
+#  Le style des scenes BMH met les accessoires a gauche et le flacon a
+#  DROITE, vers 0,62 a 0,72. Un demi-ecran ne garde que 54 % de la largeur :
+#  si on recadre au milieu, le flacon est coupe. Releve a l'oeil le 12/11,
+#  parce que la detection automatique attrapait le bois seche, qui est net
+#  lui aussi.
+CENTRE = {
+ "6290171002338": 0.68,  # Afnan 9pm
+ "6290171002345": 0.72,  # Afnan 9am
+ "6291106066890": 0.72,  # Ana Abiyedh
+ "6291107454412": 0.65,  # Ana Abiyedh Rouge
+ "6291100139668": 0.56,  # Al Haramain L'aventure
+ "6291100137565": 0.70,  # Al Haramain Aventure Femme
+ "6290360378053": 0.68,  # Vulcan Feu
+ "6290360378060": 0.72,  # Vulcan Sable
+ "6290362162629": 0.68,  # Gulf Orchid Mango Ice
+ "6290362162643": 0.68,  # Gulf Orchid Creme Caramel
+ "6085010044712": 0.68,  # Armaf Club de Nuit Intense Man
+ "6294015164152": 0.72,  # Armaf Club de Nuit Iconic
+}
+
+#  A quelle hauteur vit le flacon, en fraction de la hauteur de la scene.
+#  La plupart sont des flacons hauts, centres vers 0,30. Les deux Aventure
+#  sont des CUBES, plus bas et plus larges : il faut descendre la fenetre,
+#  sinon on leur coupe le pied.
+HAUTEUR = {
+ "6291100139668": 0.40,  # Al Haramain L'aventure (cube argent)
+ "6291100137565": 0.44,  # Al Haramain Aventure Femme (cube or)
+}
+
+def panneau(ean, largeur, hauteur, cible=0.5):
+    """Un demi-ecran a partir d'une scene produit, RECADRE SUR LE FLACON.
+    `cible` dit ou le flacon doit tomber dans le panneau : 0,5 au milieu.
+    Sur le panneau de droite on vise un peu plus a gauche, pour que le
     flacon ne finisse pas sous la pile de boutons de TikTok."""
     im = Image.open(os.path.join(SCENES, ean + "c.jpg")).convert("RGB")
-    ech = max(largeur / im.width, hauteur / im.height)
-    im = im.resize((int(im.width * ech) + 1, int(im.height * ech) + 1),
-                   Image.LANCZOS)
-    x = int((im.width - largeur) * biais)
-    y = int((im.height - hauteur) * 0.42)
+    # ZOOM : sans lui le flacon ne fait qu'un tiers de la hauteur et se lit
+    # mal sur un telephone. 1,25 le rapproche sans sortir du decor.
+    ech = max(largeur / im.width, hauteur / im.height) * 1.25
+    im = im.resize((max(int(im.width * ech) + 1, largeur),
+                    max(int(im.height * ech) + 1, hauteur)), Image.LANCZOS)
+    x = int(CENTRE.get(ean, 0.68) * im.width - cible * largeur)
+    x = max(0, min(x, im.width - largeur))
+    # le flacon vit vers le tiers haut de la scene : on le pose au tiers
+    # haut du panneau plutot que de couper au milieu.
+    y = int(HAUTEUR.get(ean, 0.30) * im.height - 0.36 * hauteur)
+    y = max(0, min(y, im.height - hauteur))
     return im.crop((x, y, x + largeur, y + hauteur))
 
 def photo(nom, hauteur, decalage):
@@ -352,8 +389,8 @@ def ecran_double(a, b, hauteur=1000):
     """Les deux flacons cote a cote. Le panneau de droite est recadre vers la
     gauche pour que le flacon ne finisse pas sous la pile de boutons."""
     img = Image.new("RGB", (W, hauteur), CREME)
-    img.paste(panneau(a["ean"], W // 2, hauteur, 0.52), (0, 0))
-    img.paste(panneau(b["ean"], W // 2, hauteur, 0.38), (W // 2, 0))
+    img.paste(panneau(a["ean"], W // 2, hauteur, 0.44), (0, 0))
+    img.paste(panneau(b["ean"], W // 2, hauteur, 0.48), (W // 2, 0))
     d = ImageDraw.Draw(img)
     d.line([(W // 2, 0), (W // 2, hauteur)], fill=CREME, width=4)
     return img
@@ -470,7 +507,7 @@ def diapo_offre(lg):
 def diapo_fin(lg):
     t = T[lg]
     img = Image.new("RGB", (W, H), CREME)
-    img.paste(ecran_double(DUELS[4]["a"], DUELS[4]["b"], 900), (0, 0))
+    img.paste(ecran_double(DUELS[1]["a"], DUELS[1]["b"], 900), (0, 0))
     fondu(img, 560, 340)
     poser_signature(img, MARGE_G, HAUT_SUR + 20,
                     couleur_signature(img, MARGE_G, HAUT_SUR + 20), 30)
