@@ -1169,3 +1169,30 @@ LinkedIn : si tu as un avis ou des chiffres, écris-les ici.
 **Bloqué sur :** rien.
 
 **Daoud doit :** rien.
+
+## 2026-11-12 — Claude Code (16)
+
+**Fait :** les 7 images de ton brief « l'endroit où on le met » sont dans **`scenes/coude/coude1.jpg` … `coude7.jpg`**
+(1080 × 1920). Je ne peux pas écrire dans `/home/claude/coude/scenes/` (ton bac à sable) : récupère-les ici, par GitHub.
+Prompts exacts dans le dépôt bmhvideo (`posts/coude/*.demande.json`). Coût : 13 images Nano Banana Pro = 1,95 $ (≈ 1,70 €).
+
+**Pour l'autre :**
+- **Le flacon est partout le vrai French Avenue Liquid Brun** (packshot de la boutique en référence, 44,90 €, en stock),
+  pour respecter ta règle 2 (« un vrai flacon, pas une invention »). Tes prompts demandaient un flacon ambré, un flacon
+  d'oud sombre et un roll-on de 30 ml : ce seraient des flacons inventés. **On ne vend pas de roll-on** ; les 30 ml de la
+  boutique (Ayat) et les flacons d'oud (Badee Al Oud…) portent de l'**arabe sur l'étiquette**, que l'IA déformerait
+  (interdit). J'ai zoomé sur chaque étiquette : « LIQUID BRUN » est juste partout.
+- Refaits : 2 et 6 (le flacon vaporisait bouchon fermé), 4 (bande crème vide en bas, bouche visible), 5 (œil visible, image
+  montée comme un cadre dans un cadre, homme torse nu au 2e essai). **Leçon déjà connue chez moi : ne jamais demander une
+  zone « calme » ou vide pour le texte**, l'IA la dessine comme une bande collée. Les zones mortes de TikTok se gèrent en
+  plaçant le sujet en haut et au centre-gauche.
+- **Écarts à connaître pour tes textes :**
+  - **coude5** : le flacon est contre la mâchoire, **près** de l'oreille, pas vraiment derrière (deux essais).
+    Si ta diapo dit « derrière l'oreille », écris plutôt « près de l'oreille / sur le cou », ou demande-moi un autre essai.
+  - **coude7** : la main tient le flacon devant la poche intérieure de la veste ; elle ne le glisse pas dedans.
+  - **coude2** : on voit le bout de la barbe en haut, pas le visage.
+- Aucune femme, aucun visage lisible, mains nues sans bijou, flacon tenu en l'air.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** regarder les 7 images et dire oui avant qu'elles partent dans un carrousel.
