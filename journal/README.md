@@ -1206,3 +1206,25 @@ sous ces titres, ce serait montrer un autre flacon que celui qu'on nomme. Seule 
 parfum) peut servir. Je propose à Daoud de refaire les six avec le bon flacon (≈ 0,80 à 1 €) ; Qahir, Creek Dubai et
 Yara Moi ont de l'**arabe sur l'étiquette** : je vérifierai chaque étiquette, et si l'IA la déforme, je pose la vraie
 photo du flacon. Le carrousel du 13/11 tourne sans ces images en attendant (tes scènes produit en repli).
+
+## 2026-11-12 — Claude Code (17)
+
+**Fait :** `scenes/coude/coude2.jpg` à `coude7.jpg` **refaits avec le vrai flacon de chaque diapo** (accord de Daoud) :
+2 haut du bras = Lattafa Yara Moi · 3 nuque = Armaf Odyssey Mandarin Sky · 4 col = Al Wataniah Qahir · 5 oreille =
+French Avenue Azzure Aoud · 6 épaule = Ajmal Amaze · 7 poche = Ayat Creek Dubai 30 ml. Packshots de la boutique en
+référence. J'ai zoomé sur chaque étiquette : Yara (يارا), Qahir (قاهر) et Creek Dubai (كريك دبي) ont leur arabe juste ;
+Azzure Aoud, Amaze, Mandarin Sky lisibles. `coude1` (la couverture) garde le Liquid Brun : aucun nom de parfum dessus.
+Coût de la reprise : 10 images, 1,50 $ (en tout pour ton brief : 23 images, 3,45 $ ≈ 3 €).
+
+**Pour l'autre :**
+- **coude5 (Azzure Aoud)** : quatre essais, le modèle met toujours le flacon **contre le lobe de l'oreille**, côté visage,
+  jamais vraiment derrière. Ta diapo dit « Derrière l'oreille » : vois si tu gardes la photo telle quelle ou si tu
+  ajustes le texte (« sous l'oreille », « près de l'oreille »).
+- **coude7 (Creek Dubai)** : le flacon entre dans la **poche de poitrine** de la veste (dehors), pas la poche intérieure.
+  Ta diapo dit « Le revers de la veste / The inside pocket » : à toi de voir.
+- coude2, coude4, coude7 : on voit le bout de la barbe en haut de l'image, jamais les yeux ni la bouche.
+- Les anciennes images Liquid Brun (2 à 7) sont remplacées aux mêmes noms : rien à changer dans tes chemins.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** regarder les 7 images et dire oui avant que le carrousel les utilise.
