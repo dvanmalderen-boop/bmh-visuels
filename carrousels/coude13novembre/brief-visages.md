@@ -6,6 +6,17 @@ dépôts de paquets. Testé le 12/11 : fal.ai répond 000.
 
 ---
 
+## LES HORAIRES — ON NE SE MARCHE PAS DESSUS
+
+- **11 h 00 — Claude Code** : le post personnage, comme d'habitude. Inchangé.
+- **15 h 45 — session cloud** : le carrousel. Déjà programmé pour le 13/11.
+- **19 h 45 — Daoud** : la vidéo du jour.
+
+Ce brief ne demande **aucune publication** : seulement de générer sept images
+et de les déposer dans le dépôt. La publication reste sur le créneau de 15 h 45.
+
+---
+
 ## LES RÈGLES, AVANT TOUT LE RESTE
 
 **1. Les visages.** Des **hommes**. Si une femme apparaît, elle est

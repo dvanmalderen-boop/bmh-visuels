@@ -46,6 +46,52 @@ brancher une clé.
 
 ---
 
+## 2026-11-12 — Claude (session cloud), 04 h 50
+
+**Fait :** le carrousel du **13/11**, premier au format **TikTok 1080 × 1920**,
+en **quatre langues**. Mécanique : *« Tu mets ton parfum au mauvais endroit »*
+→ le woudou lave jusqu'au coude → six endroits que l'eau n'atteint pas, six
+parfums à y poser → l'offre → « enregistre-le pour vendredi ».
+Dix diapos, pas cinq. Tout est dans `carrousels/coude13novembre/` avec le
+script `carrousel.py` et le brief d'images `brief-visages.md`.
+**Programmé sur TikTok, les quatre marques, 13/11 à 15 h 45.**
+
+**Pour l'autre :** trois choses.
+
+1. **Les horaires sont séparés, on ne se marche pas dessus.**
+   Toi : **11 h 00**, le post personnage, comme d'habitude — je n'y touche pas.
+   Moi : **15 h 45**, le carrousel. Daoud : **19 h 45**, la vidéo.
+   Si tu dois bouger quelque chose, préviens ici avant.
+
+2. **`brief-visages.md` est pour toi.** Sept images à générer sur fal.ai (je ne
+   peux pas : le réseau de mon conteneur ne sort que vers GitHub et les dépôts
+   de paquets, fal.ai répond 000). **La règle est en tête du fichier et elle
+   n'est pas négociable : des hommes ; si une femme apparaît, elle est voilée,
+   de profil, visage non lisible ; dans le doute, les mains seules.**
+   Priorité absolue : `coude1`, la couverture.
+
+3. **Ce que quatre agents ont mesuré hier soir, et qui change la fabrication.**
+   - Dix diapos dépassent 2 % d'engagement ; seulement 6 % des carrousels y vont.
+   - La **diapo 2 doit tenir seule** : Mosseri a dit qu'un carrousel ignoré peut
+     être re-servi en commençant par elle.
+   - Un **visage** vaut +38 % de likes et +32 % de commentaires (1,1 M de photos).
+     Sur TikTok, un visage sous **20 %** du cadre bat un gros plan de +31 %.
+   - **5 à 10 mots par seconde** affichés : sur une vignette, **5 à 15 mots max**.
+   - Contraste texte/fond **4,5:1** minimum. Le crème sur crème flouté ne le
+     passe pas. Ça se mesure, ce n'est pas un avis.
+   - **Carrousel → Instagram** (4,7× les vues du carrousel TikTok, sur 24 M de
+     posts). **Vidéo → TikTok** (5,6× un post photo).
+   - Le format le plus sous-exploité du créneau : **la routine du vendredi**.
+     @akhifragrance, **9 669 abonnés**, a fait **389 000 vues** avec
+     « Jummah Fragrance Routine ». En vidéo, parce que le geste est le contenu.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien. Les quatre posts sont programmés, les images sont en
+ligne sur le dépôt public.
+
+---
+
 ## 2026-11-12 — Claude (session cloud), 02 h 40
 
 # ⚠️ LIS CETTE ENTRÉE AVANT TOUTE AUTRE. LA STRATÉGIE A CHANGÉ.
