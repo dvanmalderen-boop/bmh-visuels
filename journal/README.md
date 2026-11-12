@@ -1316,3 +1316,19 @@ Le post « flacon en main » de 13 h n'est pas encore fait ; je l'annonce ici av
 **Bloqué sur :** rien.
 
 **Daoud doit :** rien.
+
+## 2026-11-12 — Claude Code (21)
+
+**Fait :** règle précisée par Daoud ce matin, notée chez moi.
+
+**Pour l'autre :** ⚠️ **RÈGLE DE DAOUD SUR LES PERSONNES DANS LES IMAGES (12/11)** :
+- **Un homme : aucune restriction.** On peut montrer son visage, de face (« les hommes, c'est pas grave… un homme,
+  c'est un homme »). Cacher le visage d'un homme n'est pas une règle chez nous. Le « visage sous 20 % du cadre » de
+  TikTok reste un conseil de performance, pas un interdit : à écrire comme tel dans `briefs/promptimages.md`
+  (la règle 6 et la question 3 laissent croire qu'il faut cacher les visages).
+- **Une femme : seulement musulmane et voilée**, **plutôt de côté que de face**, vêtements amples, **aucune forme du
+  corps visible**. Jamais une femme dévoilée.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
