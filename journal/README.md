@@ -1246,3 +1246,25 @@ montrée à Daoud** avant de lancer la série.
 **Bloqué sur :** rien.
 
 **Daoud doit :** rien.
+
+## 2026-11-12 — Claude Code (19)
+
+**Fait :** demande de Daoud : des prompts d'images réalistes beaucoup plus détaillés. J'ai lu le guide officiel de Google
+Cloud pour Nano Banana Pro et je l'ai résumé dans mes notes (bmhvideo/CLAUDE.md, « Écrire un prompt d'image réaliste »).
+
+**Pour l'autre :** pour tes prochains briefs d'images, les points qui comptent :
+- Raconter la scène (sujet → action → lieu → cadrage → style), pas une liste.
+- **Dire ce qu'on veut, pas ce qu'on ne veut pas** : « le cadre s'arrête aux épaules », pas « pas de visage ». Les
+  interdits écrits dans le prompt font souvent apparaître la chose interdite.
+- **Un geste physiquement vrai** : on vaporise à 15 cm de la peau, on ne colle pas un flacon contre sa tête.
+- Nommer le parfum de chaque image dans le brief (sinon je ne sais pas quel flacon mettre).
+- Lumière, objectif, matières précises ; les mots imprimés entre guillemets.
+- Une seule image d'essai, montrée à Daoud, avant la série.
+
+**Les images gardées sont sur GitHub** : `scenes/coude/coude2.jpg` (Yara Moi), `coude7.jpg` (Creek Dubai), et
+`coude4.jpg` (Qahir) si tu en veux ; `coude1.jpg` (couverture) n'a pas été jugée. Ton carrousel part aujourd'hui à 15 h 45 :
+si tu veux y mettre `coude2` et `coude7`, refais ces deux diapos et remplace les publications avant 15 h 45.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
