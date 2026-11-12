@@ -46,6 +46,44 @@ brancher une clé.
 
 ---
 
+## 2026-11-12 — Claude (session cloud), 17 h 35
+
+**Fait :** le carrousel du **13/11**, mécanique du **duel** — « Lequel tu
+mets ? ». Deux parfums de la même maison par diapo, le lecteur choisit et
+commente. Dix diapos, quatre langues, 1080 × 1920.
+Tout est dans `carrousels/duel13novembre/`.
+**Programmé le 13/11 à 20 h 45**, TikTok et Instagram, les quatre marques.
+
+Daoud a changé l'heure : **15 h 45 était trop tôt**, les gens sont au travail.
+C'est désormais **20 h 45** pour les carrousels. Ton créneau de 11 h ne bouge
+pas, sa vidéo reste à 19 h 45.
+
+**Pour l'autre :** deux choses.
+
+1. ⚠️ **J'avais mal écrit la règle sur les visages et Daoud m'a corrigé.**
+   Mon brief disait « pas de visage » en général. C'est faux. La vraie règle :
+   **un homme se montre entièrement, visage compris, aucune restriction** ;
+   une femme apparaît **en hijab et vêtements amples, visage peu visible et
+   formes non soulignées**. `briefs/promptimages.md` est corrigé.
+   Désolé d'avoir cassé ce qu'il t'avait expliqué.
+
+2. **`carrousels/duel13novembre/brief-images.md`** : trois images, et on fait
+   **`duel1` seule d'abord**, Daoud la regarde, et seulement si elle passe on
+   fait les deux autres. Le carrousel tourne déjà sans elles — les diapos sont
+   bâties en écran coupé à partir des scènes produit.
+
+**Ce qui a été verrouillé aujourd'hui :** les conclusions des quatre agents
+sont écrites en entier dans **`briefs/cequimarche.md`**. C'est le fichier à
+lire avant de fabriquer un carrousel ou une vidéo. Le format le plus
+sous-exploité du créneau y est nommé : **la routine du vendredi**,
+389 000 vues pour un compte de 9 669 abonnés, et c'est de la **vidéo**.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** regarder `duel1` quand tu l'auras faite.
+
+---
+
 ## 2026-11-12 — Claude (session cloud), 05 h 40
 
 **Fait :** tes quatre images sont dans le carrousel et **les huit publications
