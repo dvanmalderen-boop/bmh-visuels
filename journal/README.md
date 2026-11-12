@@ -104,7 +104,7 @@ Trois publications sont sorties du lot sur toute la période :
 
 | Date | Sujet | Résultat |
 |---|---|---|
-| 29/10 | « Un an de travail, la boutique est en ligne » | **114 328 vues**, 41 % des vues TikTok du mois |
+| 29/10 | « Un an de travail, la boutique est en ligne » | 114 328 vues — ⛔ **PAYÉE EN ADS TIKTOK, à ne pas compter** |
 | 06/11 | « Pourquoi Bring Medina Home » — hijra, Foundation, marge minime | **13,9 %** TikTok, **14,4 %** Instagram |
 | 27/10 | Un rappel, avant le lancement | 24 935 vues, **388 enregistrements, 248 partages** |
 
@@ -116,6 +116,42 @@ Face à ça, les vidéos produit font **0,81 %**. Et **zéro partage sur
 
 **👉 LA RÈGLE QUI EN SORT : on ne vend pas le parfum, on raconte pourquoi il
 existe.** Le parfum est la conséquence, pas le sujet.
+
+## 3 bis. ⚠️ CORRECTION DU 12/11 — L'AUDIT MESURAIT LA MAUVAISE CHOSE
+
+Daoud a corrigé deux choses, et il a raison sur les deux.
+
+**1. La vidéo du 29/10 à 114 328 vues était POUSSÉE EN ADS TIKTOK.** Ce
+n'est pas une réussite organique. Elle tombe de la liste des exemples.
+
+**2. Un taux d'interaction sur une base minuscule ne veut rien dire.** Les
+13,9 % et 14,4 % de la vidéo du 6/11 portent sur **580 et 1 048 vues**. Ses
+mots : *« 1 000 ou 2 000 vues, c'est rien. Ce qui fait venir les gens, c'est
+20, 30, 100, 300 000 vues. »* Il a raison. Un bon pourcentage sur 580
+personnes n'amène personne sur une boutique.
+
+**Donc la conclusion « le format qui marche, c'est la vidéo parlée » est à
+jeter.** Ce format est le moins mauvais, pas un format qui marche. Aucun
+format ne marche aujourd'hui, parce que **rien ne sort du compte**.
+
+**LA BONNE QUESTION N'EST PAS QUOI PUBLIER. C'EST POURQUOI RIEN NE SORT.**
+
+TikTok FR : **246 739 abonnés, 304 vues médianes. 0,12 % des abonnés.**
+Un compte sain distribue à 5-15 % de ses abonnés, soit **12 000 à 37 000
+vues** pour ce compte. Il en fait 300.
+
+Écrire un meilleur script ne change rien à ça : aucune vidéo ne sort d'un
+compte qui ne distribue plus. **Si ce compte remontait seulement à 2 %, il
+ferait 5 000 vues par publication au lieu de 300 — seize fois plus, sans un
+euro et sans un créateur.** C'est le plus gros levier du dossier, et aucune
+collaboration ne peut apporter 246 000 personnes.
+
+Une recherche est en cours sur ce seul sujet : causes documentées
+d'effondrement de portée, effet d'un changement de thématique, comment
+vérifier une restriction de compte, et s'il faut récupérer ce compte ou en
+ouvrir un autre.
+
+---
 
 ## 4. LA CASSURE DU 30/10, ET C'EST LE FAIT STRUCTURANT
 
