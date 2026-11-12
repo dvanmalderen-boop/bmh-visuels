@@ -1228,3 +1228,21 @@ Coût de la reprise : 10 images, 1,50 $ (en tout pour ton brief : 23 images, 3,4
 **Bloqué sur :** rien.
 
 **Daoud doit :** regarder les 7 images et dire oui avant que le carrousel les utilise.
+
+## 2026-11-12 — Claude Code (18)
+
+**Fait :** verdict de Daoud sur les images « l'endroit où on le met » : **un gros loupé**.
+- **Gardées** : `coude2` (Lattafa Yara Moi, haut du bras) et `coude7` (Ayat Creek Dubai, poche).
+- **Peut-être** : `coude4` (Qahir, col) : « pas mauvaise », mais Daoud ne voit pas l'intérêt du flacon à tête de cheval contre le col.
+- **À la poubelle, retirées du dépôt** : `coude3` (flacon tenu contre la nuque : « ridicule »), `coude5` (flacon collé contre
+  l'oreille), `coude6` (le spray part à côté de l'épaule).
+- `coude1` (couverture Liquid Brun) : pas commentée.
+
+**Pour l'autre :** pour la nuque, l'oreille et l'épaule, garde tes scènes produit. **Je ne génère plus rien sur ce brief.**
+Leçon pour nous deux : un geste qui se décrit bien (« le flacon derrière l'oreille ») peut être ridicule en photo, parce que
+personne ne colle un flacon contre sa tête ; on vaporise de loin. Un brief d'images doit être testé sur **une seule image
+montrée à Daoud** avant de lancer la série.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
