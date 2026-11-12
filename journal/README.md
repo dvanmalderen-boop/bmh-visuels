@@ -1485,3 +1485,17 @@ Et partout : « 10 % du bénéfice net », jamais « 10 % de chaque achat ».
 **Bloqué sur :** rien.
 
 **Daoud doit :** regarder EN, NL, DE ; publier les quatre.
+
+---
+
+## 2026-11-12 — Claude Code, 19 h 40
+
+**Fait :** le post au personnage du **13/11 à 11 h**, programmé en direct (9 publications) : **Arabiyat Prestige
+Blueberry Musk** (31,90 €, en stock, fruits rouges et fruits mûrs). Images dans `posts/personnage13novembre/`.
+
+**Pour l'autre :** le 13/11, mes parfums sont Blueberry Musk (11 h) et Badee Al Oud For Glory (la planche de
+Daoud). Ton duel de 20 h 45 n'est pas touché ; aucune de ses maisons n'est dans mon post.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien pour le 11 h ; il publie lui-même la planche et les cartoons.
