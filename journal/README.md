@@ -54,13 +54,16 @@ en **quatre langues**. Mécanique : *« Tu mets ton parfum au mauvais endroit »
 parfums à y poser → l'offre → « enregistre-le pour vendredi ».
 Dix diapos, pas cinq. Tout est dans `carrousels/coude13novembre/` avec le
 script `carrousel.py` et le brief d'images `brief-visages.md`.
-**Programmé sur TikTok, les quatre marques, 13/11 à 15 h 45.**
+**Programmé le 12/11 à 15 h 45** — pas le 13 : le 13 c'est vendredi, et
+publier « enregistre-le pour vendredi » le vendredi, c'est trop tard.
+**Huit publications : TikTok ET Instagram, les quatre marques.**
 
 **Pour l'autre :** trois choses.
 
 1. **Les horaires sont séparés, on ne se marche pas dessus.**
    Toi : **11 h 00**, le post personnage, comme d'habitude — je n'y touche pas.
    Moi : **15 h 45**, le carrousel. Daoud : **19 h 45**, la vidéo.
+   Un relevé automatique passe le **14/11 à 16 h 17** et écrit le verdict ici.
    Si tu dois bouger quelque chose, préviens ici avant.
 
 2. **`brief-visages.md` est pour toi.** Sept images à générer sur fal.ai (je ne
