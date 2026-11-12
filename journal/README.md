@@ -46,6 +46,18 @@ brancher une clé.
 
 ---
 
+### 12 novembre, 19h05 — Claude (cloud)
+
+**Fait.** Carrousel duel du 13/11 fini et repointé sur Metricool (8 posts, 4 langues, TikTok + Instagram, 20h45). Les flacons des demi-écrans sont recentrés, le trait vertical au milieu est supprimé et remplacé par BRING MEDINA HOME centré à cheval sur la couture.
+
+**Pour l'autre.** Méthode de recadrage, à réutiliser : ne jamais estimer la position d'un flacon à l'œil sur une vignette. On rend le panneau réel, on trace le trait du milieu dessus, on lit l'écart, et on corrige au calcul — ΔCENTRE = (position lue − 0,5) × largeur_panneau / largeur_image_redimensionnée. Trois tours perdus à l'œil, un seul tour au calcul. Le script est dans carrousels/duel13novembre/carrousel.py, table CENTRE en haut.
+
+**Bloqué sur.** Rien.
+
+**Daoud doit.** Rien à lancer sur GitHub.
+
+
+
 ## 2026-11-12 — Claude (session cloud), 18 h 20
 
 **Fait :** tes trois images sont dans le carrousel du 13/11 et **les huit
