@@ -123,6 +123,22 @@ def couleur_signature(img, x, y, largeur=560, hauteur=60):
     clarte = sum(0.299 * r + 0.587 * g + 0.114 * b for r, g, b in px) / len(px)
     return ENCRE if clarte > 150 else BLANC
 
+def largeur_signature(corps=30, espace=7):
+    d = ImageDraw.Draw(Image.new("RGB", (8, 8)))
+    p = inter(corps, "SemiBold")
+    t = int(corps * 0.52) * 2 + 2
+    l = t + corps * 0.75
+    for c in "BRING MEDINA HOME":
+        l += d.textlength(c, font=p) + espace
+    return l - espace + 4 + d.textlength("\u00ae", font=inter(int(corps * 0.55), "Medium"))
+
+def poser_signature_centree(img, y, couleur, corps=36, espace=8):
+    """La signature posee au milieu, a cheval sur la couture des deux
+    photos. Daoud : le petit trait de separation « casse » l'image ; c'est
+    la marque qui doit tenir les deux moities ensemble, pas une ligne."""
+    poser_signature(img, (W - largeur_signature(corps, espace)) / 2, y,
+                    couleur, corps, espace)
+
 def poser_signature(img, x, y, couleur, corps=30, espace=7):
     r = int(corps * 0.52)
     t = r * 2 + 2
@@ -152,18 +168,18 @@ def poser_signature(img, x, y, couleur, corps=30, espace=7):
 #  parce que la detection automatique attrapait le bois seche, qui est net
 #  lui aussi.
 CENTRE = {
- "6290171002338": 0.68,  # Afnan 9pm
- "6290171002345": 0.72,  # Afnan 9am
- "6291106066890": 0.72,  # Ana Abiyedh
- "6291107454412": 0.65,  # Ana Abiyedh Rouge
- "6291100139668": 0.56,  # Al Haramain L'aventure
- "6291100137565": 0.70,  # Al Haramain Aventure Femme
- "6290360378053": 0.68,  # Vulcan Feu
- "6290360378060": 0.72,  # Vulcan Sable
- "6290362162629": 0.68,  # Gulf Orchid Mango Ice
- "6290362162643": 0.68,  # Gulf Orchid Creme Caramel
- "6085010044712": 0.68,  # Armaf Club de Nuit Intense Man
- "6294015164152": 0.72,  # Armaf Club de Nuit Iconic
+ "6290171002338": 0.69,  # Afnan 9pm
+ "6290171002345": 0.63,  # Afnan 9am
+ "6291106066890": 0.70,  # Ana Abiyedh
+ "6291107454412": 0.79,  # Ana Abiyedh Rouge
+ "6291100139668": 0.66,  # Al Haramain L'aventure (cube argent)
+ "6291100137565": 0.74,  # Al Haramain Aventure Femme (cube or)
+ "6290360378053": 0.68,  # French Avenue Vulcan Feu
+ "6290360378060": 0.76,  # French Avenue Vulcan Sable
+ "6290362162629": 0.64,  # Gulf Orchid Mango Ice
+ "6290362162643": 0.71,  # Gulf Orchid Creme Caramel
+ "6085010044712": 0.71,  # Armaf Club de Nuit Intense Man
+ "6294015164152": 0.73,  # Armaf Club de Nuit Iconic
 }
 
 #  A quelle hauteur vit le flacon, en fraction de la hauteur de la scene.
@@ -389,10 +405,8 @@ def ecran_double(a, b, hauteur=1000):
     """Les deux flacons cote a cote. Le panneau de droite est recadre vers la
     gauche pour que le flacon ne finisse pas sous la pile de boutons."""
     img = Image.new("RGB", (W, hauteur), CREME)
-    img.paste(panneau(a["ean"], W // 2, hauteur, 0.44), (0, 0))
-    img.paste(panneau(b["ean"], W // 2, hauteur, 0.48), (W // 2, 0))
-    d = ImageDraw.Draw(img)
-    d.line([(W // 2, 0), (W // 2, hauteur)], fill=CREME, width=4)
+    img.paste(panneau(a["ean"], W // 2, hauteur, 0.50), (0, 0))
+    img.paste(panneau(b["ean"], W // 2, hauteur, 0.50), (W // 2, 0))
     return img
 
 def diapo_1(lg):
@@ -407,8 +421,8 @@ def diapo_1(lg):
     else:
         img.paste(ecran_double(DUELS[0]["a"], DUELS[0]["b"], 1060), (0, 0))
         fondu(img, 880, 180)
-    poser_signature(img, MARGE_G, HAUT_SUR + 20,
-                    couleur_signature(img, MARGE_G, HAUT_SUR + 20), 30)
+    poser_signature_centree(img, HAUT_SUR + 24,
+                            couleur_signature(img, 260, HAUT_SUR + 24))
     d = ImageDraw.Draw(img)
     y = bloc_ajuste(d, MARGE_G, 1082, t["t1a"], 76, ENCRE, LARGE, 1240,
                     1.10, poids=700, mini=50)
@@ -422,7 +436,7 @@ def diapo_1(lg):
 def diapo_2(lg):
     t = T[lg]
     img = Image.new("RGB", (W, H), CREME)
-    poser_signature(img, MARGE_G, HAUT_SUR + 20, ENCRE_D, 30)
+    poser_signature_centree(img, HAUT_SUR + 24, ENCRE_D)
     d = ImageDraw.Draw(img)
     y = bloc_ajuste(d, MARGE_G, 420, [(t["t2a"], ENCRE), (t["t2b"], ORANGE)],
                     88, ENCRE, LARGE + 120, 700, 1.10, poids=700, mini=54)
@@ -462,8 +476,8 @@ def diapo_duel(duel, n, lg):
     else:
         img.paste(ecran_double(duel["a"], duel["b"], 1040), (0, 0))
     fondu(img, 840, 200)
-    poser_signature(img, MARGE_G, HAUT_SUR + 20,
-                    couleur_signature(img, MARGE_G, HAUT_SUR + 20), 28)
+    poser_signature_centree(img, HAUT_SUR + 24,
+                            couleur_signature(img, 260, HAUT_SUR + 24))
     d = ImageDraw.Draw(img)
 
     lettrage(d, 1052, "%d / 6   ·   %s" % (n, duel["maison"]),
@@ -488,7 +502,7 @@ def diapo_duel(duel, n, lg):
 def diapo_offre(lg):
     t = T[lg]
     img = Image.new("RGB", (W, H), ENCRE)
-    poser_signature(img, MARGE_G, HAUT_SUR + 20, CREME, 30)
+    poser_signature_centree(img, HAUT_SUR + 24, CREME)
     d = ImageDraw.Draw(img)
     y = bloc_ajuste(d, MARGE_G, 420, t["o1"], 90, CREME, LARGE + 160, 620,
                     1.10, poids=700, mini=58)
@@ -509,8 +523,8 @@ def diapo_fin(lg):
     img = Image.new("RGB", (W, H), CREME)
     img.paste(ecran_double(DUELS[1]["a"], DUELS[1]["b"], 900), (0, 0))
     fondu(img, 560, 340)
-    poser_signature(img, MARGE_G, HAUT_SUR + 20,
-                    couleur_signature(img, MARGE_G, HAUT_SUR + 20), 30)
+    poser_signature_centree(img, HAUT_SUR + 24,
+                            couleur_signature(img, 260, HAUT_SUR + 24))
     d = ImageDraw.Draw(img)
     y = bloc_ajuste(d, MARGE_G, 980, [(t["f1"], ENCRE), (t["f2"], ORANGE)],
                     86, ENCRE, LARGE + 160, 1190, 1.10, poids=700, mini=50)
