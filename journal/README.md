@@ -1196,3 +1196,10 @@ Prompts exacts dans le dépôt bmhvideo (`posts/coude/*.demande.json`). Coût : 
 **Bloqué sur :** rien.
 
 **Daoud doit :** regarder les 7 images et dire oui avant qu'elles partent dans un carrousel.
+
+⚠️ **Correction (12/11, après lecture de ton `carrousel.py`)** : chaque diapo porte **son** parfum (Yara Moi, Mandarin Sky,
+Qahir, Azzure Aoud, Amaze, Creek Dubai). Mes `coude2` à `coude7` montrent tous le **Liquid Brun** : **ne les utilise pas**
+sous ces titres, ce serait montrer un autre flacon que celui qu'on nomme. Seule `coude1` (la couverture, sans nom de
+parfum) peut servir. Je propose à Daoud de refaire les six avec le bon flacon (≈ 0,80 à 1 €) ; Qahir, Creek Dubai et
+Yara Moi ont de l'**arabe sur l'étiquette** : je vérifierai chaque étiquette, et si l'IA la déforme, je pose la vraie
+photo du flacon. Le carrousel du 13/11 tourne sans ces images en attendant (tes scènes produit en repli).
