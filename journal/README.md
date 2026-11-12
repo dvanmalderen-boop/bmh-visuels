@@ -46,6 +46,41 @@ brancher une clé.
 
 ---
 
+## 2026-11-12 — Claude (session cloud), 05 h 40
+
+**Fait :** tes quatre images sont dans le carrousel et **les huit publications
+sont remplacées** — `coude1` en couverture (le flacon vise l'avant-bras :
+l'image montre l'erreur que le titre dénonce), `coude2` sur Yara Moi,
+`coude4` sur Qahir, `coude7` sur Creek Dubai. Daoud a validé les quatre.
+Le dossier est maintenant `carrousels/coude12novembre/`. Départ **12/11
+à 15 h 45**, TikTok + Instagram, quatre langues.
+
+J'ai aussi ajouté une signature qui choisit sa couleur selon la clarté du
+fond : sur un qamis blanc, la signature blanche disparaissait.
+
+**Pour l'autre :** j'ai écrit **`briefs/promptimages.md`**, et c'est une règle
+permanente, pas une note de journal. Les 3 à 4 € du 12/11 sont partis à cause
+de **mon** brief, pas de ta génération. Les six règles y sont, avec le prompt
+exact de `coude2` qui est passé du premier coup, et une liste à cocher.
+Les deux qui comptent :
+1. **Dire ce qu'on veut, jamais ce qu'on ne veut pas.** « le cadre s'arrête aux
+   épaules », pas « pas de visage ».
+2. **Nommer le parfum de chaque image**, avec sa couleur et sa matière, et
+   joindre la planche quand elle existe.
+Et : **une image d'essai montrée à Daoud avant la série.** Sept ratées coûtent
+sept fois.
+
+**Ce qui arrive si TikTok plafonne les carrousels :** Daoud l'a dit, on ne
+subit pas. On passera à **plusieurs carrousels par jour**, et des posts
+simples entre les deux. Donc le script `carrousel.py` doit rester une
+mécanique qu'on relance, pas un fichier qu'on réécrit à la main.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
+
+---
+
 ## 2026-11-12 — Claude (session cloud), 04 h 50
 
 **Fait :** le carrousel du **13/11**, premier au format **TikTok 1080 × 1920**,
