@@ -46,6 +46,179 @@ brancher une clé.
 
 ---
 
+## 2026-11-12 — Claude (session cloud), 02 h 40
+
+# ⚠️ LIS CETTE ENTRÉE AVANT TOUTE AUTRE. LA STRATÉGIE A CHANGÉ.
+
+**Daoud a posé son échéance : fin décembre.** Après, les charges deviennent
+impayables. ~550 €/mois contre 295 € de chiffre d'affaires **depuis le
+18 octobre**. Cinq commandes. Zéro budget publicitaire, et il n'y en aura pas.
+
+Il a demandé une analyse complète, sans complaisance. Ses mots : *« ne viens
+pas me dire que mes vidéos c'est un succès, parce que ça c'est des conneries.
+1000 views sur Instagram c'est du pipeau. »* Il a raison. Deux audits ont
+tourné — Metricool sur les quatre comptes, et une recherche sur les leviers de
+trafic sans budget. Voici ce qu'ils disent.
+
+---
+
+## 1. LE CHIFFRE QUI CADRE TOUT
+
+**390 000 vues sur 30 jours, toutes plateformes. 38 sessions sur la boutique.**
+
+Une session pour 10 000 vues. **0,01 %.** Un compte sain est entre 0,5 et 2 %.
+
+Et le détail qui tue : **les clics sur lien ne sont mesurables sur aucun
+réseau** sauf X, où ils valent zéro. Instagram a déprécié la métrique, TikTok
+et YouTube ne l'ont jamais eue. **Toute attribution part de Shopify, jamais de
+Metricool.** Ne jamais raisonner sur une statistique de clic venue d'ailleurs.
+
+## 2. L'ÉQUATION, ET C'EST ELLE LE VRAI SUJET
+
+Le port est un coût **par commande**, pas par flacon. Donc :
+
+| Flacons par commande | Net pour Daoud | Commandes/mois pour 550 € |
+|---|---|---|
+| 1 | ~4,50 € | **122** |
+| 2 | ~14 € | **39** |
+| 3 | ~23,50 € | **23** |
+
+**Faire passer le panier de 1 à 2 flacons divise l'objectif par trois.** Ce
+n'est pas du marketing, c'est de l'arithmétique, et **ça ne demande pas un
+visiteur de plus**.
+
+C'est la conclusion commune des deux audits : **les sept semaines ne se jouent
+pas sur le trafic, elles se jouent sur le panier.** 122 flacons à l'unité est
+hors de portée en organique. 39 commandes à deux flacons ne l'est pas.
+
+Le seuil de livraison offerte à 90 € est **52 % au-dessus du panier moyen**,
+quand la pratique documentée est 20 à 30 %. Personne ne l'atteint jamais.
+**Proposition à soumettre à Daoud, pas à appliquer :** descendre vers 75 €, et
+construire des duos explicites de deux flacons.
+⚠️ Les prix des flacons restent **figés** depuis le 03/11. On ne touche pas aux
+prix. Le seuil de port et les duos sont autre chose.
+
+## 3. CE QUI MARCHE — UNE SEULE CHOSE, ET ELLE EST CLAIRE
+
+Trois publications sont sorties du lot sur toute la période :
+
+| Date | Sujet | Résultat |
+|---|---|---|
+| 29/10 | « Un an de travail, la boutique est en ligne » | **114 328 vues**, 41 % des vues TikTok du mois |
+| 06/11 | « Pourquoi Bring Medina Home » — hijra, Foundation, marge minime | **13,9 %** TikTok, **14,4 %** Instagram |
+| 27/10 | Un rappel, avant le lancement | 24 935 vues, **388 enregistrements, 248 partages** |
+
+**Point commun : aucune ne vend un flacon.** Daoud qui parle, le soir, d'un
+engagement personnel, avec un enjeu que le spectateur peut relayer.
+
+Face à ça, les vidéos produit font **0,81 %**. Et **zéro partage sur
+27 publications feed Instagram**. Aucune fiche produit n'a jamais été partagée.
+
+**👉 LA RÈGLE QUI EN SORT : on ne vend pas le parfum, on raconte pourquoi il
+existe.** Le parfum est la conséquence, pas le sujet.
+
+## 4. LA CASSURE DU 30/10, ET C'EST LE FAIT STRUCTURANT
+
+TikTok FR, vues médianes par publication :
+**avant le lancement 834 · après 315. −62 %, du jour au lendemain.**
+Instagram : 1 550 avant le 29/10, 406 après.
+
+246 739 abonnés sur TikTok FR, **304 vues médianes**. Un abonné sur huit cents.
+
+L'explication : le compte vivait de contenu d'affiliation et de rappels. **Son
+audience ne s'est pas abonnée pour une boutique de parfum.** En basculant sur
+le produit, l'engagement est tombé et la distribution avec. L'audience n'est
+pas perdue — l'accord entre le contenu et la raison de l'abonnement l'est.
+
+## 5. CE QU'IL FAUT ARRÊTER
+
+- **X** — 82 abonnés, ~65 publications en 12 jours, **0 impression, 0 clic**, et
+  10 €/mois. Ce n'est pas une économie, c'est un canal mort qui consomme du
+  temps de production.
+- **Les 4 posts photo/jour sur TikTok** — 27 publications, **8 208 vues en
+  tout**, 7 interactions médianes, portée renvoyée à 0 depuis le 10/11.
+- **Threads** — 12 740 abonnés, **44 vues médianes**.
+- **Instagram EN** — portée médiane de **2 à 7 personnes** par publication.
+  Inutile d'alimenter tant que personne n'y amène d'audience.
+- **TikTok EN et NL** — ~760 vues par publication, écart-type sous 140 sur
+  38 publications, moins de 1 % de likes. **Ce ne sont pas des spectateurs**,
+  c'est de la distribution de pool. **Ne jamais compter ces vues comme de la
+  portée.**
+- **Le post personnage** : 15 publications, 24 interactions au total,
+  2 abonnés gagnés. ⚠️ **DAOUD A TRANCHÉ LE 10/11 : ON N'Y TOUCHE PAS.** Le
+  chiffre est noté pour l'honnêteté, pas pour rouvrir la décision.
+
+## 6. LES HEURES — le test du 11/11 va dans le bon sens
+
+`getBestTimeToPostByNetwork` confirme : Instagram, **10 h est le pic absolu**
+tous les jours de semaine (4 942 à 6 734) contre 3 326-4 641 à 13 h, soit
+**+40 à +50 %**. TikTok : 10 h et 18 h sont les pics, **13 h est le pire
+créneau de la journée active**. Et les trois publications qui ont marché sont
+toutes entre **17 h et 19 h 30**. Un seul jour de test exploitable pour
+l'instant, aucune conclusion, mais la direction est bonne.
+
+## 7. CE QUI EST FERMÉ, VÉRIFIÉ, À NE PAS REPROPOSER
+
+- **r/fragrance** : *« Discussion of selling fragrances is not permitted »*.
+- **bol.com** : **interdit explicitement le dropshipping**. Amazon : parfum sous
+  gating de marque. Les places de marché sont fermées.
+- **L'affiliation** : elle est la **conséquence** d'un seeding réussi, jamais
+  son point d'entrée. Daoud l'a fermée le 03/11, elle reste fermée.
+  Et à 4,50 € de net, une commission de 15 % laisse 0,70 € — ça n'achète
+  personne.
+- **Shopify Collabs** : la place de marché créateurs exigerait 10 000 $ de
+  ventes et une boutique US/CA. *(source tierce, à confirmer dans son admin)*
+- **Pinterest** : 4 à 12 semaines de latence entre le clic et l'achat. Trop
+  lent pour l'échéance.
+
+## 8. CE QUE JE DEMANDE À CLAUDE CODE
+
+Dans l'ordre, et le premier est de loin le plus important.
+
+**1. Les visuels du duo.** Deux flacons dans le même cadre, pas un. C'est le
+levier n°1 de tout le dossier et il n'existe aucun visuel pour ça aujourd'hui.
+Il faut de quoi montrer « deux flacons, livraison offerte » sur tous les
+formats. **La règle de la main validée le 10/11 s'applique : la main SOULÈVE,
+sans appui visible, main nue, flacon réel.**
+
+**2. Les vidéos « pourquoi », pas « quoi ».** C'est le seul format qui marche :
+14 % contre 0,8 %. Le sujet n'est pas le parfum, c'est **la hijra, la
+Foundation, les 10 % réservés, pourquoi la marge est mince**. Daoud parle. Le
+soir. Si tu peux générer ou monter quoi que ce soit qui serve ce format,
+c'est là qu'il faut mettre l'énergie — pas sur une 28ᵉ fiche produit animée.
+
+**3. Rien pour X, rien pour Threads, rien pour Instagram EN** tant que la
+situation n'a pas changé. Le temps de production qui y va est perdu.
+
+## 9. CE QUE JE N'AI PAS VÉRIFIÉ, ET QU'IL NE FAUT PAS PRÉSENTER COMME ACQUIS
+
+- **Le taux de conversion de 6 %** (5 commandes / 76 sessions externes) **n'a
+  aucune valeur statistique.** Je m'en suis servi dans un message à Daoud ce
+  matin, j'ai eu tort. Sur du trafic froid, tabler sur 2 à 2,5 %.
+- **Les 692 sessions « direct »** : je suppose que ce sont surtout celles de
+  Daoud et de son éditeur de thème. **Non vérifié.** S'il est premier sur
+  Google pour sa marque, une partie du trafic social arrive en direct et les
+  38 sessions sous-estiment la réalité.
+- **Y a-t-il un lien cliquable en bio** sur TikTok et Instagram, dans les
+  quatre langues ? **Question posée à Daoud, sans réponse à cette heure.**
+  C'est le premier maillon de toute la chaîne.
+- **Khalid crée en anglais et en néerlandais, pas en français.** Son audience
+  de 165 000 ne nourrit donc **pas** le marché francophone. Elle peut en
+  revanche faire exister les comptes EN et NL, qui sont à 89 et 3 392 abonnés
+  avec 2 à 7 personnes touchées. J'avais présenté Khalid comme « l'opération du
+  trimestre » sans avoir vu ça.
+- **Le seul canal dont on ait une preuve de conversion est le Facebook
+  personnel de Daoud (~45 000 abonnés)** : sa première commande à deux flacons
+  en vient. ⚠️ À ne pas confondre avec la page Facebook BMH, abandonnée le
+  08/11. Le compte personnel, lui, est le canal le plus efficace du dossier.
+
+**Bloqué sur :** la réponse de Daoud sur les liens en bio.
+
+**Daoud doit :** décider sur les duos et le seuil de port. Rien d'autre n'est
+bloquant.
+
+---
+
 ## 2026-11-11 — Claude (session cloud), 05 h 15
 
 **Fait. La table de correspondance des noms de marque Shopify ↔ BTS existe :
