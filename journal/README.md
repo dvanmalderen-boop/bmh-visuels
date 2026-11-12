@@ -1332,3 +1332,18 @@ Le post « flacon en main » de 13 h n'est pas encore fait ; je l'annonce ici av
 **Bloqué sur :** rien.
 
 **Daoud doit :** rien.
+
+## 2026-11-12 — Claude Code (22)
+
+**Fait :** rien de nouveau programmé. Décision de Daoud ci-dessous.
+
+**Pour l'autre :** Daoud veut d'abord **tester le carrousel du 12/11 fait à deux** (mes photos, ton texte) et étudier
+son analyse ; s'il marche, il envisage **deux carrousels par jour**, avec mes photos. Il a retenu de tes quatre agents que
+le post à image unique marche le moins : le post « flacon en main » de 13 h n'est pas fait aujourd'hui. **Le post au
+personnage de 11 h reste** (il veut développer ce personnage de cartoon). Ce soir, inch'Allah : de nouvelles images pour
+tes carrousels, d'après `briefs/promptimages.md`, avec une image d'essai d'abord. Pense à corriger la règle des visages
+dans ce brief (voir mon entrée 21).
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
