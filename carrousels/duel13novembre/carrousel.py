@@ -363,20 +363,23 @@ def diapo_1(lg):
     img = Image.new("RGB", (W, H), CREME)
     nom = os.path.join(PHOTOS, "duel1.jpg")
     if os.path.exists(nom):
-        img.paste(photo("duel1.jpg", 980, 90), (0, 0))
+        # 45 et pas 90 : a 90 la signature touche les cheveux et « HOME » se
+        # perd dans le noir. Valeur testee par Claude Code le 12/11.
+        img.paste(photo("duel1.jpg", 1060, 45), (0, 0))
+        fondu(img, 880, 180)
     else:
-        img.paste(ecran_double(DUELS[0]["a"], DUELS[0]["b"], 980), (0, 0))
-    fondu(img, 700, 280)
+        img.paste(ecran_double(DUELS[0]["a"], DUELS[0]["b"], 1060), (0, 0))
+        fondu(img, 880, 180)
     poser_signature(img, MARGE_G, HAUT_SUR + 20,
                     couleur_signature(img, MARGE_G, HAUT_SUR + 20), 30)
     d = ImageDraw.Draw(img)
-    y = bloc_ajuste(d, MARGE_G, 980, t["t1a"], 84, ENCRE, LARGE, 1200,
-                    1.10, poids=700, mini=52)
-    y += 40
-    bloc_ajuste(d, MARGE_G, y, t["t1s"], 42, ENCRE_D, LARGE, 1306,
-                1.28, poids=430, ital=True)
-    d.line([(MARGE_G, 1330), (MARGE_G + 180, 1330)], fill=OCRE, width=4)
-    lettrage(d, 1388, t["t1p"], inter(26, "SemiBold"), OCRE, 6)
+    y = bloc_ajuste(d, MARGE_G, 1082, t["t1a"], 76, ENCRE, LARGE, 1240,
+                    1.10, poids=700, mini=50)
+    y += 32
+    bloc_ajuste(d, MARGE_G, y, t["t1s"], 40, ENCRE_D, LARGE, 1366,
+                1.26, poids=430, ital=True)
+    d.line([(MARGE_G, 1390), (MARGE_G + 180, 1390)], fill=OCRE, width=4)
+    lettrage(d, 1428, t["t1p"], inter(24, "SemiBold"), OCRE, 6)
     return img
 
 def diapo_2(lg):
@@ -412,20 +415,23 @@ def ligne_parfum(img, d, y, c, lg, couleur_nom):
 
 def diapo_duel(duel, n, lg):
     img = Image.new("RGB", (W, H), CREME)
+    # duel1.jpg est la COUVERTURE : on ne la remet pas en diapo 3, sinon les
+    # deux premieres vignettes du profil sont la meme image.
     nom = "duel%d.jpg" % n
-    if os.path.exists(os.path.join(PHOTOS, nom)):
-        img.paste(photo(nom, 1000, 150), (0, 0))
-        fondu(img, 770, 230)
+    if n != 1 and os.path.exists(os.path.join(PHOTOS, nom)):
+        # duel6 a son petit texte « club de nuit » plus bas : on descend un
+        # peu plus la fenetre pour qu'il reste net. Note de Claude Code.
+        img.paste(photo(nom, 1040, 220 if n == 6 else 150), (0, 0))
     else:
-        img.paste(ecran_double(duel["a"], duel["b"]), (0, 0))
-        fondu(img, 740, 260)
+        img.paste(ecran_double(duel["a"], duel["b"], 1040), (0, 0))
+    fondu(img, 840, 200)
     poser_signature(img, MARGE_G, HAUT_SUR + 20,
                     couleur_signature(img, MARGE_G, HAUT_SUR + 20), 28)
     d = ImageDraw.Draw(img)
 
-    lettrage(d, 1012, "%d / 6   ·   %s" % (n, duel["maison"]),
+    lettrage(d, 1052, "%d / 6   ·   %s" % (n, duel["maison"]),
              inter(28, "SemiBold"), ORANGE, 6)
-    y = ligne_parfum(img, d, 1046, duel["a"], lg, ENCRE)
+    y = ligne_parfum(img, d, 1086, duel["a"], lg, ENCRE)
 
     # le trait avec « OU » pose dessus
     p = inter(26, "SemiBold")
@@ -437,9 +443,9 @@ def diapo_duel(duel, n, lg):
 
     ligne_parfum(img, d, y + 52, duel["b"], lg, ENCRE)
 
-    d.line([(MARGE_G, 1326), (W - MARGE_D, 1326)], fill=(206, 190, 164), width=2)
-    bloc_ajuste(d, MARGE_G, 1356, ligne_ecart(duel, lg), 38, ENCRE_D,
-                LARGE, 1432, 1.22, poids=480, ital=True)
+    d.line([(MARGE_G, 1364), (W - MARGE_D, 1364)], fill=(206, 190, 164), width=2)
+    bloc_ajuste(d, MARGE_G, 1392, ligne_ecart(duel, lg), 36, ENCRE_D,
+                LARGE, 1444, 1.20, poids=480, ital=True)
     return img
 
 def diapo_offre(lg):
