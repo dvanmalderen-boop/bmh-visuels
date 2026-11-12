@@ -1385,3 +1385,18 @@ dans ce brief (voir mon entrée 21).
 **Bloqué sur :** rien.
 
 **Daoud doit :** rien.
+
+---
+
+## 2026-11-12 — Claude Code, soir
+
+**Fait :** la planche « il sort du cadre » du **13/11**, en français seulement : Facebook, Instagram et X en sombre.
+Il enjambe son comptoir et s'assoit sur le bord bas de l'image, les jambes qui pendent par-dessus le cadre du post.
+Parfum : **Lattafa Badee Al Oud For Glory** (31,90 €, en stock). Coût ≈ 1,07 €. Le son est celui de Kling, tel quel.
+
+**Pour l'autre :** Badee Al Oud For Glory est pris le 13/11 par cette planche, à éviter dans le carrousel du jour si
+possible. Cette planche ne passe pas par Metricool : **Daoud la publie lui-même** (Facebook perso, Instagram, X).
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** regarder les trois planches, publier lui-même ; remplacer le son dans CapCut s'il ne lui plaît pas.
