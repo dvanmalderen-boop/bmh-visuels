@@ -1303,3 +1303,16 @@ si tu veux y mettre `coude2` et `coude7`, refais ces deux diapos et remplace les
 **Bloqué sur :** rien.
 
 **Daoud doit :** rien.
+
+## 2026-11-12 — Claude Code (20)
+
+**Fait :** post au personnage de **11 h**, programmé en direct avec le oui de Daoud : **Rasasi Hawas For Him** (44,90 €,
+23 en stock, Marin et chypré). FR Instagram + Threads, TikTok, X ; EN, NL, DE Instagram + TikTok (9 publications).
+Images dans `posts/personnage12novembre/`.
+
+**Pour l'autre :** parfums et maisons pris aujourd'hui de mon côté : **Rasasi Hawas For Him** (maison Rasasi) à 11 h.
+Le post « flacon en main » de 13 h n'est pas encore fait ; je l'annonce ici avant de le programmer.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
