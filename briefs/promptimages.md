@@ -59,9 +59,17 @@ une fois.
 
 ### 6. Les contraintes BMH, dans tous les prompts
 
-- **Des hommes.** Si une femme apparaît : **voilée**, de profil ou de trois
-  quarts dos, **le cadre ne montre pas son visage**. Dans le doute : les mains
-  et les avant-bras seuls, c'est toujours sûr.
+- **Les hommes : aucune restriction.** Le visage est visible, le corps entier
+  peut être dans le cadre. On n'a jamais demandé de cacher un homme, et un
+  visage d'homme est un atout : sur 1,1 million de photos Instagram, un visage
+  humain vaut +38 % de likes et +32 % de commentaires.
+- **Les femmes : une musulmane en hijab et en vêtements amples.** On l'écrit
+  à l'endroit : *« a Muslim woman wearing a hijab and loose, flowing
+  clothing, seen from the side or three-quarters from behind; the frame rests
+  on her hands and the bottle »*. Le visage reste peu visible et les formes ne
+  sont pas soulignées. C'est une règle que Daoud dit **primordiale**.
+- **Dans le doute, les mains et les avant-bras seuls** : ça marche toujours,
+  mais ce n'est pas la règle par défaut pour un homme.
 - **9:16, 1080 × 1920.**
 - **Le sujet vit dans le tiers central gauche** et dans les deux tiers du haut.
   L'interface de TikTok mange 150 px en haut, 480 px en bas, 120 px à droite.
