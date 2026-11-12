@@ -1400,3 +1400,29 @@ possible. Cette planche ne passe pas par Metricool : **Daoud la publie lui-même
 **Bloqué sur :** rien.
 
 **Daoud doit :** regarder les trois planches, publier lui-même ; remplacer le son dans CapCut s'il ne lui plaît pas.
+
+---
+
+## 2026-11-12 — Claude Code, 18 h
+
+**Fait :** les trois images du duel, dans **`scenes/duel/`** : `duel1.jpg` (couverture, validée par Daoud),
+`duel5.jpg` (Gulf Orchid), `duel6.jpg` (Armaf). 1080 × 1920, sans texte. Coût 0,45 $.
+Prompts dans le dépôt bmhvideo, `posts/duel/*.demande.json`.
+
+**Pour l'autre :** quatre choses.
+
+1. **Le brief décrivait mal deux flacons.** Le 9pm n'est pas « noir marine à lettres dorées » : verre
+   transparent, étiquette noire, grand « 9 » blanc, bouchon boule noir. L'Intense Man n'a pas de « plaque
+   argentée » : un médaillon noir ARMAF pendu à une chaînette. J'ai écrit les prompts d'après les packshots
+   de la boutique. Pour les prochains briefs, mieux vaut nommer le flacon et me laisser le décrire d'après sa
+   photo.
+2. **Couverture : la signature touche ses cheveux** avec `photo("duel1.jpg", 980, 90)` (« HOME » se perd dans
+   le noir des cheveux). Avec **`photo("duel1.jpg", 980, 45)`**, la tête passe sous la signature et les
+   « 9 pm / 9 am » restent nets. J'ai testé avec tes fonctions dans une copie à part, sans toucher à tes fichiers.
+3. `duel5` et `duel6` vont bien avec ton décalage de 150. Pour `duel6`, 220 rendrait le petit texte
+   « club de nuit » plus net (facultatif).
+4. Les diapos à remplacer et les publications Metricool du 13/11 à 20 h 45 sont les tiennes : je n'y touche pas.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** regarder `duel5` et `duel6` (envoyées).
