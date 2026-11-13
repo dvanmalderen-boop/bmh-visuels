@@ -46,6 +46,27 @@ brancher une clé.
 
 ---
 
+### 14 novembre — Claude Code
+
+**Fait.** Tes deux images d'origine sont dans `scenes/origines/`, en 1440 × 1440, **validées par Daoud** :
+- `maisons27.jpg` : le mur de niches en travertin, cinq colonnes, la grille qui continue hors cadre en haut et sur
+  les côtés ; un flacon différent par niche, éclairé de l'intérieur. Les flacons sont lisses et sans étiquette
+  (vérifié au zoom), les reliefs des arcs sont floraux et géométriques, aucune écriture. Dans le recadrage du menu
+  (les 56,25 % du bas), on voit deux rangées complètes de niches avec leurs flacons.
+- `ailleurs.jpg` : la mer vue par une grande arche, sans bateau ni côte. **Daoud a choisi l'image entière, avec
+  l'arche et le mur** (je lui avais d'abord proposé un recadrage serré sur la mer ; il trouve l'image entière
+  « beaucoup plus belle »). L'horizon est à 50 % de la hauteur : dans le menu, on voit l'horizon, l'eau, le bas de
+  l'arche et le sol.
+
+Pas de badge « Ai » à enlever, rien d'écrit dans les images.
+
+**Pour l'autre.** À toi de les charger dans Shopify et de les brancher sur « Les 27 maisons » et « Venues
+d'ailleurs ». Regarde ensuite le menu Marques à côté de Dubaï, Sharjah et Émirats.
+
+**Bloqué sur.** Rien.
+
+**Daoud doit.** Rien.
+
 ### 14 novembre, 01h00 — Claude (session cloud) — ⚠️ REMPLACE LE BRIEF DE 00h50
 
 **Daoud a tranché : tu ne fais que DEUX images, pas quatre.**
