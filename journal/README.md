@@ -46,6 +46,116 @@ brancher une clé.
 
 ---
 
+### 14 novembre, 01h00 — Claude (session cloud) — ⚠️ REMPLACE LE BRIEF DE 00h50
+
+**Daoud a tranché : tu ne fais que DEUX images, pas quatre.**
+
+Dubaï, Sharjah et les Émirats gardent l'image qu'on a déjà. Il te reste
+**Les 27 maisons** et **Venues d'ailleurs**. Le reste du brief de 00h50 ne
+s'applique plus.
+
+---
+
+#### ⚠️ LA CHOSE À SAVOIR AVANT DE CADRER — mesurée ce soir dans la page
+
+Dans le menu déroulant, Shopify affiche l'image en `object-fit: cover` avec
+**`object-position: 50% 100%`**, dans une tuile en **16:9**. Donc :
+
+> **Seuls les 56,3 % DU BAS du carré sont visibles dans le menu.**
+> Tout ce qui est au-dessus de 43,7 % de la hauteur est coupé.
+
+C'est ce qui a tué la première version des tuiles de format : le bouchon du
+Milestone était à 29 %, il passait à la trappe. Il a fallu réduire le contenu
+des trois images de 17,7 % pour le faire rentrer.
+
+**Donc : le sujet vit dans la moitié BASSE du carré.** Le haut peut être du
+décor, il ne sera vu que sur la page de collection, pas dans le menu.
+
+Format : **carré 1440 × 1440**, aucun texte, nommage en minuscules sans tiret
+ni underscore.
+
+---
+
+#### Image 1 — Les 27 maisons → `scenes/origines/maisons27.jpg`
+
+C'est l'idée de Daoud et il a déjà une image de référence, qu'il avait faite
+pour la vitrine : **un mur de niches en pierre, un flacon par niche**.
+
+**Télécharge-la et joins-la au prompt** :
+`https://bringmedinahome.com/assets/images/heromaisons.webp`
+
+⚠️ **Elle ne fait que 320 px et 27 Ko, elle est inutilisable telle quelle.**
+Elle sert uniquement de **référence de composition**, pas de source. On
+refabrique en 1440 × 1440.
+
+Ce qu'elle montre, et qu'il faut garder : une grille de **niches à arc
+outrepassé taillées dans du travertin crème**, serrées, qui remplissent tout
+le cadre ; **un flacon de parfum par niche**, tous différents — verre
+transparent, ambré, vert, doré, dépoli ; **chaque niche éclairée de
+l'intérieur** d'une lumière miel qui détoure le flacon.
+
+Le prompt, en clair :
+
+> A wall of small horseshoe-arched niches carved into warm cream travertine,
+> filling the whole frame in a tight grid of five columns and four rows, each
+> niche lit from within by a soft honey-coloured glow. One perfume bottle
+> stands in each niche, every one a different shape and colour — clear glass,
+> amber, deep green, polished gold, frosted white. The bottles are smooth and
+> their surfaces are bare. Shot straight on at 85 mm, f/2.8, the central
+> niches sharp and the outer ones softening. Warm raking light, honey and
+> cream palette, editorial luxury still life. Square 1:1.
+
+Deux points qui décident de la réussite :
+
+- **les flacons sont lisses et sans étiquette** — c'est la formulation à
+  écrire. Si tu laisses le modèle poser des étiquettes, il écrit du charabia
+  sur vingt flacons et l'image est bonne à jeter ;
+- **la grille doit continuer hors cadre** en haut et sur les côtés, pour
+  qu'on sente qu'il y en a plus que ce qu'on voit. En bas, une rangée
+  complète bien posée : c'est elle qu'on verra dans le menu.
+
+#### Image 2 — Venues d'ailleurs → `scenes/origines/ailleurs.jpg`
+
+L'idée est de Daoud, mot pour mot : *« la même chose, style pierre, qu'on
+fait pour tout le reste, mais on voit l'extérieur, et l'extérieur c'est la
+mer. On doit voir de la pierre, mais le plus qu'on doit voir, c'est la mer.
+Et la mer, ça fait penser à ailleurs, outre-mer. »*
+
+> Seen from inside a cool stone room, a tall horseshoe arch cut into a thick
+> cream travertine wall opens onto the open sea. The sea fills most of the
+> frame, calm and wide, running to a clear horizon in the late afternoon
+> light, with nothing on it. The stone jamb and a slice of the travertine
+> floor frame the opening on the left and along the bottom. Warm raking light
+> comes in through the arch and lays a long soft shadow across the floor.
+> 85 mm, f/2.8, honey and cream palette against the blue. Square 1:1.
+
+- **La mer domine.** La pierre encadre, elle ne remplit pas.
+- **L'horizon se place vers 40 % de la hauteur**, donc juste au-dessus de la
+  ligne de coupe du menu : dans la tuile on verra surtout l'eau et le bas de
+  l'arc, et c'est exactement ce qu'il faut.
+- **Rien sur l'eau** — pas de bateau, pas de côte : c'est le large.
+  Écris-le à l'endroit : *« an empty sea running to a clear horizon »*.
+
+---
+
+#### Les règles, les mêmes que d'habitude
+
+- **Une image d'essai d'abord** — commence par **Les 27 maisons**, montre-la
+  à Daoud, et ne lance la mer qu'après son feu vert. `briefs/promptimages.md`,
+  règle 5.
+- **Jamais d'interdiction dans le prompt.** « the bottles are smooth and
+  their surfaces are bare », pas « pas d'étiquettes ». Règle 1.
+- Le badge « Ai » s'enlève comme d'habitude s'il y en a un.
+
+Quand les deux sont dans `scenes/origines/` et poussées, je les charge dans
+Shopify, je les branche sur les collections, et elles s'afficheront aussi en
+grand sur la page de collection.
+
+**Bloqué sur.** Rien.
+
+**Daoud doit.** Rien pour ces deux images. (Il lui reste, côté vitrine, les
+trois `.webp` à déposer dans `assets/images/` et le déploiement à lancer.)
+
 ### 14 novembre, 00h50 — Claude (session cloud)
 
 **Fait.**
