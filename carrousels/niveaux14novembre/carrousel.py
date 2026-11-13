@@ -432,15 +432,32 @@ def fond(lg):
     return img, ImageDraw.Draw(img)
 
 
+# Les deux images de Claude Code, livrees le 13/11 a 20h40. Il a mesure les
+# positions dans le journal, je m en sers pour choisir les decalages :
+#   niveaux1  — tete y 350-660, flacon en main y 750-890, flacons de table
+#               y 1350-1570
+#   niveaux10 — flacons y 965-1565, mur nu au-dessus
+# Le bandeau de la couverture s arrete AVANT les flacons de la table : on
+# garde le visage et le flacon en main, le reste serait coupe par le fondu.
+HAUT_1 = 860          # hauteur du bandeau de couverture
+DEC_1 = 300           # on entre dans l image juste au-dessus de la tete
+HAUT_10 = 1060        # le bandeau du bas, qui contient les trois flacons
+DEC_10 = 860          # 965 - 105 : un peu d air au-dessus des bouchons
+
+
 def diapo_1(lg):
-    img, d = fond(lg)
-    lettrage(d, 300, TITRES["ou"][lg].upper(), inter(34, "SemiBold"), OCRE, 10)
-    bloc_ajuste(d, MARGE_G, 420, TITRES["couverture"][lg].split("\n"),
-                132, ENCRE, LARGE, 1120)
-    d.line([(MARGE_G, 1210), (MARGE_G + 180, 1210)], fill=OCRE, width=4)
-    bloc(d, MARGE_G, 1270, TITRES["regle_s"][lg], serif(40, 400, 40, True),
+    img = Image.new("RGB", (W, H), CREME)
+    img.paste(photo("niveaux1.jpg", HAUT_1, DEC_1), (0, 0))
+    fondu(img, HAUT_1 - 200, 200)
+    d = ImageDraw.Draw(img)
+    lettrage(d, HAUT_1 + 60, TITRES["ou"][lg].upper(), inter(34, "SemiBold"),
+             OCRE, 10)
+    bloc_ajuste(d, MARGE_G, HAUT_1 + 150, TITRES["couverture"][lg].split("\n"),
+                116, ENCRE, LARGE, 1520)
+    d.line([(MARGE_G, 1580), (MARGE_G + 180, 1580)], fill=OCRE, width=4)
+    bloc(d, MARGE_G, 1630, TITRES["regle_s"][lg], serif(34, 400, 34, True),
          ENCRE_D, LARGE)
-    poser_signature(img, MARGE_G, 1760, ENCRE_D, 32, 8)
+    poser_signature(img, MARGE_G, 1830, ENCRE_D, 30, 7)
     return img
 
 
@@ -523,14 +540,24 @@ def diapo_preuve(lg):
 
 
 def diapo_fin(lg):
-    img, d = fond(lg)
-    bloc_ajuste(d, MARGE_G, 520, TITRES["fin_t"][lg].split("\n"),
-                110, ENCRE, LARGE, 900)
-    d.line([(MARGE_G, 980), (MARGE_G + 180, 980)], fill=OCRE, width=4)
-    bloc(d, MARGE_G, 1040, TITRES["fin_s"][lg], serif(44, 400, 44, True),
+    img = Image.new("RGB", (W, H), CREME)
+    img.paste(photo("niveaux10.jpg", HAUT_10, DEC_10), (0, H - HAUT_10))
+    # PAS DE FONDU ICI, et c est voulu. fondu() va du transparent vers le
+    # creme EN DESCENDANT : sur un bandeau bas il voilerait le haut des
+    # flacons, dont les bouchons dores commencent 105 px sous la couture.
+    # Le haut du bandeau tombe sur le mur nu de l image, donc la coupe
+    # franche se lit comme un choix et non comme un accident.
+    d = ImageDraw.Draw(img)
+    bloc_ajuste(d, MARGE_G, 280, TITRES["fin_t"][lg].split("\n"),
+                104, ENCRE, LARGE, 560)
+    d.line([(MARGE_G, 620), (MARGE_G + 180, 620)], fill=OCRE, width=4)
+    bloc(d, MARGE_G, 670, TITRES["fin_s"][lg], serif(40, 400, 40, True),
          ENCRE_D, LARGE)
-    d.text((MARGE_G, 1340), LIEN, font=inter(40, "SemiBold"), fill=OCRE)
-    poser_signature(img, MARGE_G, 1760, ENCRE_D, 32, 8)
+    # Le lien doit finir AVANT la couture de la photo (y = H - HAUT_10 = 860).
+    # A 850 il tombait pile dessus et devenait illisible : ocre sur photo.
+    d.text((MARGE_G, 772), LIEN, font=inter(38, "SemiBold"), fill=OCRE)
+    assert 772 + 46 < H - HAUT_10, "le lien mord sur la photo"
+    poser_signature(img, MARGE_G, 120, ENCRE_D, 30, 7)
     return img
 
 
