@@ -46,6 +46,119 @@ brancher une clé.
 
 ---
 
+### 14 novembre, 00h50 — Claude (session cloud)
+
+**Fait.**
+
+1. **Tes trois tuiles de format sont en ligne** sur les trois collections
+   Shopify, et le menu Parfums les affiche. J'ai d'abord dû les **décaler de
+   58 px vers le bas** : le bouchon du Milestone était à 29 % de la hauteur
+   alors que le recadrage paysage du menu ne garde qu'à partir de 31 % — il
+   était tronqué. La bande du haut est étirée de 160 à 218 px, **le même
+   décalage exactement sur les trois**, donc les tailles relatives des
+   flacons n'ont pas bougé. Daoud l'avait vu, il avait raison. Les fichiers
+   du dépôt sont la version corrigée.
+2. **Les trois formats sont aussi dans le menu de la vitrine**, dans les
+   17 langues. La grille passe en 4 + 3 et le panneau garde sa largeur.
+3. **Quatre collections par origine créées, publiées, traduites en/nl/de et
+   branchées sous « Marques »** :
+
+| Collection | id | Maisons | Parfums |
+|---|---|---|---|
+| Maisons de Dubaï | `699444494662` | 13 | 147 |
+| Maisons de Sharjah | `699444527430` | 4 | 64 |
+| Maisons des Émirats arabes unis | `699444560198` | 2 | 18 |
+| Venues d'ailleurs | `699444592966` | 8 | 50 |
+
+147 + 64 + 18 + 50 = **279**, soit le catalogue entier. Les règles sont
+construites sur le **fournisseur**, d'après `claude/origines-des-27-marques.md`,
+qui retient le **siège réel de la société**, jamais le pays que le nom évoque.
+
+**Pour l'autre — quatre images d'origine à fabriquer.**
+
+Les quatre collections n'ont pas d'image, donc le menu Marques affiche la
+photo du premier produit. Même problème que pour les formats, même solution.
+
+#### Ce qui change par rapport aux tuiles de format
+
+Les tuiles **Parfums** montrent un produit. Les tuiles **Marques** montrent un
+**lieu**. Donc : **pas de flacon dans ces quatre images.** Mettre un flacon
+obligerait à choisir une maison plutôt qu'une autre, et ça n'a pas de sens
+pour une collection qui en réunit treize. C'est aussi ce qui distinguera les
+deux menus à l'œil.
+
+#### Le gabarit commun aux quatre
+
+La pierre et la lumière ne bougent pas. **Ce qui change, c'est uniquement ce
+qu'on voit par l'ouverture.** C'est l'idée de Daoud, et elle tient pour les
+quatre :
+
+- même **mur de plâtre crème** et même **travertin** que les sept tuiles
+  existantes (prends `collectionluxury2.webp` comme référence de matière et
+  de lumière, joins-la au prompt) ;
+- une **grande ouverture en arc** taillée dans le mur de pierre, **à droite**,
+  qui occupe à peu près **la moitié du cadre** ;
+- la **lumière chaude et rasante entre par cette ouverture**, pas par la
+  gauche cette fois — c'est elle qui justifie les ombres longues ;
+- au premier plan en bas, **l'arête du bloc de travertin** et un pan de
+  **lin crème** à gauche, comme sur les autres ;
+- **carré 1440 × 1440**, 85 mm, faible profondeur de champ, aucun texte.
+
+#### Les quatre vues
+
+**1. Dubaï** — `scenes/origines/dubai.jpg`
+> Par l'ouverture, **la crique en fin de journée** : l'eau calme, **deux ou
+> trois barques en bois à moteur** amarrées, et derrière, la **ligne basse
+> d'un vieux souk** aux murs de corail et aux tours à vent. C'est le Deira
+> d'avant les tours, et c'est là que sont réellement les maisons.
+> **Pas de gratte-ciel, pas de silhouette de ville moderne** — écris-le à
+> l'endroit : « a low old quarter of coral-stone houses with wind towers ».
+
+**2. Sharjah** — `scenes/origines/sharjah.jpg`
+> Par l'ouverture, **un souk bas aux coupoles carrelées de turquoise**, sous
+> un ciel de fin d'après-midi, avec des **palmiers courts** devant.
+> Décris l'architecture, **ne nomme aucun bâtiment réel**.
+
+**3. Émirats arabes unis** — `scenes/origines/emirats.jpg`
+> Par l'ouverture, **le désert** : des dunes basses en lumière rasante,
+> longues ombres, rien d'autre. Pas de ville — c'est tout le propos : ces
+> deux maisons sont émiriennes et **leur ville n'est pas publiée**. Le pays
+> sans la ville.
+
+**4. Venues d'ailleurs** — `scenes/origines/ailleurs.jpg`
+> L'idée est de Daoud et elle est juste : **la mer**. Outre-mer, ailleurs.
+> Par l'ouverture, **la mer ouverte jusqu'à l'horizon**, aucune côte, aucun
+> bateau, la lumière du soir dessus. **C'est la mer qui doit dominer l'image**
+> — on voit la pierre, mais ce qu'on voit le plus, c'est l'eau.
+> Pour celle-là, l'ouverture peut manger un peu plus que la moitié du cadre.
+
+#### Les règles, les mêmes que d'habitude
+
+- **Une seule image d'essai d'abord** — fais **Dubaï**, montre-la à Daoud.
+  Les trois autres seulement après son feu vert. `briefs/promptimages.md`,
+  règle 5.
+- **Jamais d'interdiction dans le prompt.** « a low old quarter of coral-stone
+  houses », pas « pas de gratte-ciel ». Règle 1.
+- **Aucun texte dans l'image.**
+- **Carré 1440 × 1440.** Nommage en minuscules, sans tiret, sans underscore.
+- Ces vues sont un **décor**, pas une allégation. Rien dans l'image ne doit
+  ressembler à une mention d'origine écrite, et personne n'écrit « fabriqué
+  à » sous ces tuiles. Les faits sont dans la description de la collection,
+  et ils sont vérifiés.
+
+Quand les quatre sont dans `scenes/origines/` et poussées, je les charge dans
+Shopify et je les branche.
+
+**Bloqué sur.** Rien.
+
+**Daoud doit.** Deux choses, et elles sont indépendantes l'une de l'autre :
+1. **Déposer trois fichiers sur Hostinger**, dans `assets/images/` :
+   `collectionpetit.webp`, `collectionstandard.webp`, `collectiongrand.webp`.
+   Ce dossier est exclu du déploiement GitHub, donc ça se fait à la main.
+   Sans eux, les trois nouvelles vignettes du menu de la vitrine seront vides.
+2. **Lancer le déploiement de la vitrine sur GitHub** (dépôt `bmhsite`),
+   après avoir déposé les images.
+
 ### 14 novembre, 0h00 — Claude Code
 
 **Fait.** Les trois tuiles des collections par taille sont dans `scenes/formats/`, en 1440 × 1440, **validées par
