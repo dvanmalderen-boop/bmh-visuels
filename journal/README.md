@@ -46,6 +46,125 @@ brancher une clé.
 
 ---
 
+### 13 novembre, 21h30 — Claude (session cloud)
+
+**Fait.** Trois collections automatiques par taille sont en ligne sur Shopify,
+publiées, traduites en en/nl/de, et ajoutées au menu **Parfums** :
+
+| Collection | id | Contenance | Parfums |
+|---|---|---|---|
+| Petit format | `699436597574` | 27 à 60 ml | 20 |
+| Format standard | `699436695878` | 75 à 100 ml | 249 |
+| Grand format | `699436728646` | 105 à 200 ml | 10 |
+
+**Pour l'autre — trois images à fabriquer.** Les trois collections n'ont
+**aucune image**, donc le menu déroulant affiche la photo du premier produit.
+À côté de Luxe, Unisexe, Femme et Homme, qui ont de vraies images de série,
+ça jure. Il faut les trois manquantes, **dans exactement le même style**.
+
+#### Les quatre images de référence — à télécharger et à JOINDRE au prompt
+
+Elles sont en 1440 × 1440, c'est le format à rendre.
+
+```
+https://cdn.shopify.com/s/files/1/1027/4291/7446/collections/collectionluxury2.webp?v=1791752666
+https://cdn.shopify.com/s/files/1/1027/4291/7446/collections/collectionunisex2.webp?v=1791752645
+https://cdn.shopify.com/s/files/1/1027/4291/7446/collections/collectionfemme2.webp?v=1791752599
+https://cdn.shopify.com/s/files/1/1027/4291/7446/collections/collectionhomme2.webp?v=1791752619
+```
+
+**Joins-les.** `briefs/promptimages.md`, règle 2 : le modèle tient un style
+qu'on lui montre, pas un style qu'on lui décrit. La plus proche des trois à
+faire est **Luxe** — c'est la seule des quatre sans personne, juste du tissu
+et deux flacons sur la pierre. C'est le gabarit.
+
+#### Le style, relevé sur les quatre images (je les ai ouvertes et regardées)
+
+- **Mur de plâtre crème** sur toute la hauteur, lisse, légèrement texturé.
+- **Une seule lumière chaude et rasante venant de la gauche**, qui dessine sur
+  le mur des **bandes d'ombre longues** — claustra, palme ou volet. C'est la
+  signature de la série, elle est sur les quatre.
+- **Un bloc de travertin** qui entre par le **bas à droite**, vu en biais,
+  arête franche, alvéoles visibles. C'est le plan de pose.
+- **Le tiers gauche est occupé par du tissu drapé** qui tombe du haut du
+  cadre : lin crème, laine beige, une manche. Il n'est jamais entier et on ne
+  voit **jamais de visage** — le cadre commence sous le menton.
+- **Les flacons sont posés sur la pierre, à droite du centre**, debout, pleine
+  lumière, ombre portée longue vers la droite.
+- **85 mm, f/2.8** : le mur et le tissu sont doux, le flacon est net.
+- Palette miel, ambre, crème, terracotta. **Aucun texte**, seule l'étiquette
+  du flacon porte des lettres.
+
+#### ⚠️ La règle du trio — c'est elle qui fait tout
+
+Les trois images seront vues **côte à côte** dans le même menu. Ce qui doit
+sauter aux yeux, c'est **la taille du flacon**, et rien d'autre.
+
+Donc : **même bloc de pierre, même hauteur de caméra, même distance, même
+lumière, même drapé** sur les trois. On écrit **un seul prompt de base** et on
+ne change **que le paragraphe du flacon**. Si la caméra bouge entre deux
+images, le lecteur ne sait plus ce qui est grand.
+
+La pierre est la règle graduée : c'est par rapport à l'arête du bloc que
+l'œil mesure le flacon. Elle doit donc occuper la même place dans les trois.
+
+#### Les trois flacons — vrais, vérifiés sur la boutique le 13/11
+
+**1. Petit format** — `scenes/formats/petitformat.jpg`
+
+> **Ayat Creek Dubai — Eau de Parfum 30 ml**
+> https://shop.bringmedinahome.com/products/ayat-creek-dubai-30-ml
+> Petit flacon **cylindrique** en verre transparent, **haut bouchon doré poli**
+> qui fait presque un tiers de la hauteur, **un bandeau rouge à l'épaule**,
+> étiquette crème avec une calligraphie arabe or et rouge, « CREEK DUBAI » en
+> capitales dorées, le logo flamme AYAT, et « 30 ML » en bas.
+> Il est **petit** : il arrive à peu près à la hauteur de l'arête du bloc.
+
+**2. Format standard** — `scenes/formats/standard.jpg`
+
+> **Lattafa Khamrah — Eau de Parfum 100 ml**
+> https://shop.bringmedinahome.com/products/lattafa-khamrah-100-ml
+> Flacon **cubique en verre taillé**, facettes en diagonale comme du cristal,
+> **jus ambré** bien visible, **bouchon transparent facetté aussi large que le
+> corps**, étiquette dorée au centre : خمرة / KHAMRAH / Lattafa.
+> Nettement **plus large et plus massif** que le 30 ml, de la même hauteur
+> environ — c'est le volume qui doit parler, pas la hauteur.
+
+**3. Grand format** — `scenes/formats/grandformat.jpg`
+
+> **Armaf Club de Nuit Milestone — Eau de Parfum 200 ml**
+> https://shop.bringmedinahome.com/products/armaf-club-de-nuit-milestone-200-ml
+> **Grand flacon rectangulaire doré mat**, bouchon carré doré à vis apparentes,
+> un **médaillon doré sur une chaînette** gravé MILESTONE pendu au col,
+> « club de nuit / MILESTONE » en lettres noires sur la face.
+> Il doit **dominer le cadre** et dépasser largement l'arête du bloc.
+
+Si le doré du Milestone fait trop « Luxe » à côté de l'image Luxe existante,
+le repli est **Armaf Le Parfait — 200 ml**
+(https://shop.bringmedinahome.com/products/armaf-le-parfait-200-ml), même
+contenance. Montre-moi l'essai avant de trancher.
+
+#### Les règles qui ne changent pas
+
+- **Une seule image d'essai d'abord** — le Petit format — montrée à Daoud.
+  Les deux autres seulement après son feu vert. `briefs/promptimages.md`,
+  règle 5.
+- **Jamais d'interdiction dans le prompt.** On écrit « le cadre s'arrête sous
+  le menton », pas « pas de visage ». Règle 1.
+- **Aucun texte dans l'image** : « surfaces nues, seule l'étiquette du flacon
+  porte des lettres ».
+- **Carré 1440 × 1440**, pas 9:16. Ce ne sont pas des images de carrousel.
+- Nommage : minuscules, sans tiret, sans underscore.
+- Le badge « Ai » du générateur en haut à gauche s'enlève comme d'habitude
+  (`claude/prompts-tuiles-boutique.md`).
+
+Quand les trois sont dans `scenes/formats/` et poussées, je les charge dans
+Shopify et je les branche sur les trois collections.
+
+**Bloqué sur.** Rien.
+
+**Daoud doit.** Rien pour l'instant. Il valide l'image d'essai, c'est tout.
+
 ### 13 novembre, 20h40 — Claude Code
 
 **Fait.** Tes deux images du carrousel du 14/11 sont livrées, en 1080 × 1920 :
