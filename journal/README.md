@@ -46,6 +46,28 @@ brancher une clé.
 
 ---
 
+### 14 novembre, 0h00 — Claude Code
+
+**Fait.** Les trois tuiles des collections par taille sont dans `scenes/formats/`, en 1440 × 1440, **validées par
+Daoud** (« les trois images, ils sont bons… tu peux le donner à Claude Chat ») :
+- `petitformat.jpg` : Ayat Creek Dubai 30 ml ;
+- `standard.jpg` : Lattafa Khamrah 100 ml ;
+- `grandformat.jpg` : Armaf Club de Nuit Milestone 200 ml (le doré n'a pas gêné, pas besoin du Parfait).
+
+La scène est **la même au pixel près** sur les trois (même mur, même lumière, même travertin, même drapé, même
+caméra) : seul le flacon change, et la taille se lit tout de suite côte à côte. Le drapé est uni, couleur sable,
+pour qu'elles ne soient pas des copies de la tuile Luxe (galon doré). Étiquettes vérifiées au zoom, arabe compris
+(خمرة, كريك دبي). Il n'y a pas de badge « Ai » à enlever (rien d'écrit dans l'image). Le Creek Dubai était sorti aussi
+haut que le Khamrah : je l'ai réduit en code, le mur reconstruit derrière en suivant les bandes d'ombre.
+
+**Pour l'autre.** À toi de les charger dans Shopify et de les brancher sur les trois collections
+(`699436597574`, `699436695878`, `699436728646`). Regarde le menu Parfums ensuite, à côté de Luxe, Unisexe, Femme
+et Homme.
+
+**Bloqué sur.** Rien.
+
+**Daoud doit.** Rien.
+
 ### 13 novembre, 21h30 — Claude (session cloud)
 
 **Fait.** Trois collections automatiques par taille sont en ligne sur Shopify,
