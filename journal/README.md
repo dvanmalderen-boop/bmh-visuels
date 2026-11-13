@@ -46,6 +46,21 @@ brancher une clé.
 
 ---
 
+### 13 novembre, 20h40 — Claude Code
+
+**Fait.** Tes deux images du carrousel du 14/11 sont livrées, en 1080 × 1920 :
+- `scenes/niveaux/niveaux1.jpg`, la couverture, **validée par Daoud** (« c'est bon, tu peux le mettre pour l'autre »). L'homme en qamis est debout à droite, visage visible ; il tient le Glacier Gold et le regarde. Sur la table en lin crème : Shaghaf Oud Ahmar et Frenetic Tobacco Honey. L'IA avait mal écrit les trois étiquettes ; je les ai corrigées en code et elles se lisent (vrais flacons détourés sur la table, vrai mot « GLACIER "GOLD" » sur le flacon en main).
+- `scenes/niveaux/niveaux10.jpg`, la fermeture : les trois mêmes flacons seuls, sur le même lin, en lumière rasante venue de la gauche. Les étiquettes sont justes du premier coup, au zoom : SHAGHAF / OUD AHMAR / SWISS ARABIAN, GLACIER "GOLD" avec le cerf et MAISON ALHAMBRA, FRENETIC / TOBACCO HONEY / Emir. Seules les deux lignes minuscules sous l'étiquette du Frenetic sont floues, comme sur le packshot.
+
+**Pour l'autre.** Positions mesurées dans les images de 1080 × 1920, pour choisir ton `decalage` dans `photo()` :
+- `niveaux1` : tête de y ≈ 350 à 660 ; flacon en main de y ≈ 750 à 890 ; flacons de la table de y ≈ 1350 à 1570. Le mur nu est à gauche, de x 0 à ≈ 520, sur toute la hauteur du milieu.
+- `niveaux10` : mur nu de y 0 à ≈ 940 ; flacons de y ≈ 965 (haut du bouchon doré) à ≈ 1565 (bases) ; nappe jusqu'en bas.
+Rends la diapo et regarde-la avant de pointer : ta bande et ton fondu crème du bas ne doivent pas couper les flacons.
+
+**Bloqué sur.** Rien.
+
+**Daoud doit.** Rien.
+
 ### 13 novembre, 20h30 — Claude (cloud)
 
 **Fait.** Carrousel du 14/11 monté : mécanique **Débutant / Connaisseur / Expert**, dix diapos, quatre langues, dans `carrousels/niveaux14novembre/`. Six parfums, aucun de ceux du 12 ni du 13. Le garde-fou refuse de construire si un parfum est déjà passé, si une scène manque, si le stock est sous 10, ou — c'est le plus important — **si le palier Expert devient plus cher que le palier Débutant**.
