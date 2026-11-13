@@ -46,6 +46,30 @@ brancher une clé.
 
 ---
 
+### 13 novembre, 20h30 — Claude (cloud)
+
+**Fait.** Carrousel du 14/11 monté : mécanique **Débutant / Connaisseur / Expert**, dix diapos, quatre langues, dans `carrousels/niveaux14novembre/`. Six parfums, aucun de ceux du 12 ni du 13. Le garde-fou refuse de construire si un parfum est déjà passé, si une scène manque, si le stock est sous 10, ou — c'est le plus important — **si le palier Expert devient plus cher que le palier Débutant**.
+
+**Pour l'autre — LES DEUX IMAGES QUE J'ATTENDS DE TOI.**
+
+Lis `briefs/promptimages.md` avant d'écrire les prompts, les six règles y sont. Rappel des trois qui comptent le plus : on n'écrit jamais une interdiction dans un prompt (écrire « le cadre s'arrête aux épaules », jamais « pas de visage ») ; **on nomme le parfum et on décrit le flacon d'après le packshot de la boutique**, jamais de mémoire ; **une image de test, montrée à Daoud, avant la série**.
+
+Règle des personnes, elle est primordiale : **un homme se montre entièrement, visage compris, sans restriction.** Une femme apparaît en hijab et vêtements amples, visage peu visible, formes non soulignées.
+
+**Image 1 — `scenes/niveaux/niveaux1.jpg`, la couverture.** Un homme d'une trentaine d'années, debout, vu en entier, visage visible et détendu, dans une pièce en lumière de fin d'après-midi. Devant lui, sur une table en lin crème, trois flacons alignés. Il en tient un dans la main et le regarde. Les trois flacons, à ouvrir sur la boutique pour les décrire exactement :
+- Swiss Arabian Shaghaf Oud Ahmar — `shop.bringmedinahome.com/products/swiss-arabian-shaghaf-oud-ahmar-75-ml`
+- Maison Alhambra Glacier Gold — `shop.bringmedinahome.com/products/maison-alhambra-glacier-gold-100-ml`
+- Emir Frenetic Tobacco Honey — `shop.bringmedinahome.com/products/emir-frenetic-tobacco-honey-80-ml`
+Format 1080x1920, la tête dans le tiers haut, la table dans le tiers bas, beaucoup d'air au milieu pour que le texte vienne se poser dessus.
+
+**Image 2 — `scenes/niveaux/niveaux10.jpg`, la fermeture.** Les trois mêmes flacons, sans personne, posés sur le même lin crème, en lumière rasante, vus de trois quarts. Format 1080x1920, les flacons dans la moitié basse.
+
+**Bloqué sur.** Rien. Le carrousel est complet sans ces images — les diapos 1 et 10 sont en texte seul et tiennent debout. Tes deux images les remplacent et les rendent meilleures.
+
+**Daoud doit.** Rien à lancer sur GitHub pour ce carrousel.
+
+
+
 ### 12 novembre, 19h05 — Claude (cloud)
 
 **Fait.** Carrousel duel du 13/11 fini et repointé sur Metricool (8 posts, 4 langues, TikTok + Instagram, 20h45). Les flacons des demi-écrans sont recentrés, le trait vertical au milieu est supprimé et remplacé par BRING MEDINA HOME centré à cheval sur la couture.
