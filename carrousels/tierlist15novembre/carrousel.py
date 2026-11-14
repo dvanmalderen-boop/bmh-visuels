@@ -2,11 +2,17 @@
 """
 BMH - carrousel du 15 novembre 2026.  FORMAT TIKTOK 1080 x 1920.
 
-MECANIQUE : LA TIER LIST.  « La tier list que je ne peux pas faire. »
+MECANIQUE : LA TIER LIST.  « La seule tier list que je peux faire. »
+
+DEUXIEME VERSION. La premiere a ete jetee, et c'est Daoud qui avait raison :
+« moi, la verite, je comprends rien du tout a ce carrousel ». Elle posait un
+tableau VIDE sur la couverture et onze parfums a la file : aucune image ne
+montrait de classement. Une tier list qu'on ne lit pas en une seconde n'est
+pas une tier list. Ici la PREMIERE DIAPO EST LE TABLEAU, les onze flacons
+deja poses dans leurs bandes.
 
 POURQUOI CE FORMAT
-C'est celui que le balayage du 14/11 a trouve le plus solide sur le parfum
-oriental, chiffres releves a la main dans Chrome :
+Balayage du 14/11, chiffres releves a la main dans Chrome :
   @zpch_perfumes  « BEST ARAB FRAGRANCES FOR WINTER »
                   30 800 likes · 666 commentaires · 7 713 enregistrements
   @paviafragrances « Best of Lattafa »
@@ -16,22 +22,20 @@ palier « trash » et marche quand meme : c'est ce qui rend le format jouable
 pour un vendeur.
 
 LE PROBLEME DU VENDEUR, ET SA SOLUTION
-Une tier list classe. Un vendeur qui classe ses propres parfums se tire une
-balle dans le pied : tout ce qu'il met en bas, il le vend plus. Donc ICI
-CLAUDE NE CLASSE RIEN. On pose les onze familles de la boutique, un flacon
-par famille, et c'est le lecteur qui remplit le tableau. Le classement est
-a lui, le commentaire aussi — et le commentaire est le signal qui manque le
-plus aux comptes de Daoud.
+Un vendeur qui classe ses propres parfums se tire une balle dans le pied :
+tout ce qu'il met en bas, il ne le vend plus. Donc le tableau est range par
+la SEULE chose qui ne se discute pas — LE PRIX. Quatre bandes, des bornes
+nettes, onze flacons dedans. Le classement par le gout, c'est le lecteur qui
+le fait, et c'est ce qu'on lui demande a la fin.
 
 RIEN N'EST INVENTE.
 Les onze familles sont les etiquettes des fiches Shopify. Les prix et les
 stocks ont ete releves en live le 14/11 par l'API. Les marges viennent de
-bts/rapports/marges.json du 13/11. On ne dit AUCUNE note, AUCUNE tenue,
-AUCUN avis : la seule chose ecrite a cote d'un flacon, c'est sa famille,
-sa maison, son nom et son prix.
+bts/rapports/marges.json du 13/11. A cote d'un flacon on ecrit sa famille,
+sa maison, son nom et son prix. AUCUNE note, AUCUNE tenue, AUCUN avis.
 
 ONZE MAISONS DIFFERENTES, une par famille. Le garde-fou le verifie.
-Aucun parfum des 11, 12, 13 et 14 novembre n'est repris.
+Aucun parfum des 10, 11, 12, 13 et 14 novembre n'est repris.
 
 ZONES TIKTOK : 150 px en haut, 480 px en bas, 120 px a droite sont manges
 par l'interface. Tout le contenu vit entre y=200 et y=1400.
@@ -257,67 +261,69 @@ PARFUMS = [
   "nom": "9pm Rebel",                "prix": 45.90, "stock": 23,  "marge": 10.61},
 ]
 
-PALIERS = ["S", "A", "B", "C"]
+#  LES QUATRE BANDES. Les bornes sont choisies pour que les onze se
+#  repartissent 3 / 3 / 3 / 2 sans qu'aucune bande soit vide ou surchargee.
+#  Un parfum tombe dans une bande par son prix, point. Il n'y a rien a
+#  discuter la-dedans, et c'est exactement pour ca que c'est honnete.
+
+BANDES = [
+ {"max": 30.00, "l": {"fr": "MOINS\nDE 30 €", "en": "UNDER\n€30",
+                      "nl": "ONDER\n€ 30",  "de": "UNTER\n30 €"}},
+ {"max": 35.00, "l": {"fr": "30 À\n35 €", "en": "€30 TO\n€35",
+                      "nl": "€ 30 TOT\n€ 35", "de": "30 BIS\n35 €"}},
+ {"max": 42.00, "l": {"fr": "35 À\n42 €", "en": "€35 TO\n€42",
+                      "nl": "€ 35 TOT\n€ 42", "de": "35 BIS\n42 €"}},
+ {"max": 999.0, "l": {"fr": "PLUS\nDE 42 €", "en": "OVER\n€42",
+                      "nl": "BOVEN\n€ 42",   "de": "ÜBER\n42 €"}},
+]
+
+
+def par_bande(i):
+    bas = 0.0 if i == 0 else BANDES[i - 1]["max"]
+    return [p for p in sorted(PARFUMS, key=lambda x: x["prix"])
+            if bas < p["prix"] <= BANDES[i]["max"]]
+
 
 T = {
- "sup": {"fr": "TIER LIST", "en": "TIER LIST", "nl": "TIER LIST", "de": "TIER LIST"},
+ "sup": {"fr": "TIER LIST", "en": "TIER LIST", "nl": "TIER LIST",
+         "de": "TIER LIST"},
  "couv": {
-   "fr": ["La tier list", "que je ne peux", "pas faire"],
-   "en": ["The tier list", "I cannot", "make"],
-   "nl": ["De tier list", "die ik niet", "kan maken"],
-   "de": ["Die Tier List,", "die ich nicht", "machen kann"]},
+   "fr": ["La seule tier list", "que je peux faire"],
+   "en": ["The only tier list", "I can make"],
+   "nl": ["De enige tier list", "die ik kan maken"],
+   "de": ["Die einzige Tier List,", "die ich machen kann"]},
  "couv_s": {
-   "fr": "Je vends les onze familles. Je ne peux en descendre aucune. "
-         "Alors le classement, c'est toi qui le fais.",
-   "en": "I sell all eleven families. I cannot put one at the bottom. "
-         "So the ranking is yours.",
-   "nl": "Ik verkoop alle elf families. Ik kan er geen onderaan zetten. "
-         "Dus jij maakt de ranglijst.",
-   "de": "Ich verkaufe alle elf Familien. Ich kann keine nach unten setzen. "
-         "Also erstellen Sie die Rangliste."},
+   "fr": "Par le prix. Par le goût, c'est toi qui ranges.",
+   "en": "By price. By taste, you do the ranking.",
+   "nl": "Op prijs. Op smaak rangschik jij.",
+   "de": "Nach Preis. Nach Geschmack ordnen Sie."},
  "regle_t": {
-   "fr": ["Onze familles.", "Un flacon chacune."],
-   "en": ["Eleven families.", "One bottle each."],
-   "nl": ["Elf families.", "Elk één flacon."],
-   "de": ["Elf Familien.", "Je ein Flakon."]},
+   "fr": ["Pourquoi par", "le prix"],
+   "en": ["Why by price"],
+   "nl": ["Waarom op prijs"],
+   "de": ["Warum nach Preis"]},
  "regle_c": {
-   "fr": "Les onze familles sont celles des fiches de la boutique. Pour "
-         "chacune, un parfum en stock, avec son prix. Pas de note, pas de "
-         "tenue, pas d'avis : rien qui oriente ton classement.",
-   "en": "The eleven families are the ones on the shop's product pages. For "
-         "each of them, one fragrance in stock, with its price. No notes, no "
-         "longevity, no opinion: nothing to steer your ranking.",
-   "nl": "De elf families staan op de productpagina's van de winkel. Voor elke "
-         "familie één geur op voorraad, met de prijs. Geen noten, geen "
-         "houdbaarheid, geen mening: niets dat je ranglijst stuurt.",
-   "de": "Die elf Familien stehen auf den Produktseiten des Shops. Zu jeder ein "
-         "Duft auf Lager, mit Preis. Keine Noten, keine Haltbarkeit, keine "
-         "Meinung: nichts, was Ihre Rangliste lenkt."},
+   "fr": "Je vends les onze familles. Si j'en mets une en bas, je ne la vends "
+         "plus — donc je ne peux pas te dire laquelle est la meilleure. Le "
+         "prix, lui, ne se discute pas. C'est le seul classement que j'ai le "
+         "droit d'afficher.",
+   "en": "I sell all eleven families. If I put one at the bottom, I stop "
+         "selling it — so I cannot tell you which is best. Price, on the "
+         "other hand, is not up for debate. It is the only ranking I am "
+         "entitled to show.",
+   "nl": "Ik verkoop alle elf families. Zet ik er één onderaan, dan verkoop "
+         "ik hem niet meer — dus ik kan je niet zeggen welke de beste is. "
+         "Over de prijs valt niet te discussiëren. Dat is de enige ranglijst "
+         "die ik mag tonen.",
+   "de": "Ich verkaufe alle elf Familien. Setze ich eine nach unten, verkaufe "
+         "ich sie nicht mehr — ich kann Ihnen also nicht sagen, welche die "
+         "beste ist. Über den Preis lässt sich nicht streiten. Das ist die "
+         "einzige Rangliste, die ich zeigen darf."},
  "regle_p": {
-   "fr": "Capture l'écran. Range. Dis-moi ta famille S.",
-   "en": "Screenshot it. Rank them. Tell me your S.",
-   "nl": "Maak een screenshot. Rangschik. Zeg me je S.",
-   "de": "Screenshot machen. Einordnen. Nennen Sie mir Ihr S."},
- "board": {
-   "fr": "LES ONZE FAMILLES", "en": "THE ELEVEN FAMILIES",
-   "nl": "DE ELF FAMILIES", "de": "DIE ELF FAMILIEN"},
- "jeu_t": {
-   "fr": "Comment on joue", "en": "How to play",
-   "nl": "Zo speel je", "de": "So wird gespielt"},
- "jeu_c": {
-   "fr": "Capture le carrousel, mets les onze familles dans S, A, B et C, "
-         "et poste ton tableau en commentaire.",
-   "en": "Screenshot the carousel, put the eleven families into S, A, B and C, "
-         "and post your board in the comments.",
-   "nl": "Maak een screenshot van het carrousel, zet de elf families in S, A, B "
-         "en C, en post je tabel in de reacties.",
-   "de": "Machen Sie einen Screenshot, ordnen Sie die elf Familien in S, A, B "
-         "und C ein, und posten Sie Ihre Tabelle in den Kommentaren."},
- "recap_t": {
-   "fr": ["Les onze, du moins", "cher au plus cher"],
-   "en": ["The eleven, cheapest", "to dearest"],
-   "nl": ["De elf, van goedkoop", "naar duur"],
-   "de": ["Die elf, vom günstigsten", "zum teuersten"]},
+   "fr": "Le tien, mets-le en commentaire : quelle famille en S ?",
+   "en": "Yours goes in the comments: which family is your S?",
+   "nl": "De jouwe zet je in de reacties: welke familie is jouw S?",
+   "de": "Ihre gehört in die Kommentare: welche Familie ist Ihr S?"},
  "fin_t": {
    "fr": ["Ta famille en S ?"], "en": ["Your S family?"],
    "nl": ["Jouw familie in S?"], "de": ["Ihre Familie auf S?"]},
@@ -340,8 +346,8 @@ def garde_fou():
 
     Ce qui rendrait ce carrousel faux ou malhonnete : un parfum deja passe
     cette semaine, une scene manquante, un flacon en rupture, une marge sous
-    le plancher de 4 EUR net, deux parfums de la meme maison, et surtout un
-    palier rempli par Claude — il n'y en a aucun, et c'est tout le principe.
+    le plancher de 4 EUR net, deux parfums de la meme maison. Et une bande
+    vide ou a quatre flacons, qui ferait deborder le tableau.
     """
     deja = set()
     base = "/home/claude/bmh-visuels/carrousels"
@@ -349,11 +355,12 @@ def garde_fou():
               "duel13novembre", "niveaux14novembre"):
         c = os.path.join(base, f, "carrousel.py")
         if os.path.exists(c):
-            deja |= set(re.findall(r'"(\d{13})"', open(c, encoding="utf-8").read()))
+            deja |= set(re.findall(r'"(\d{13})"',
+                                   open(c, encoding="utf-8").read()))
     for pf in PARFUMS:
         assert pf["ean"] not in deja, "%s est deja passe cette semaine" % pf["nom"]
-        chemin = os.path.join(SCENES, pf["ean"] + "c.jpg")
-        assert os.path.exists(chemin), "scene manquante : " + chemin
+        assert os.path.exists(os.path.join(SCENES, pf["ean"] + "c.jpg")), \
+            "scene manquante : " + pf["ean"]
         assert pf["ean"] in CADRE, "cadrage non releve : " + pf["ean"]
         assert pf["stock"] >= 5, "%s n'a que %d en stock" % (pf["nom"], pf["stock"])
         net = pf["marge"] - 4.85
@@ -363,16 +370,29 @@ def garde_fou():
     assert len(PARFUMS) == 11, "onze parfums attendus, %d" % len(PARFUMS)
     assert len({p["f"] for p in PARFUMS}) == 11, "une famille par parfum"
     assert len({p["maison"] for p in PARFUMS}) == 11, "onze maisons differentes"
-    assert len({p["ean"] for p in PARFUMS}) == 11, "onze EAN distincts"
+    compte = [len(par_bande(i)) for i in range(len(BANDES))]
+    assert sum(compte) == 11, "des parfums tombent hors des bandes : %s" % compte
+    for n in compte:
+        assert 1 <= n <= 3, ("une bande a %d flacons : le tableau deborde "
+                             "ou sonne creux (%s)" % (n, compte))
     faible = [p["nom"] for p in PARFUMS if p["stock"] < 10]
-    print("garde-fou : 11 familles, 11 maisons, aucun deja passe, "
-          "net de %.2f a %.2f EUR"
-          % (min(p["marge"] for p in PARFUMS) - 4.85,
+    print("garde-fou : 11 familles, 11 maisons, bandes %s, net de %.2f a %.2f EUR"
+          % (compte, min(p["marge"] for p in PARFUMS) - 4.85,
              max(p["marge"] for p in PARFUMS) - 4.85))
     if faible:
         print("   ! stock sous 10 : " + ", ".join(faible))
 
 # ------------------------------------------------------------------ diapos
+
+#  LE TABLEAU. C'est la premiere diapo, et c'est tout le carrousel.
+#  ETIQ = largeur de la case du palier, COTE = cote d'une vignette.
+#  Trois vignettes au plus par bande : ETIQ + ECART + 3 x COTE doit rester
+#  sous 864 px, la largeur utile une fois la colonne de boutons de TikTok
+#  retiree a droite.
+
+ETIQ, ECART, COTE, SAUT = 190, 12, 220, 12
+HAUT_TABLEAU = 4 * COTE + 3 * SAUT
+assert ETIQ + ECART + 3 * COTE <= W - MARGE_G - 120, "le tableau est trop large"
 
 
 def fond():
@@ -380,29 +400,37 @@ def fond():
     return img, ImageDraw.Draw(img)
 
 
-def tableau_vide(img, d, y, hauteur=90, gap=14):
-    """Le tableau vide, dessine. C'est lui qui dit « tier list » dans le fil
-    avant meme qu'on ait lu le titre — donc il est sur la couverture."""
-    for p in PALIERS:
-        d.rectangle([MARGE_G, y, MARGE_G + hauteur, y + hauteur], fill=OCRE)
-        d.text((MARGE_G + hauteur / 2, y + hauteur / 2), p,
-               font=inter(int(hauteur * 0.5), "SemiBold"), fill=CREME,
-               anchor="mm")
-        d.rectangle([MARGE_G + hauteur + gap, y, W - MARGE_D, y + hauteur],
-                    outline=OCRE, width=3)
-        y += hauteur + gap
-    return y
+def tableau(img, d, y0, lg, cote=COTE, etiq=ETIQ, ecart=ECART, saut=SAUT,
+            corps=34):
+    """Le tableau lui-meme : une case de palier en ocre, puis les flacons de
+    la bande poses a la suite. Il sert deux fois, en grand sur la premiere
+    diapo et en petit sur la derniere."""
+    y = y0
+    for i, b in enumerate(BANDES):
+        d.rectangle([MARGE_G, y, MARGE_G + etiq, y + cote], fill=OCRE)
+        lignes = b["l"][lg].split("\n")
+        p = inter(corps, "SemiBold")
+        ht = len(lignes) * int(p.size * 1.22)
+        yy = y + (cote - ht) / 2
+        for l in lignes:
+            d.text((MARGE_G + etiq / 2, yy), l, font=p, fill=CREME, anchor="ma")
+            yy += int(p.size * 1.22)
+        x = MARGE_G + etiq + ecart
+        for pf in par_bande(i):
+            img.paste(vignette(pf["ean"], cote), (int(x), int(y)))
+            x += cote
+        y += cote + saut
+    return y - saut          # le bas reel du tableau, sans l'ecart final
 
 
-def diapo_couverture(lg):
+def diapo_tableau(lg):
     img, d = fond()
     lettrage(d, 250, T["sup"][lg], inter(34, "SemiBold"), OCRE, 10)
-    y = bloc_ajuste(d, MARGE_G, 310, T["couv"][lg], 108, ENCRE, LARGE, 700)
-    d.line([(MARGE_G, y + 40), (MARGE_G + 180, y + 40)], fill=OCRE, width=4)
-    bloc_ajuste(d, MARGE_G, y + 90, [T["couv_s"][lg]], 38, ENCRE_D, LARGE,
-                940, ital=True)
-    fin = tableau_vide(img, d, 960)
-    assert fin <= 1400, "le tableau deborde de la zone sure (%d)" % fin
+    y = bloc_ajuste(d, MARGE_G, 306, T["couv"][lg], 74, ENCRE, LARGE, 452)
+    bloc_ajuste(d, MARGE_G, y + 18, [T["couv_s"][lg]], 36, ENCRE_D, LARGE,
+                516, ital=True)
+    bas = tableau(img, d, 508, lg)
+    assert bas <= 1430, "le tableau deborde de la zone sure (%d)" % bas
     poser_signature(img, MARGE_G, 1830, ENCRE_D, 30, 7)
     return img
 
@@ -410,20 +438,20 @@ def diapo_couverture(lg):
 def diapo_regle(lg):
     img, d = fond()
     lettrage(d, 250, "01", inter(34, "SemiBold"), OCRE, 10)
-    y = bloc_ajuste(d, MARGE_G, 320, T["regle_t"][lg], 96, ENCRE, LARGE, 640)
+    y = bloc_ajuste(d, MARGE_G, 320, T["regle_t"][lg], 96, ENCRE, LARGE, 620)
     d.line([(MARGE_G, y + 40), (MARGE_G + 120, y + 40)], fill=OCRE, width=3)
-    y = bloc_ajuste(d, MARGE_G, y + 90, [T["regle_c"][lg]], 44, ENCRE, LARGE,
-                    1150)
-    bloc_ajuste(d, MARGE_G, y + 60, [T["regle_p"][lg]], 46, OCRE, LARGE, 1390,
+    y = bloc_ajuste(d, MARGE_G, y + 90, [T["regle_c"][lg]], 46, ENCRE, LARGE,
+                    1180)
+    bloc_ajuste(d, MARGE_G, y + 60, [T["regle_p"][lg]], 46, OCRE, LARGE, 1400,
                 ital=True)
     poser_signature(img, MARGE_G, 1830, ENCRE_D, 30, 7)
     return img
 
 
 def rang(img, d, pf, y, lg, cote=300):
-    """Une ligne du tableau : la vignette a gauche, la famille, la maison,
-    le nom et le prix a droite. Le nom retrecit tout seul — « Club de Nuit
-    Urban Man Elixir » ne tient pas en corps 46."""
+    """Une ligne detaillee : la vignette a gauche, la famille, la maison, le
+    nom et le prix a droite. Le nom retrecit tout seul — « Club de Nuit
+    Urban Man Elixir » ne tient pas en corps 50."""
     img.paste(vignette(pf["ean"], cote), (MARGE_G, y))
     x = MARGE_G + cote + 36
     l = W - MARGE_D - x
@@ -436,39 +464,21 @@ def rang(img, d, pf, y, lg, cote=300):
     return y + cote
 
 
-def diapo_tableau(lots, numero, lg, jeu=False):
+def diapo_bande(i, lg):
+    """Une bande en grand, pour qu'on puisse lire les noms. La case du palier
+    est reprise en haut a gauche, a l'identique du tableau : c'est elle qui
+    dit au lecteur ou il est."""
     img, d = fond()
-    lettrage(d, 250, T["board"][lg], inter(30, "SemiBold"), OCRE, 8)
-    d.text((W - MARGE_D, 250), numero, font=inter(30, "SemiBold"),
+    lignes = BANDES[i]["l"][lg].replace("\n", " ")
+    d.rectangle([MARGE_G, 214, MARGE_G + 300, 286], fill=OCRE)
+    d.text((MARGE_G + 150, 250), lignes, font=inter(32, "SemiBold"),
+           fill=CREME, anchor="mm")
+    d.text((W - MARGE_D, 250), "%02d" % (i + 2), font=inter(30, "SemiBold"),
            fill=ENCRE_D, anchor="rm")
-    y = 320
-    for pf in lots:
+    y = 340
+    for pf in par_bande(i):
         y = rang(img, d, pf, y, lg) + 40
-    assert y <= 1420, "les lignes debordent de la zone sure (%d)" % y
-    if jeu:
-        d.line([(MARGE_G, y + 10), (MARGE_G + 120, y + 10)], fill=OCRE, width=3)
-        d.text((MARGE_G, y + 50), T["jeu_t"][lg].upper(),
-               font=inter(28, "SemiBold"), fill=OCRE)
-        bloc_ajuste(d, MARGE_G, y + 100, [T["jeu_c"][lg]], 42, ENCRE, LARGE,
-                    1400, ital=True)
-    poser_signature(img, MARGE_G, 1830, ENCRE_D, 30, 7)
-    return img
-
-
-def diapo_recap(lg):
-    img, d = fond()
-    lettrage(d, 250, "06", inter(34, "SemiBold"), OCRE, 10)
-    y = bloc_ajuste(d, MARGE_G, 300, T["recap_t"][lg], 76, ENCRE, LARGE, 500)
-    y += 36
-    for pf in sorted(PARFUMS, key=lambda p: p["prix"]):
-        d.text((MARGE_G, y), F[pf["f"]][lg].upper(), font=inter(20, "SemiBold"),
-               fill=OCRE)
-        d.text((MARGE_G, y + 28), "%s %s" % (pf["maison"].title(), pf["nom"]),
-               font=serif(32, 400, 32, True), fill=ENCRE)
-        d.text((W - MARGE_D, y + 16), prix(pf["prix"], lg),
-               font=inter(32, "Medium"), fill=ENCRE_D, anchor="rt")
-        y += 78
-    assert y <= 1420, "le recapitulatif deborde (%d)" % y
+    assert y <= 1430, "les lignes debordent (%d)" % y
     poser_signature(img, MARGE_G, 1830, ENCRE_D, 30, 7)
     return img
 
@@ -480,13 +490,12 @@ def diapo_fin(lg):
     y = bloc_ajuste(d, MARGE_G, y + 90, [T["fin_s"][lg]], 44, ENCRE_D, LARGE,
                     900, ital=True)
     d.text((MARGE_G, y + 50), LIEN, font=inter(38, "SemiBold"), fill=OCRE)
-    # les trois flacons les moins chers, poses en bas : la derniere image du
-    # carrousel doit montrer des flacons, pas seulement du texte.
-    trois = sorted(PARFUMS, key=lambda p: p["prix"])[:3]
-    cote = 328
-    yb = 1072
-    for i, pf in enumerate(trois):
-        img.paste(vignette(pf["ean"], cote), (i * cote + (W - 3 * cote) // 2, yb))
+    # le tableau revient en petit, cases de palier comprises : la derniere
+    # image doit rappeler ce qu'on demande de classer, pas seulement porter
+    # du texte. Sans les cases, les vignettes se lisent comme un tas.
+    bas = tableau(img, d, 946, lg, cote=112, etiq=112, ecart=10, saut=8,
+                  corps=19)
+    assert bas <= 1430, "le rappel du tableau deborde (%d)" % bas
     poser_signature(img, MARGE_G, 1830, ENCRE_D, 30, 7)
     return img
 
@@ -497,13 +506,10 @@ def main():
     assert lg in LANGUES, "langue inconnue : " + lg
     dossier = os.path.join(SORTIE, lg)
     os.makedirs(dossier, exist_ok=True)
-    pages = [diapo_couverture(lg), diapo_regle(lg)]
-    groupes = [PARFUMS[0:3], PARFUMS[3:6], PARFUMS[6:9], PARFUMS[9:11]]
-    for i, g in enumerate(groupes):
-        pages.append(diapo_tableau(g, "%02d" % (i + 2), lg,
-                                   jeu=(i == len(groupes) - 1)))
-    pages += [diapo_recap(lg), diapo_fin(lg)]
-    assert len(pages) == 8, "huit diapos attendues, %d produites" % len(pages)
+    pages = [diapo_tableau(lg), diapo_regle(lg)]
+    pages += [diapo_bande(i, lg) for i in range(len(BANDES))]
+    pages.append(diapo_fin(lg))
+    assert len(pages) == 7, "sept diapos attendues, %d produites" % len(pages)
     for i, im in enumerate(pages, 1):
         im.save(os.path.join(dossier, "%02d.jpg" % i), quality=92, optimize=True)
     print("%s : %d diapos ecrites dans %s" % (lg, len(pages), dossier))
