@@ -46,6 +46,79 @@ brancher une clé.
 
 ---
 
+### 14 novembre, 22h — Claude (session cloud) — LA PREMIÈRE TIER LIST BMH EST PRÊTE POUR LE 15/11 À 20h45
+
+**Fait.** Carrousel de **8 diapos**, 1080 × 1920, en **fr / en / nl / de** :
+`carrousels/tierlist15novembre/`. Les scènes réduites sont dans
+`scenes/tierlist/`, le script et le cadrage des vignettes à côté des images.
+
+**La mécanique, et pourquoi elle est faite comme ça.** Le format vient du
+balayage du 14/11 : `@zpch_perfumes` « BEST ARAB FRAGRANCES FOR WINTER »,
+30 800 likes / 666 commentaires / 7 713 enregistrements, et
+`@paviafragrances` « Best of Lattafa », 10 400 / 182 / 1 595. Les deux font
+17 secondes, quatre à cinq paliers. Le second n'a **pas** de palier
+« trash » et marche quand même.
+
+Le problème : **un vendeur qui classe ses propres parfums se tire une balle
+dans le pied.** Tout ce qu'il met en bas, il ne le vend plus. Donc ici
+**Claude ne classe rien.** Le titre le dit en face : « La tier list que je ne
+peux pas faire ». On pose les **onze familles de la boutique**, un flacon par
+famille, et c'est le lecteur qui remplit S / A / B / C. Le tableau vide est
+dessiné sur la couverture — c'est lui qui dit « tier list » dans le fil avant
+même qu'on lise le titre.
+
+**Ce qu'on écrit à côté d'un flacon : sa famille, sa maison, son nom, son
+prix. Rien d'autre.** Pas de note, pas de tenue, pas d'avis. Si on en mettait,
+on orienterait le classement, et le format n'aurait plus de sens.
+
+**Les onze, onze maisons différentes, toutes en stock le 14/11 :**
+
+| Famille | Parfum | Prix | Stock | Net sur un flacon |
+|---|---|---|---|---|
+| Oud et bois précieux | Maison Alhambra Infini Elixir | 32,90 € | 32 | 8,57 € |
+| Gourmand praliné et sucré | Arabiyat Sugar Mango Affogato | 34,90 € | 23 | 5,26 € |
+| Fruits rouges et fruits mûrs | French Avenue Vulcan Baie | 40,90 € | 368 | 5,14 € |
+| Tabac et café | Ayat Jumrah Coffee | 33,90 € | 23 | 4,99 € |
+| Encens et résines | Armaf Club de Nuit Urban Man Elixir | 43,90 € | 23 | 5,20 € |
+| Cuir et miel | Al Haramain Royal Musk | 37,90 € | **6** | 5,22 € |
+| Safran et épices du Golfe | Zimaya Treasure | 27,90 € | **8** | 5,57 € |
+| Rose | Paris Corner Khair Felicity | 28,90 € | 230 | 6,14 € |
+| Agrumes et aromates | Rasasi La Yuqawam Jasmine Wisp | 41,90 € | 32 | 5,56 € |
+| Iris et fleurs blanches | Emir Voux Violette | 28,90 € | 22 | 5,10 € |
+| Marin et chypré | Afnan 9pm Rebel | 45,90 € | 23 | 5,76 € |
+
+Prix et stocks relevés en live par l'API le 14/11, marges tirées de
+`bts/rapports/marges.json` du 13/11, net = marge brute − 4,85 € de port sur
+une commande d'un seul flacon. **Royal Musk n'a que 6 pièces et Treasure 8** :
+le garde-fou laisse passer à partir de 5, mais c'est à surveiller si la
+publication prend.
+
+**Aucun des onze n'est passé les 10, 11, 12, 13 et 14 novembre.** Le
+garde-fou relit les `carrousel.py` de ces cinq campagnes et refuse de
+dessiner si un EAN revient. Il vérifie aussi : onze familles distinctes,
+onze maisons distinctes, la scène présente, le cadrage relevé à l'œil, le
+stock et le plancher de 4 € net.
+
+**Les vignettes ont été cadrées à l'œil, pas calculées.** Fenêtre carrée à
+70 % de la largeur de la scène, centrée à 45 % de la hauteur ; quatre flacons
+ont un centre horizontal corrigé (Royal Musk 0,63, Treasure 0,60, Voux
+Violette et 9pm Rebel 0,65). La détection automatique attrape le bois séché
+et les fleurs, nets eux aussi — même piège que le 12/11.
+
+**La règle de variation, honnêtement.** Le 14/11 à 20h45 sort « Débutant,
+connaisseur, expert », qui est déjà une mécanique à paliers. Deux jours de
+suite, c'est limite. Ce qui change : là c'était **Claude qui rangeait les
+parfums**, ici c'est **le lecteur qui range les familles**, et la silhouette
+de la diapo n'est pas la même (lignes avec vignette carrée contre scène
+pleine largeur). Si Daoud trouve que ça se ressemble trop, le carrousel se
+décale au 16/11 sans rien changer — il est fini.
+
+**À ne pas oublier pour la suite.** Le relevé du 14/11 l'a montré : sur FR,
+**le format n'est pas le problème, la distribution l'est** (246 739 abonnés,
+245 vues). Une tier list ne répare pas ça. Ce qu'elle peut faire, et c'est
+pour ça qu'on la fait, c'est **des commentaires** — le signal qui manque le
+plus, et celui que la dernière diapo demande explicitement.
+
 ### 14 novembre, 16h20 — Claude (session cloud) — RELEVÉ DU CARROUSEL « coude » : 768 vues au mieux, le seuil de 3 000 n'est pas approché
 
 **Fait.** Relevé Metricool des huit publications du carrousel « Tu mets ton parfum au mauvais endroit », publié le **12/11 à 14h46–14h48** — pas 15h45 : Metricool l'a sorti une heure plus tôt sur les huit comptes. Mesure prise le **14/11 à 16h20**, soit ≈ 49 h après publication.
