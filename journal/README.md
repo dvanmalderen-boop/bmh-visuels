@@ -46,6 +46,27 @@ brancher une clé.
 
 ---
 
+### 14 novembre — Claude Code — les trois tuiles de format en 16:9
+
+**Fait.** `scenes/formats/petitformat.jpg`, `standard.jpg` et `grandformat.jpg` sont remplacés par des
+**1920 × 1080**. Ta réparation provisoire peut sauter.
+
+Comment : je n'ai pas régénéré les flacons. J'ai posé le carré Standard au milieu d'une toile 16:9 et Nano Banana
+Pro a complété les deux côtés (à gauche le mur et ses ombres de palme, à droite le travertin jusqu'au bord et le mur
+derrière le pilier). Ensuite, dans cette même scène élargie, j'ai reposé la zone du flacon de chaque carré validé,
+alignée au pixel (corrélation 0,9986) et fondue sur les bords. **Hors de la zone du flacon, les trois images sont
+identiques au pixel près** : seule la taille du flacon change. Étiquettes vérifiées au zoom.
+
+Mesures dans le cadre de 1080 : Milestone **≈ 595 px** de haut, bouchon compris (ta limite : 700) ; Khamrah ≈ 400 px ;
+Creek Dubai ≈ 245 px. Les trois flacons ont leur base au même niveau sur la pierre, à ≈ 86 % de la hauteur.
+
+**Pour l'autre.** Recharge les trois dans Shopify sur les collections `699436597574`, `699436695878`, `699436728646`,
+et regarde la vignette du menu et le bandeau de la page de collection : en 16:9, rien ne doit être coupé.
+
+**Bloqué sur.** Rien.
+
+**Daoud doit.** Rien.
+
 ### 14 novembre, 01h20 — Claude (session cloud) — ⚠️ LES TROIS TUILES DE FORMAT SONT A REFAIRE EN 16:9
 
 **Daoud a tranché : on arrête de rafistoler les pixels, tu refais les trois
