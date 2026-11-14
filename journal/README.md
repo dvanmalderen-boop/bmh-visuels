@@ -46,6 +46,38 @@ brancher une clé.
 
 ---
 
+### 14 novembre, 16h20 — Claude (session cloud) — RELEVÉ DU CARROUSEL « coude » : 768 vues au mieux, le seuil de 3 000 n'est pas approché
+
+**Fait.** Relevé Metricool des huit publications du carrousel « Tu mets ton parfum au mauvais endroit », publié le **12/11 à 14h46–14h48** — pas 15h45 : Metricool l'a sorti une heure plus tôt sur les huit comptes. Mesure prise le **14/11 à 16h20**, soit ≈ 49 h après publication.
+
+| Langue | TikTok vues | TT likes | TT com. | IG vues | IG portée | IG likes | IG enreg. |
+|---|---|---|---|---|---|---|---|
+| FR | **245** | 7 | 5 | **349** | 159 | 5 | **2** |
+| EN | **768** | 8 | 0 | 6 | 3 | 0 | 0 |
+| NL | **746** | 3 | 1 | 18 | 8 | 0 | 0 |
+| DE | **706** | 0 | 0 | 2 | 1 | 0 | 0 |
+
+Partages : **0 partout**, sur les huit. Enregistrements TikTok : Metricool ne les expose pas (le connecteur `posts` de TikTok n'a aucun champ « saved »), donc on ne les a pas — ce n'est pas un zéro, c'est un trou. Le carrousel était construit pour l'enregistrement (« enregistre-le pour vendredi ») : côté Instagram, où on peut mesurer, ça a donné **2 enregistrements sur 8 publications**.
+
+**Le verdict sur le seuil de Daoud : non.** Le maximum des huit est **768 vues** (TikTok EN). Aucune publication ne passe 1 000. Personne n'approche 3 000. La règle ads (« on ne pousse rien en dessous de 3 000 vues organiques ») ne s'applique à aucune des huit.
+
+**24 h contre 48 h : pas livrable, et c'est un défaut de conception du relevé.** Le connecteur `posts` de Metricool renvoie les cumuls *à l'instant de la requête*, pas une série temporelle : borner `to` au 13/11 14h45 rend exactement les mêmes chiffres (vérifié). Sans relevé pris hier, le point 24 h est perdu pour toujours. **Pour les prochains tests, il faut deux passages du cron — un à 24 h, un à 48 h.** Un seul passage ne peut pas produire la courbe.
+
+**TikTok contre Instagram, même carrousel — ça tranche, mais pas comme annoncé.** Total **TikTok 2 465 vues contre 375 sur Instagram : TikTok fait 6,6×**. Le « carrousel Instagram = 4,7× le carrousel TikTok » est faux sur nos comptes. Mais il faut dire pourquoi : les comptes Instagram EN, NL et DE ont une portée de **3, 8 et 1 personnes**. Il n'y a pas d'audience, donc il n'y a pas de test. Le seul comparatif honnête est le FR, et là **Instagram gagne : 349 contre 245, soit 1,4×** — sur des volumes trop petits pour conclure. Aucune des deux mesures des agents n'est validée ni réfutée : elles ont été prises sur des comptes qui ont une audience, les nôtres n'en ont pas.
+
+**Ce qui est le plus inquiétant, et ce n'est pas le carrousel.** Le compte FR a **246 739 abonnés** et fait **245 vues** : **0,1 % de ses abonnés**. Les comptes EN, NL et DE, qui n'ont presque personne, font **3× plus de vues que lui**. Et sur les sept posts FR des 12 et 13/11, toutes formes confondues — carrousels, vidéos, posts simples — la fourchette est **200 à 346 vues** : un plafond plat, insensible au format. Sur FR, le format n'est pas le problème. La distribution l'est.
+
+**Pour l'autre.** Trois choses.
+1. Ne juge plus un carrousel contre la médiane FR de 304 vues : 245 et 304 sont dans le même bruit de plafond. Tant que le FR plafonne à ~300, **aucun test créatif n'y est lisible**.
+2. Les tests de format doivent se faire sur **EN/NL/DE sur TikTok** : base stable à 700–780 vues sur toutes les formes, c'est là qu'un écart serait visible.
+3. Ne construis plus un carrousel autour de l'enregistrement en visant TikTok : on ne peut pas mesurer les enregistrements TikTok via Metricool. Soit l'objectif est mesurable, soit on ne saura jamais s'il a marché.
+
+**Bloqué sur.** Rien de technique. Le relevé 24 h est perdu, voir plus haut.
+
+**Daoud doit.** Deux choses.
+- **Trancher sur le compte TikTok FR.** 246 739 abonnés pour 245 vues, pendant que les petits comptes font 700 : ça ressemble à une mise au placard, pas à un problème de contenu. Toi seul peux ouvrir le compte et regarder s'il y a un avertissement, une vidéo retirée ou une alerte dans le centre de sécurité.
+- **Dire si on garde le seuil de 3 000 vues pour les ads.** Aucune publication ne l'a jamais approché sur ces comptes. Soit on le garde et on ne pousse jamais rien, soit tu poses un seuil atteignable pour décider.
+
 ### 14 novembre — Claude Code — les trois tuiles de format en 16:9
 
 **Fait.** `scenes/formats/petitformat.jpg`, `standard.jpg` et `grandformat.jpg` sont remplacés par des
