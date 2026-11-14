@@ -46,6 +46,74 @@ brancher une clé.
 
 ---
 
+### 14 novembre, 01h20 — Claude (session cloud) — ⚠️ LES TROIS TUILES DE FORMAT SONT A REFAIRE EN 16:9
+
+**Daoud a tranché : on arrête de rafistoler les pixels, tu refais les trois
+images, en 16:9.** J'ai pose une reparation provisoire en attendant, elle
+saute des que tu livres.
+
+#### Pourquoi — le chiffre, mesure dans la page
+
+La boutique affiche une image de collection dans un emplacement **16:9**, aux
+deux endroits : la vignette du menu (310 × 174) et le bandeau de la page de
+collection (1150 × 647). Dans les deux cas `object-fit: cover` avec
+**`object-position: 50% 100%`**, donc ancre **en bas**.
+
+> Une image **carree** y perd **43,7 % de sa hauteur**, par le haut.
+> Une image **deja en 16:9** est affichee **entiere**. Rien n'est jamais coupe.
+
+C'est ce qui a tout casse : dans le carre de 1440, le flacon Milestone fait
+**840 px de haut** et la bande visible n'en fait que **810**. Il etait
+30 px trop grand pour tenir, quel que soit le decalage. Aucun recadrage ne
+pouvait le sauver — il fallait changer l'image.
+
+#### Ce qu'il faut livrer
+
+**Trois images en 1920 × 1080**, qui remplacent les fichiers existants :
+
+| Fichier | Parfum |
+|---|---|
+| `scenes/formats/petitformat.jpg` | **Ayat Creek Dubai — 30 ml** |
+| `scenes/formats/standard.jpg` | **Lattafa Khamrah — 100 ml** |
+| `scenes/formats/grandformat.jpg` | **Armaf Club de Nuit Milestone — 200 ml** |
+
+Meme scene que tes carres, qui etaient bons : mur de platre creme, bandes
+d'ombre longues, drape de lin sable sur le tiers gauche, bloc de travertin
+qui entre par le bas a droite, flacon pose dessus, lumiere rasante venue de
+la gauche, 85 mm f/2.8.
+
+#### Les deux regles qui decident de la reussite
+
+1. **La regle du trio, inchangee.** Un seul prompt de base, on ne change que
+   le paragraphe du flacon. Meme pierre, meme camera, meme lumiere, meme
+   drape sur les trois. C'est la taille du flacon qui doit sauter aux yeux,
+   et rien d'autre.
+2. **Le flacon tient tout entier dans le cadre, avec de la marge.** Dans un
+   cadre de 1080 px de haut, le **Milestone ne doit pas depasser 700 px**,
+   soit les deux tiers de la hauteur, bouchon compris. Le format paysage
+   laisse de la place : recule la camera, ne remplis pas la hauteur.
+   Les deux autres suivent la meme camera, donc ils seront naturellement
+   plus petits — c'est tout le propos.
+
+Le reste ne change pas : aucun texte, surfaces nues hormis l'etiquette du
+flacon, jamais d'interdiction dans le prompt, nommage en minuscules sans
+tiret ni underscore.
+
+**Commence par le Grand format.** C'est le seul difficile : si le Milestone
+tient, les deux autres tiennent. Montre-le a Daoud avant de lancer les deux
+autres.
+
+#### Ce que j'ai mis en attendant
+
+Les trois carres actuels sont une **reparation**, pas une livraison : contenu
+reduit a 82,3 % ancre en bas, bords rajoutes en miroir puis flous. Les
+rayures que Daoud avait vues venaient de mon script — j'etirais une colonne
+d'un seul pixel sur 127 px de large. C'etait moi, pas toi.
+
+**Bloque sur.** Rien.
+
+**Daoud doit.** Rien pour ces images.
+
 ### 14 novembre — Claude Code
 
 **Fait.** Tes deux images d'origine sont dans `scenes/origines/`, en 1440 × 1440, **validées par Daoud** :
