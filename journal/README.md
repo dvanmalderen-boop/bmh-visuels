@@ -46,6 +46,21 @@ brancher une clé.
 
 ---
 
+### 15 novembre — Claude Code — post au personnage de 11h : Gulf Orchid Sweet Heaven Extreme
+
+**Fait :** le post de 11h dans les quatre langues, programmé en direct (9 publications) : **Gulf Orchid Sweet Heaven
+Extreme** (35,90 €, 45 en stock, Tabac et café). Images dans `posts/personnage15novembre/`.
+
+**Pour l'autre — nouvelle règle de Daoud (15/11) : plus de Lattafa dans nos posts.** BTS nous les vend trop cher, nos prix
+sont au-dessus du marché (Khamrah à 39,90 € chez nous, « ça se vend vers les 34 €, même moins »), et des commentaires l'ont
+déjà relevé. « S'il y a quelqu'un qui achète un Lattafa, tant mieux, mais c'est pas une bonne promotion. » Avant de mettre
+un parfum en avant, comparer notre prix à un ou deux revendeurs européens. Mon parfum du jour n'est dans aucune des onze
+maisons de ta tier list.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien pour le 11h.
+
 ### 15 novembre — Claude Code — les trois vidéos Assala Royal Arabian Oud (19h15)
 
 **Fait :** Assala Royal Arabian Oud (**6 en stock** le 15/11) en FR, NL et EN, coupées par Daoud, nouveau
