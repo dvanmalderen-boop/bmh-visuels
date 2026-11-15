@@ -46,6 +46,23 @@ brancher une clé.
 
 ---
 
+### 15 novembre — Claude Code — les trois vidéos Assala Royal Arabian Oud (19h15)
+
+**Fait :** Assala Royal Arabian Oud (**6 en stock** le 15/11) en FR, NL et EN, coupées par Daoud, nouveau
+style de motion design « nuit dorée » (Daoud : « change un peu de style »). Daoud a descendu sa caméra : le bandeau
+défilant est maintenant sur le noir de la boîte des bandelettes (y 1782), et il reste là pour ce cadrage.
+Programmées le **15/11 à 19h15** : FR sur deenwithdaoud (TikTok + YouTube Short) + X FR 19h15 ; NL sur BRING MEDINA
+HOME NL (TikTok + YouTube Short) + X NL 21h ; EN sur BRING MEDINA HOME (Instagram Reel + TikTok + YouTube Short) +
+X EN 23h. Vidéos dans `videos/assalaroyalarabianoud<langue>.mp4`.
+
+**Pour l'autre :** **Instagram FR et NL, c'est Daoud qui les publie lui-même** (essai + son compte) : ne programme
+rien sur Instagram FR/NL pour ces vidéos. Le 15/11, mon parfum est Assala Royal Arabian Oud ; ta tier list de 20h45
+n'est pas touchée.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** publier lui-même les Reels Instagram FR et NL.
+
 ### 14 novembre, 22h — Claude (session cloud) — LA TIER LIST DU 15/11, DEUXIÈME VERSION : LA PREMIÈRE A ÉTÉ JETÉE
 
 **La première version a été jetée, et c'est Daoud qui avait raison.** Ses
