@@ -200,7 +200,7 @@ def plein_cadre(ean):
 
 VOILE_HAUT = [(0, 225), (380, 205), (700, 95), (980, 0)]
 VOILE_BAS  = [(960, 0), (1130, 120), (1290, 205), (1420, 232), (1920, 238)]
-VOILE_COUV = [(0, 230), (420, 220), (760, 150), (1100, 0)]
+VOILE_COUV = [(0, 232), (560, 226), (900, 160), (1260, 0)]
 VOILE_FIN  = [(0, 232), (520, 226), (900, 175), (1320, 0)]
 
 
@@ -226,6 +226,28 @@ def voile(img, haut=None, bas=None):
             m.load()[0, y] = max(m.load()[0, y], r.load()[0, y])
     img.paste(Image.new("RGB", (W, H), (0, 0, 0)),
               (0, 0), m.resize((W, H), Image.BILINEAR))
+    return img
+
+
+VISAGE = os.path.join(RACINE, "daoud.png")
+
+
+def poser_visage(img, cote=190, y=162):
+    """Le visage de Daoud, en rond, en haut a droite de la couverture.
+
+    Releve du 16/11 : les deux comptes de tier list qui performent mettent la
+    photo du createur dans la premiere case du tableau, et la totalite du haut
+    de la categorie parfum est portee par des createurs, pas par des marques.
+    BMH publiait des flacons sans personne derriere. Daoud a un visage et
+    246 739 abonnes : c'est le changement le moins cher qui restait.
+    """
+    if not os.path.exists(VISAGE):
+        return img
+    v = Image.open(VISAGE).convert("RGBA").resize((cote, cote), Image.LANCZOS)
+    x = W - MARGE_D - cote
+    d = ImageDraw.Draw(img)
+    d.ellipse([x - 5, y - 5, x + cote + 5, y + cote + 5], outline=OCRE, width=5)
+    img.paste(v, (x, y), v)
     return img
 
 
@@ -412,13 +434,14 @@ def taille_moment(lg):
 def diapo_couverture(lg):
     img = voile(plein_cadre("6290360375694"), haut=VOILE_COUV)
     d = ImageDraw.Draw(img)
-    lettrage(d, 250, T["sup"][lg], inter(32, "SemiBold"), OCRE, 10)
-    y = 310
+    lettrage(d, 262, T["sup"][lg], inter(32, "SemiBold"), OCRE, 10)
+    y = 430
     for ligne in T["couv"][lg].split("\n"):
         y = bloc_caps(d, MARGE_G, y, ligne, 104, BLANC, LARGE, y + 150)
     d.line([(MARGE_G, y + 44), (MARGE_G + 180, y + 44)], fill=OCRE, width=5)
     bloc_ajuste(d, MARGE_G, y + 90, [T["couv_s"][lg]], 44, CREME, LARGE,
                 1380, ital=True)
+    poser_visage(img)
     poser_signature(img, MARGE_G, 1830, CREME)
     return img
 
