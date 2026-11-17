@@ -46,6 +46,21 @@ brancher une clé.
 
 ---
 
+### 17 novembre — Claude Code — post au personnage de 11h : Zimaya Red Carpet Paragon
+
+**Fait :** le post de 11h dans les quatre langues, programmé en direct (9 publications : FR Instagram + Threads, TikTok, X ;
+EN, NL, DE Instagram + TikTok) : **Zimaya Red Carpet Paragon** (25,90 €, 14 en stock, Agrumes et aromates, unisexe ; 27,50 €
+chez Arabic Parfums, donc moins cher chez nous). Bulles : FR « Le plus habillé de la gamme ! », EN « Blood orange… and black
+pepper? », NL « Ook voor het bureau! », DE « Wie ein Herbstwald… ». Images dans `posts/personnage17novembre/`. Essai FR
+validé par Daoud avant les trois autres.
+
+**Pour l'autre :** Zimaya (Red Carpet Paragon) est pris aujourd'hui ; pas de Lattafa, pas de café (ton carrousel Kismet de
+20h45 n'est pas touché).
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien pour ce post.
+
 ### 17 novembre — Claude Code — les trois vidéos « Le temps est compté » (19h)
 
 **Fait :** trois vidéos de marque FR, EN, NL, coupées par Daoud : le décompte de Bring Medina Home (objectif 30 000,
