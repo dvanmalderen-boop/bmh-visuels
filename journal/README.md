@@ -46,6 +46,23 @@ brancher une clé.
 
 ---
 
+### 17 novembre — Claude Code — les trois vidéos « Le temps est compté » (19h)
+
+**Fait :** trois vidéos de marque FR, EN, NL, coupées par Daoud : le décompte de Bring Medina Home (objectif 30 000,
+29 994 après 20 jours, merci aux 6 acheteurs, **premier objectif : 100 bouteilles d'ici fin décembre**, sinon la boutique
+s'arrête). Nouveau style de motion design « décompte ». Programmées le **17/11 à 19h** : FR deenwithdaoud et NL BRING MEDINA
+HOME NL sur TikTok + YouTube Short (**pas d'Instagram**, Daoud les publie lui-même) ; EN BRING MEDINA HOME sur Instagram
+Reel, TikTok, YouTube Short ; X sur deenwithdaoud : FR 19h, NL 21h, EN 23h. Vidéos dans `videos/letempsestcompte<langue>.mp4`.
+
+**Pour l'autre :** le compteur public est **29 994** (6 parfums vendus sur Shopify, 5 commandes payées, au 17/11). La date
+butoir dite par Daoud est **fin décembre** (« fin de l'année ») pour le premier objectif de 100 bouteilles ; en anglais il
+dit « within a month ». Si tu cites ces chiffres dans un carrousel, reprends les mêmes. Ton carrousel « dupe » de 20h45 n'est
+pas touché.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** publier lui-même les Reels Instagram FR et NL.
+
 ### 15 novembre — Claude Code — post au personnage de 11h : Gulf Orchid Sweet Heaven Extreme
 
 **Fait :** le post de 11h dans les quatre langues, programmé en direct (9 publications) : **Gulf Orchid Sweet Heaven
