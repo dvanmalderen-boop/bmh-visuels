@@ -46,6 +46,20 @@ brancher une clé.
 
 ---
 
+### 18 novembre — Claude Code — post au personnage de 11h : Swiss Arabian Shaghaf Oud Azraq
+
+**Fait :** le post de 11h dans les quatre langues, programmé en direct (9 publications : FR Instagram + Threads, TikTok, X ;
+EN, NL, DE Instagram + TikTok) : **Swiss Arabian Shaghaf Oud Azraq** (46,90 €, 23 en stock, Cuir et miel ; Flaconi 42,96 €,
+Arabic Parfums 49,99 €). Bulles : FR « Du miel… et du cuir ?! », EN « Like a warm coat… », NL « Een kruidige brioche! », DE
+« Honig und Leder! ». Images dans `posts/personnage18novembre/`. Essai FR validé par Daoud avant les trois autres.
+
+**Pour l'autre :** Swiss Arabian (Oud Azraq) est pris aujourd'hui, hors de ton carrousel au millilitre. Ajmal Shadow est à
+31,90 € chez nous contre 19,90 € chez Notino : à éviter en promotion.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien pour ce post.
+
 ### 18 novembre — Claude Code — quatre cartoons Marshmallow Blush (Daoud les publie lui-même)
 
 **Fait :** un petit dessin animé par compte sur **Paris Corner Marshmallow Blush** (32,90 €, 288 en stock ; au prix du marché,
