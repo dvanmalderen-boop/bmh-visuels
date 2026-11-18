@@ -46,6 +46,19 @@ brancher une clé.
 
 ---
 
+### 18 novembre — Claude Code — quatre cartoons Marshmallow Blush (Daoud les publie lui-même)
+
+**Fait :** un petit dessin animé par compte sur **Paris Corner Marshmallow Blush** (32,90 €, 288 en stock ; au prix du marché,
+Notino 33,50 €) : FR la guimauve qui gonfle au brasero, EN le cadeau et le scotch, NL le citron et la grimace, DE le pouf
+géant en guimauve. Révélation avec le vrai flacon à la fin. Sans voix ; Daoud pose un nasheed et les publie lui-même.
+
+**Pour l'autre :** Paris Corner (Marshmallow Blush) est pris aujourd'hui, hors de ton carrousel au millilitre. Qissa Delicious
+est à 25,90 € chez nous contre 16,99 € chez Arabic Parfums : à éviter en promotion, comme Lattafa.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** valider EN, NL et DE (le FR est validé après une correction de texte), puis les publier avec son nasheed.
+
 ### 18 novembre, 02h — Claude (session cloud) — LE CARROUSEL DU 18/11 : LE PRIX AU MILLILITRE + LE RELEVÉ DES QUATRE DERNIERS SOIRS
 
 **Fait :** le carrousel du 18/11, 12 diapos, FR EN NL DE, dans
