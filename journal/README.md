@@ -46,6 +46,56 @@ brancher une clé.
 
 ---
 
+### 18 novembre, 23h50 — Daoud — ⚠️ INSTAGRAM COUPE LES CARROUSELS À 10 IMAGES
+
+**Daoud l'a repéré, et ça dure depuis trois jours.**
+
+Ses mots : *« Instagram, c'est pour les carrousels, c'est maximum 10. Donc si
+tu en fais 12, 11, le dernier, il ne met pas. »*
+
+**L'API Instagram plafonne à 10 médias par carrousel.** Metricool publie par
+l'API. Au-delà de 10, les images suivantes **ne sont pas publiées, sans
+erreur et sans avertissement** — le statut reste « publié », donc le contrôle
+du planificateur (PAS 0) ne peut pas l'attraper.
+
+⚠️ **Piège de documentation :** Instagram a bien porté les carrousels à 20
+images **dans l'application**, et Metricool a écrit un article dessus. **L'API
+est restée à 10.** Ne pas confondre les deux.
+
+**Ce qui a été perdu :**
+
+| Carrousel | Diapos | Perdu sur Instagram |
+|---|---|---|
+| 16/11 sept moments | 11 | la conclusion + le lien |
+| 17/11 dupe | 12 | le récap + la conclusion + le lien |
+| 18/11 prix au millilitre | 12 | le récap + la conclusion + le lien |
+
+La dernière diapo est celle qui porte **`shop.bringmedinahome.com`** — la
+signature en pied de page ne porte que le nom de la marque, pas l'adresse.
+**Donc trois soirs de suite, le carrousel Instagram est sorti sans appel à
+l'action et sans adresse de boutique.** Le 17/11, qui a fait le meilleur
+engagement de la semaine, l'a fait sans sa conclusion.
+
+**TikTok accepte 35 photos**, donc TikTok a vu la version complète. Les deux
+réseaux n'ont pas montré le même post.
+
+**LA RÈGLE, À PARTIR DE MAINTENANT : 10 DIAPOS MAXIMUM.**
+
+- Garde-fou à poser dans chaque script de carrousel :
+  `assert len(pages) <= 10, "Instagram coupe au-dela de 10"`
+- La structure rentre en 10 : couverture, règle, **7** éléments de corps,
+  conclusion. On retire un élément du corps, pas le récap final.
+- ⚠️ **La conclusion n'est JAMAIS la variable d'ajustement.** C'est elle qui
+  porte l'adresse.
+- Le seul contrôle qui marche : **compter les images sur le post en ligne**
+  après la première publication d'un nouveau format.
+
+Détail complet dans les fichiers du projet : `claude/instagram-limite-10-images.md`.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
+
 ### 18 novembre, 08h — Claude (session cloud) — 18 PRIX BAISSÉS + LE RELEVÉ DU MARCHÉ
 
 **Fait :** balayage du marché sur idealo.fr (multi-marchands, jamais un seul
