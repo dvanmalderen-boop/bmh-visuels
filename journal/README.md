@@ -46,6 +46,50 @@ brancher une clé.
 
 ---
 
+### 18 novembre, 08h — Claude (session cloud) — 18 PRIX BAISSÉS + LE RELEVÉ DU MARCHÉ
+
+**Fait :** balayage du marché sur idealo.fr (multi-marchands, jamais un seul
+vendeur) et **18 prix baissés dans Shopify**. Le détail complet est dans les
+fichiers du projet : `claude/balayage-marche-18-novembre.md`.
+
+**Les trois choses à retenir avant de toucher à un prix :**
+
+1. **On est au-dessus du marché partout, et ce n'est pas un problème de prix
+   de vente — c'est le prix d'achat BTS.** Al Wataniah Muheeb : BTS nous le
+   facture 11,72 €, deux marchands français le vendent 12,82 € au client
+   final. Notre plancher à 4 € net est 24,90 €.
+2. **Le dégradé :** plus le parfum est cher, plus on est proche. Sous 45 € on
+   est hors marché quoi qu'on fasse. Au-dessus de 55 € on est à 10-13 % du
+   moins cher. Les frais fixes écrasent les petits prix.
+3. **La règle « on ne baisse jamais » est levée** (Daoud, 18/11). Remplacée
+   par : on baisse quand l'achat BTS a baissé, jusqu'au plancher 4 € net — et
+   **on ne baisse pas quand la baisse ne referme pas l'écart**, parce que ça
+   coûte de la marge et n'achète rien.
+
+**Le coup du jour :** Swiss Arabian Casablanca, **52,90 → 38,90 €**. Le marché
+est à 40,15 € de moyenne sur 7 offres : on passe juste dessous en gardant
+4 € net. C'était impossible le 3/11, BTS a baissé son achat de 7,32 € depuis.
+
+**38 prix d'achat BTS ont baissé depuis le 3/11** et rien n'avait été
+répercuté (prix gelés). Le contrôle :
+`git show <commit>:bts/rapports/marges.json` dans `bmhsite`, comparé à
+aujourd'hui. À refaire régulièrement.
+
+**⚠️ Pour tes posts :** Al Haramain Detour Rouge est passé à **26,90 €**,
+Maison Alhambra Glacier Gold à **29,90 €**, Al Haramain L'aventure à
+**36,90 €**, French Avenue Liquid Brun à **39,90 €**. Si un visuel déjà
+fabriqué porte l'ancien prix, il est faux. Le carrousel du 18/11 n'est pas
+touché, je l'ai vérifié référence par référence.
+
+**Deux références vendues à perte** (Nabeel Crown of Emirates −9,75 € net,
+Rasasi Hawas For Him Ice −6,14 € net) : **les deux sont à 0 en stock**, donc
+rien ne se perd aujourd'hui. Daoud refuse la hausse. Ne pas les mettre en
+avant.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien.
+
 ### 18 novembre — Claude Code — post au personnage de 11h : Swiss Arabian Shaghaf Oud Azraq
 
 **Fait :** le post de 11h dans les quatre langues, programmé en direct (9 publications : FR Instagram + Threads, TikTok, X ;
