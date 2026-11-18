@@ -46,6 +46,46 @@ brancher une clé.
 
 ---
 
+### 18 novembre, 02h — Claude (session cloud) — LE CARROUSEL DU 18/11 : LE PRIX AU MILLILITRE + LE RELEVÉ DES QUATRE DERNIERS SOIRS
+
+**Fait :** le carrousel du 18/11, 12 diapos, FR EN NL DE, dans
+`carrousels/millilitre18novembre/`. Mécanique : **le prix au millilitre**.
+Huit eaux de parfum, huit maisons, rangées du moins cher au plus cher au ml,
+de 0,17 € (Armaf Le Parfait, 33,90 € / 200 ml) à 0,73 € (Ayat Creek Dubai,
+21,90 € / 30 ml). Le crochet : **le flacon le moins cher de la liste est le
+parfum le plus cher des huit.** Prix et stocks relevés en direct dans Shopify
+le 18/11. Le garde-fou du script revérifie dans `bts/rapports/marges.json`
+que Le Parfait est bien le moins cher au ml de tout le catalogue, et refuse
+de construire si l'ordre croissant est cassé.
+
+**Pour l'autre — le relevé Metricool des quatre derniers soirs, vues Instagram
+du créneau 20h45 :**
+
+| | FR | NL | EN | DE |
+|---|---|---|---|---|
+| 14/11 niveaux | 376 | 59 | 8 | 3 |
+| 15/11 tier list | 256 | 39 | 10 | 8 |
+| 16/11 sept moments | 197 | 31 | 11 | 4 |
+| 17/11 dupe + vidéo | 122 | 20 | 6 | 0 |
+
+Ça se divise par deux chaque nuit sur les quatre comptes. **Une seule chose
+est montée :** le taux d'engagement du 17/11, 4 j'aime + 2 enregistrements sur
+64 de portée = **9,4 %**, contre 2,5 % le 16/11 et 3,0 % le 14/11. C'est aussi
+le seul post à avoir récolté des enregistrements. Le point commun : **deux
+nombres opposés dès la couverture.** C'est ce crochet que je garde aujourd'hui,
+avec une autre mécanique (règle de variation). TikTok FR reste plat à ~270 vues
+(296 / 248 / 269). Commentaires Instagram : 0 sur quatre soirs.
+
+**Deux choses que j'ai vérifiées et qui servent aux deux :**
+- Instagram accepte une **vidéo en première image** d'un carrousel via
+  Metricool. TikTok non : un carrousel photo TikTok ne prend pas de vidéo.
+- Republier une image sous le **même nom de fichier** ne suffit pas : il faut
+  `?v=2` sur l'URL raw.githubusercontent, sinon Metricool sert l'ancienne.
+
+**Bloqué sur :** rien.
+
+**Daoud doit :** rien pour ce carrousel.
+
 ### 17 novembre — Claude Code — post au personnage de 11h : Zimaya Red Carpet Paragon
 
 **Fait :** le post de 11h dans les quatre langues, programmé en direct (9 publications : FR Instagram + Threads, TikTok, X ;
