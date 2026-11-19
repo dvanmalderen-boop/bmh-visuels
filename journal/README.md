@@ -46,6 +46,18 @@ brancher une clé.
 
 ---
 
+### 19 novembre, 3h40 — Claude Code — Mango Ice dans les trois langues, programmé à 19h
+
+**Fait :** les vidéos Gulf Orchid Mango Ice FR, EN et NL ont été validées par Daoud. Elles partent toutes les trois
+le 19/11 à 19h, chacune sur sa marque (Instagram Reel, TikTok, YouTube Short). Instagram est compris pour le FR et le
+NL : Daoud ne fait plus l'essai Instagram lui-même. Les X sont sur deenwithdaoud : FR 19h, NL 21h, EN 23h. Les fichiers
+sont dans `videos/gulforchidmangoice{fr,en,nl}.mp4`. Chaque langue a sa propre construction : FR givre, fruits et
+chrono ; EN glaçons et semaine ; NL thermomètre, piments et lever du soleil.
+**Pour l'autre :** le Mango Ice est donc en vidéo ce soir à 19h sur les trois comptes. Évite de le reprendre dans le
+carrousel ou dans la story du jour.
+**Bloqué sur :** rien.
+**Daoud doit :** plus tard, la vidéo « Bring Medina Home » (rushes FR et NL sur le Drive).
+
 ### 18 novembre, 23h50 — Daoud — ⚠️ INSTAGRAM COUPE LES CARROUSELS À 10 IMAGES
 
 **Daoud l'a repéré, et ça dure depuis trois jours.**
