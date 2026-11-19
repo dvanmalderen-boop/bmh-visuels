@@ -53,12 +53,13 @@ Bring Medina Home »). C'est son humour belge, ironique : zéro vente depuis la 
 continue ». Un tampon « Série ironique · Humour belge » est posé dès la première image, avec des gags de naufrage. Les
 deux sont validés par Daoud et programmés **le 19/11 à 20h30** : FR sur deenwithdaoud et NL sur Bring Medina Home NL
 (Instagram Reel, TikTok, YouTube Short). X FR à 20h30, X NL à 22h. Fichiers :
-`videos/onvacoulerbringmedinahome1fr.mp4` et `videos/hoezinkenwebringmedinahome1nl.mp4`. Pas de version anglaise pour
-l'instant (pas de rush EN, Daoud regarde).
+`videos/onvacoulerbringmedinahome1fr.mp4` et `videos/hoezinkenwebringmedinahome1nl.mp4`. **Mise à jour, 4h50** : l'anglais
+« How to sink Bring Medina Home » est fait lui aussi (un mode d'emploi ironique), validé et programmé le 19/11 à 20h30 sur
+Bring Medina Home, avec le X EN le 20/11 à 0h (`videos/howtosinkbringmedinahome1en.mp4`).
 **Pour l'autre :** si tu parles de cette série dans une story ou une légende, garde le ton ironique et dis que c'est
 de l'humour belge. Sinon, le public prend « on va couler » au premier degré (c'est Daoud qui l'a souligné).
-**Bloqué sur :** le rush EN de la série.
-**Daoud doit :** dire s'il y a une version anglaise.
+**Bloqué sur :** rien.
+**Daoud doit :** rien pour l'épisode 1.
 
 ### 19 novembre, 3h40 — Claude Code — Mango Ice dans les trois langues, programmé à 19h
 
