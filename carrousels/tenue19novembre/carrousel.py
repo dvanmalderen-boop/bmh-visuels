@@ -36,7 +36,7 @@ W, H    = 1080, 1920
 RACINE  = "/home/claude/tenue"
 SCENES  = os.path.join(RACINE, "scenes")
 POLICES = "/home/claude/polices"
-SORTIE  = os.path.join(RACINE, "carrousel")
+SORTIE  = os.path.join(RACINE, "carrouselv2")
 VISAGE  = os.path.join(RACINE, "daoud.png")
 
 CREME   = (240, 228, 206)
@@ -136,7 +136,11 @@ def lettrage(d, y, texte, police, couleur, espace=6, x=MARGE_G):
 # ---------------------------------------------------------------- marque
 
 
-def poser_signature(img, x, y, couleur, corps=28, espace=6):
+def poser_signature(img, x, y, couleur, corps=38, espace=8):
+    #  38 px, pas 28. Daoud, le 19/11 : « toutes les grandes marques, leur
+    #  marque c'est en lettres capitales, tout gros. Quand tu l'ecris
+    #  toujours petit, ca ne reste pas dans la tete. » Il a raison : a 28 px
+    #  sur une image de 1920, c'etait une mention legale, pas une marque.
     r = int(corps * 0.52)
     t = r * 2 + 2
     lune = Image.new("L", (t * 4, t * 4), 0)
@@ -378,6 +382,53 @@ def diapo_conseil(pf, rang, lg):
     return img
 
 
+def diapo_marque(lg):
+    """LA CARTE DE MARQUE — demandee par Daoud le 19/11.
+
+    Ses mots : « le Bring Medina Home, le bam dans la figure, ca c'est notre
+    societe. Dans la premiere ou troisieme ou cinquieme image. »
+
+    Le nom en trois lignes JUSTIFIEES : un corps commun, et l'interlettrage
+    calcule mot par mot pour que chaque ligne fasse exactement la meme
+    largeur. C'est comme ca qu'une maison pose son nom — un bloc plein, pas
+    trois mots centres de tailles differentes. MEDINA est le mot le plus
+    long : c'est lui qui fixe le corps, les deux autres s'ecartent pour le
+    rejoindre."""
+    #  Voile tenu profond jusque sous la ligne de texte : le nom doit se
+    #  poser sur du presque noir, pas sur l'etiquette du flacon.
+    img = voile(plein_cadre("6290360375687"), haut=[(0, 244), (1150, 240),
+                                                    (1500, 140), (1820, 0)])
+    d = ImageDraw.Draw(img)
+    mots = ("BRING", "MEDINA", "HOME")
+    bloc = 820
+
+    #  Le corps est celui qui fait tenir le mot le plus long dans le bloc.
+    for corps in range(200, 60, -2):
+        p = inter(corps, "Bold")
+        if max(sum(d.textlength(c, font=p) for c in m) for m in mots) <= bloc:
+            break
+
+    y = 430
+    for m in mots:
+        p = inter(corps, "Bold")
+        brut = sum(d.textlength(c, font=p) for c in m)
+        espace = (bloc - brut) / float(len(m) - 1)
+        x = MARGE_G
+        for c in m:
+            d.text((x, y), c, font=p, fill=BLANC)
+            x += d.textlength(c, font=p) + espace
+        if m == "HOME":
+            d.text((MARGE_G + bloc + 14, y + corps * 0.10), "®",
+                   font=inter(int(corps * 0.26), "Medium"), fill=OCRE)
+        y += int(corps * 1.12)
+
+    d.line([(MARGE_G, y + 40), (MARGE_G + bloc, y + 40)], fill=OCRE, width=5)
+    bloc_ajuste(d, MARGE_G, y + 92,
+                ["279 parfums · 27 maisons d'Arabie"], 48, CREME, bloc,
+                y + 220, ital=True)
+    return img
+
+
 def diapo_fin(lg):
     img = voile(plein_cadre("6294015163988"), haut=VOILE_COUV)
     d = ImageDraw.Draw(img)
@@ -399,6 +450,7 @@ def main():
 
     pages = [diapo_couverture(lg)]
     pages += [diapo_conseil(pf, i + 1, lg) for i, pf in enumerate(CONSEILS)]
+    pages += [diapo_marque(lg)]
     pages += [diapo_fin(lg)]
 
     #  ⚠️ L'API Instagram coupe au-dela de 10 medias, SANS erreur et SANS
@@ -407,7 +459,7 @@ def main():
     #  la boutique. Ce garde-fou existe pour que ca n'arrive plus.
     assert len(pages) <= MAX_DIAPOS, \
         "Instagram coupe au-dela de %d : %d diapos" % (MAX_DIAPOS, len(pages))
-    assert len(pages) == 6, "six diapos attendues, %d" % len(pages)
+    assert len(pages) == 7, "sept diapos attendues, %d" % len(pages)
 
     for i, im in enumerate(pages, 1):
         im.save(os.path.join(dossier, "%02d.jpg" % i), quality=90,
