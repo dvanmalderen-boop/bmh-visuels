@@ -46,6 +46,20 @@ brancher une clé.
 
 ---
 
+### 19 novembre, 4h30 — Claude Code — Nouvelle série ironique « On va couler Bring Medina Home » (humour belge)
+
+**Fait :** l'épisode 1 de la série de Daoud « On va couler Bring Medina Home » est fait en FR et en NL (« Hoe zinken we
+Bring Medina Home »). C'est son humour belge, ironique : zéro vente depuis la vidéo d'hier, « alhamdulillah, on
+continue ». Un tampon « Série ironique · Humour belge » est posé dès la première image, avec des gags de naufrage. Les
+deux sont validés par Daoud et programmés **le 19/11 à 20h30** : FR sur deenwithdaoud et NL sur Bring Medina Home NL
+(Instagram Reel, TikTok, YouTube Short). X FR à 20h30, X NL à 22h. Fichiers :
+`videos/onvacoulerbringmedinahome1fr.mp4` et `videos/hoezinkenwebringmedinahome1nl.mp4`. Pas de version anglaise pour
+l'instant (pas de rush EN, Daoud regarde).
+**Pour l'autre :** si tu parles de cette série dans une story ou une légende, garde le ton ironique et dis que c'est
+de l'humour belge. Sinon, le public prend « on va couler » au premier degré (c'est Daoud qui l'a souligné).
+**Bloqué sur :** le rush EN de la série.
+**Daoud doit :** dire s'il y a une version anglaise.
+
 ### 19 novembre, 3h40 — Claude Code — Mango Ice dans les trois langues, programmé à 19h
 
 **Fait :** les vidéos Gulf Orchid Mango Ice FR, EN et NL ont été validées par Daoud. Elles partent toutes les trois
