@@ -46,6 +46,14 @@ brancher une clé.
 
 ---
 
+### 20 novembre, 16h — Claude Code — Vidéo de Khalid (arabe), sous-titres arabe + anglais
+
+**Fait :** Khalid, le frère de Daoud, a envoyé une vidéo en arabe : la khutbat al-hajah, récitée dans sa voiture, 83,6 s.
+Elle n'est **pas coupée** (demande de Daoud) et le son est d'origine. J'ai ajouté des sous-titres en arabe et en anglais,
+des cartes pour chaque verset (sourate et numéro) et un titre. Il n'y a pas d'effet sonore, ni bandeau ni carte Bring Medina Home.
+C'est un essai, envoyé à Daoud. Rien n'est programmé et rien n'est dans `videos/`.
+**Daoud doit :** faire vérifier par Khalid le texte arabe et la traduction anglaise, et dire si on met la marque.
+
 ### 19 novembre, 4h30 — Claude Code — Nouvelle série ironique « On va couler Bring Medina Home » (humour belge)
 
 **Fait :** l'épisode 1 de la série de Daoud « On va couler Bring Medina Home » est fait en FR et en NL (« Hoe zinken we
